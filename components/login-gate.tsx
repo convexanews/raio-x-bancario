@@ -1,7 +1,7 @@
 'use client';
 
-import { useState, useEffect } from 'react';
-import { Activity, X } from 'lucide-react';
+import { useState, useEffect, createContext, useContext } from 'react';
+import { Activity } from 'lucide-react';
 
 interface UserData {
   nome: string;
@@ -10,14 +10,27 @@ interface UserData {
   registeredAt: string;
 }
 
+interface AuthContextType {
+  user: UserData | null;
+  logout: () => void;
+}
+
+const AuthContext = createContext<AuthContextType>({ user: null, logout: () => {} });
+
 export function useUser() {
+  return useContext(AuthContext);
+}
+
+export function AuthProvider({ children }: { children: React.ReactNode }) {
   const [user, setUser] = useState<UserData | null>(null);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     const stored = localStorage.getItem('raiox_user');
     if (stored) {
       try { setUser(JSON.parse(stored)); } catch { /* ignore */ }
     }
+    setLoading(false);
   }, []);
 
   const login = (data: UserData) => {
@@ -30,21 +43,30 @@ export function useUser() {
     setUser(null);
   };
 
-  return { user, login, logout };
+  if (loading) {
+    return (
+      <div className="flex min-h-screen items-center justify-center bg-background">
+        <div className="h-8 w-8 animate-spin rounded-full border-2 border-primary border-t-transparent" />
+      </div>
+    );
+  }
+
+  if (!user) {
+    return <LoginScreen onLogin={login} />;
+  }
+
+  return (
+    <AuthContext.Provider value={{ user, logout }}>
+      {children}
+    </AuthContext.Provider>
+  );
 }
 
-export function LoginGate({ onClose }: { onClose: () => void }) {
-  const { login } = useUser();
+function LoginScreen({ onLogin }: { onLogin: (data: UserData) => void }) {
   const [nome, setNome] = useState('');
   const [email, setEmail] = useState('');
   const [telefone, setTelefone] = useState('');
   const [errors, setErrors] = useState<Record<string, string>>({});
-  const [closing, setClosing] = useState(false);
-
-  const close = () => {
-    setClosing(true);
-    setTimeout(onClose, 400);
-  };
 
   const validate = () => {
     const e: Record<string, string> = {};
@@ -58,18 +80,12 @@ export function LoginGate({ onClose }: { onClose: () => void }) {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     if (!validate()) return;
-    login({ nome: nome.trim(), email: email.trim(), telefone: telefone.trim(), registeredAt: new Date().toISOString() });
-    close();
+    onLogin({ nome: nome.trim(), email: email.trim(), telefone: telefone.trim(), registeredAt: new Date().toISOString() });
   };
 
   return (
-    <div className={`fixed inset-0 z-[100] flex items-center justify-center bg-black/80 backdrop-blur-sm transition-opacity duration-500 ${closing ? 'opacity-0' : 'animate-in fade-in'}`}>
-      <button onClick={close} className="absolute right-4 top-4 rounded-full p-2 text-white/50 transition hover:bg-white/10 hover:text-white">
-        <X className="h-5 w-5" />
-      </button>
-
+    <div className="fixed inset-0 z-[200] flex items-center justify-center bg-black">
       <div className="mx-4 w-full max-w-md">
-        {/* Brand */}
         <div className="mb-8 text-center">
           <div className="mb-4 inline-flex h-16 w-16 items-center justify-center rounded-2xl bg-primary">
             <Activity className="h-8 w-8 text-primary-foreground" />
@@ -77,13 +93,12 @@ export function LoginGate({ onClose }: { onClose: () => void }) {
           <h1 className="text-3xl font-bold text-white">
             Raio X <span className="text-primary">Bancario</span>
           </h1>
-          <p className="mt-2 text-sm text-white/50">Analise a saude financeira dos bancos brasileiros</p>
+          <p className="mt-2 text-sm text-white/50">Descubra a saude financeira dos bancos brasileiros</p>
         </div>
 
-        {/* Form */}
         <div className="rounded-2xl border border-white/10 bg-white/5 p-6 backdrop-blur-xl">
-          <h3 className="mb-1 text-lg font-semibold text-white">Acesse o painel</h3>
-          <p className="mb-5 text-sm text-white/50">Cadastre-se para acompanhar indicadores e ratings</p>
+          <h3 className="mb-1 text-lg font-semibold text-white">Crie sua conta gratuita</h3>
+          <p className="mb-5 text-sm text-white/50">Cadastre-se para acessar o painel completo</p>
 
           <form onSubmit={handleSubmit} noValidate>
             <div className="mb-3">
@@ -117,14 +132,14 @@ export function LoginGate({ onClose }: { onClose: () => void }) {
               {errors.telefone && <p className="mt-1 text-xs text-red-400">{errors.telefone}</p>}
             </div>
             <button type="submit" className="w-full rounded-lg bg-primary py-3 text-sm font-semibold text-primary-foreground transition hover:opacity-85">
-              Entrar
+              Acessar painel
             </button>
           </form>
-        </div>
 
-        <button onClick={close} className="mx-auto mt-4 block text-xs text-white/30 transition hover:text-white/60">
-          Continuar sem cadastro &rarr;
-        </button>
+          <p className="mt-4 text-center text-[11px] text-white/20">
+            Ao se cadastrar, voce concorda com nossos Termos de Uso e Politica de Privacidade.
+          </p>
+        </div>
       </div>
     </div>
   );
