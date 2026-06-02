@@ -91,7 +91,7 @@ export function HeroSection({ atualizadoEm, totalBancos, bancos }: HeroSectionPr
 
           <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row">
             <Button size="lg" className="gap-2 text-base" asChild>
-              <a href="#bancos">
+              <a href="/bancos">
                 Ver Ranking Completo
                 <ArrowRight className="h-4 w-4" />
               </a>
