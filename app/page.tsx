@@ -1,6 +1,5 @@
 import { Header } from '@/components/header';
 import { HeroSection } from '@/components/hero-section';
-import { BanksGrid } from '@/components/banks-grid';
 import { DashboardCharts } from '@/components/dashboard-charts';
 import { IndicatorsInfo } from '@/components/indicators-info';
 import { AdBanner } from '@/components/ad-banner';
@@ -23,7 +22,6 @@ export default function HomePage() {
         </div>
 
         <DashboardCharts bancos={bancos} />
-        <BanksGrid bancos={bancos} />
 
         <div className="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
           <AdBanner slot="0987654321" format="rectangle" />

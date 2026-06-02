@@ -28,7 +28,7 @@ export function Header() {
 
           <nav className="hidden items-center gap-6 md:flex">
             <Link href="/" className="text-sm font-medium text-muted-foreground transition-colors hover:text-foreground">Inicio</Link>
-            <Link href="/#bancos" className="text-sm font-medium text-muted-foreground transition-colors hover:text-foreground">Bancos</Link>
+            <Link href="/bancos" className="text-sm font-medium text-muted-foreground transition-colors hover:text-foreground">Bancos</Link>
             <Link href="/#indicadores" className="text-sm font-medium text-muted-foreground transition-colors hover:text-foreground">Indicadores</Link>
             <Link href="/#sobre" className="text-sm font-medium text-muted-foreground transition-colors hover:text-foreground">Sobre</Link>
           </nav>
