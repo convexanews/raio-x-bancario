@@ -16,7 +16,7 @@ export default function HomePage() {
       <Header />
 
       <main>
-        <HeroSection atualizadoEm={data.atualizado_em} totalBancos={data.total} />
+        <HeroSection atualizadoEm={data.atualizado_em} totalBancos={data.total} bancos={bancos} />
 
         <div className="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
           <AdBanner slot="1234567890" format="horizontal" />
