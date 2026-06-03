@@ -112,10 +112,22 @@ export default async function BancoPage({ params }: { params: Promise<{ slug: st
           </div>
         )}
 
-        {/* Indicadores */}
+        {/* 3 Indicadores BCB */}
+        <div className="mb-8 rounded-xl border border-border bg-card p-6">
+          <h2 className="mb-4 flex items-center gap-2 text-lg font-semibold text-foreground">
+            <Shield className="h-5 w-5 text-primary" /> Indicadores Prudenciais (Metodologia BCB)
+          </h2>
+          <div className="grid gap-4 sm:grid-cols-3">
+            <IndicatorCard icon={<Shield className="h-5 w-5 text-primary" />} label="Indice de Basileia" value={`${banco.basileia}%`} sublabel={`Minimo regulatorio: 10.5%`} description="PR / RWA — Capacidade de absorver perdas" />
+            <IndicatorCard icon={<Percent className="h-5 w-5 text-primary" />} label="Funding / Capital" value={banco.funding_capital > 0 ? `${banco.funding_capital}x` : 'N/D'} sublabel={banco.funding_capital > 0 ? (banco.funding_capital <= 10 ? 'Conservador' : banco.funding_capital <= 15 ? 'Moderado' : 'Agressivo') : ''} description="Captacoes / PR — Alavancagem do funding" />
+            <IndicatorCard icon={<Percent className="h-5 w-5 text-primary" />} label="Cobertura Prudencial" value={banco.cobertura_prudencial > 0 ? `${banco.cobertura_prudencial}%` : 'N/D'} sublabel={banco.cobertura_prudencial > 0 ? (banco.cobertura_prudencial >= 80 ? 'Boa cobertura' : banco.cobertura_prudencial >= 50 ? 'Moderada' : 'Baixa') : ''} description="RWA / Captacoes — Risco estimado sobre depositos" />
+          </div>
+        </div>
+
+        {/* Outros indicadores */}
         <div className="mb-8 grid gap-4 sm:grid-cols-2">
-          <IndicatorCard icon={<Shield className="h-5 w-5 text-primary" />} label="Indice de Basileia" value={`${banco.basileia}%`} sublabel={`Minimo regulatorio: 10.5% | Media do setor: ${media.basileia.toFixed(1)}%`} />
-          <IndicatorCard icon={<Percent className="h-5 w-5 text-primary" />} label="Taxa de Imobilizacao" value={`${banco.imobilizacao}%`} sublabel={`Maximo tolerado: 50% | Media do setor: ${media.imobilizacao.toFixed(1)}%`} />
+          <IndicatorCard icon={<Percent className="h-5 w-5 text-primary" />} label="Taxa de Imobilizacao" value={`${banco.imobilizacao}%`} sublabel={`Maximo tolerado: 50%`} description="Quanto do patrimonio esta em ativos fixos" />
+          <IndicatorCard icon={<Shield className="h-5 w-5 text-primary" />} label="Situacao" value={banco.situacao === 'verde' ? 'Saudavel' : banco.situacao === 'amarelo' ? 'Atencao' : 'Critico'} sublabel={`Score: ${banco.score}/100`} description="Classificacao geral de saude financeira" />
         </div>
 
         {/* Ratings */}
@@ -188,12 +200,13 @@ function ScoreItem({ label, value, unit, points, maxPoints, description, good, w
   );
 }
 
-function IndicatorCard({ icon, label, value, sublabel }: { icon: React.ReactNode; label: string; value: string; sublabel: string }) {
+function IndicatorCard({ icon, label, value, sublabel, description }: { icon: React.ReactNode; label: string; value: string; sublabel: string; description?: string }) {
   return (
-    <div className="rounded-xl border border-border bg-card p-5">
+    <div className="rounded-xl border border-border bg-secondary/30 p-5">
       <div className="mb-2 flex items-center gap-2">{icon}<span className="text-sm text-muted-foreground">{label}</span></div>
       <div className="text-3xl font-bold text-foreground">{value}</div>
-      <p className="mt-1 text-xs text-muted-foreground">{sublabel}</p>
+      {sublabel && <p className="mt-1 text-xs font-medium text-primary">{sublabel}</p>}
+      {description && <p className="mt-1 text-xs text-muted-foreground/60">{description}</p>}
     </div>
   );
 }
