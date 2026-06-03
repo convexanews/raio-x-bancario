@@ -25,6 +25,7 @@ export function Header() {
           <Link href="/" className="text-sm font-medium text-muted-foreground transition-colors hover:text-foreground">Início</Link>
           <Link href="/bancos" className="text-sm font-medium text-muted-foreground transition-colors hover:text-foreground">Bancos</Link>
           <Link href="/comparar" className="text-sm font-medium text-muted-foreground transition-colors hover:text-foreground">Comparar</Link>
+          <Link href="/ranking" className="text-sm font-medium text-muted-foreground transition-colors hover:text-foreground">Ranking</Link>
           <Link href="/#indicadores" className="text-sm font-medium text-muted-foreground transition-colors hover:text-foreground">Indicadores</Link>
           <Link href="/#sobre" className="text-sm font-medium text-muted-foreground transition-colors hover:text-foreground">Sobre</Link>
         </nav>
@@ -44,6 +45,7 @@ export function Header() {
             <Link href="/" className="rounded-lg px-3 py-2 text-sm font-medium text-foreground hover:bg-secondary" onClick={() => setIsMenuOpen(false)}>Início</Link>
             <Link href="/bancos" className="rounded-lg px-3 py-2 text-sm font-medium text-muted-foreground hover:bg-secondary hover:text-foreground" onClick={() => setIsMenuOpen(false)}>Bancos</Link>
             <Link href="/comparar" className="rounded-lg px-3 py-2 text-sm font-medium text-muted-foreground hover:bg-secondary hover:text-foreground" onClick={() => setIsMenuOpen(false)}>Comparar</Link>
+            <Link href="/ranking" className="rounded-lg px-3 py-2 text-sm font-medium text-muted-foreground hover:bg-secondary hover:text-foreground" onClick={() => setIsMenuOpen(false)}>Ranking</Link>
             <Link href="/#indicadores" className="rounded-lg px-3 py-2 text-sm font-medium text-muted-foreground hover:bg-secondary hover:text-foreground" onClick={() => setIsMenuOpen(false)}>Indicadores</Link>
             <div className="mt-2">
               <ThemeToggle />

@@ -6,6 +6,7 @@ import { Footer } from '@/components/footer';
 import { getBancos, type BancoRaioX } from '@/lib/bcb-api';
 import { GaugeChart } from '@/components/gauge-chart';
 import { basileiaStatus, imobilizacaoStatus, BASILEIA_ZONES, IMOBILIZACAO_ZONES } from '@/lib/gauge-utils';
+import { gerarInterpretacao, gerarResumoSEO } from '@/lib/interpretacao';
 
 function slugify(nome: string) {
   return nome.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
@@ -15,6 +16,22 @@ export function generateStaticParams() {
   return getBancos().map(b => ({ slug: slugify(b.nome) }));
 }
 
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params;
+  const bancos = getBancos();
+  const banco = bancos.find(b => slugify(b.nome) === slug);
+  if (!banco) return {};
+  const resumo = gerarResumoSEO(banco, bancos);
+  return {
+    title: `${banco.nome} é seguro? Análise financeira | Radar Bancário`,
+    description: resumo,
+    openGraph: {
+      title: `${banco.nome} — Saúde Financeira e Indicadores BCB`,
+      description: resumo,
+    },
+  };
+}
+
 export default async function BancoPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   const bancos = getBancos();
@@ -22,6 +39,7 @@ export default async function BancoPage({ params }: { params: Promise<{ slug: st
   if (!banco) notFound();
 
   const isLiquidado = banco.fonte_dados?.includes('LIQUIDADO') || banco.score === 0;
+  const interpretacao = !isLiquidado ? gerarInterpretacao(banco, bancos) : [];
   const media = {
     basileia: bancos.filter(b => b.score > 0).reduce((s, b) => s + b.basileia, 0) / bancos.filter(b => b.score > 0).length,
     imobilizacao: bancos.filter(b => b.score > 0).reduce((s, b) => s + b.imobilizacao, 0) / bancos.filter(b => b.score > 0).length,
@@ -57,6 +75,24 @@ export default async function BancoPage({ params }: { params: Promise<{ slug: st
             </div>
           )}
         </div>
+
+        {/* Interpretação automática */}
+        {!isLiquidado && interpretacao.length > 0 && (
+          <div className="mb-8 rounded-xl border border-primary/20 bg-primary/5 p-6">
+            <h2 className="mb-3 flex items-center gap-2 text-base font-semibold text-foreground">
+              <Info className="h-4 w-4 text-primary" />
+              O que os dados dizem sobre o {banco.nome}
+            </h2>
+            <ul className="space-y-2">
+              {interpretacao.map((frase, i) => (
+                <li key={i} className="flex items-start gap-2 text-sm text-muted-foreground">
+                  <CheckCircle2 className="mt-0.5 h-4 w-4 shrink-0 text-primary" />
+                  <span>{frase}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
 
         {/* Alerta liquidado */}
         {isLiquidado && (

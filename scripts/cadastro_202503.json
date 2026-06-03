@@ -1,0 +1,5960 @@
+{
+  "ABC-BRASIL": {
+    "CodInst": "C0041856",
+    "Td": "C",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "ABC-BRASIL - PRUDENCIAL": {
+    "CodInst": "C0080312",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "ABN AMRO": {
+    "CodInst": "C0052302",
+    "Td": "C",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "AGIBANK": {
+    "CodInst": "C0051956",
+    "Td": "C",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "AGIBANK - PRUDENCIAL": {
+    "CodInst": "C0083694",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "AGROBANCO-BANCO COMERCIAL S.A.": {
+    "CodInst": "01542356",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "ANDBANK": {
+    "CodInst": "C0051949",
+    "Td": "C",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "ANDBANK - PRUDENCIAL": {
+    "CodInst": "C0081256",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "BANCA COMMERCIALE ITALIANA": {
+    "CodInst": "09978168",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "I"
+  },
+  "BANCO ABC BRASIL S.A.": {
+    "CodInst": "28195667",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "BANCO ABN AMRO CLEARING S.A.": {
+    "CodInst": "03532415",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "BANCO ABN AMRO REAL S.A.": {
+    "CodInst": "33066408",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "I"
+  },
+  "BANCO AFINZ BM - PRUDENCIAL": {
+    "CodInst": "C0083539",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "BANCO AFINZ S.A. - BANCO MÚLTIPLO": {
+    "CodInst": "04814563",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "BANCO AGIBANK S.A.": {
+    "CodInst": "10664513",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "BANCO AGRIMISA S.A.": {
+    "CodInst": "24986770",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO AGROPASTORIL DE MINAS GERAIS S.A.": {
+    "CodInst": "09777385",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO ALFA S.A.": {
+    "CodInst": "03323840",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "BANCO ALVORADA S.A.": {
+    "CodInst": "33870163",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "I"
+  },
+  "BANCO ANDBANK (BRASIL) S.A.": {
+    "CodInst": "48795256",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "BANCO APLICAP S.A.": {
+    "CodInst": "33861840",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "LO"
+  },
+  "BANCO ARAUCÁRIA S.A.": {
+    "CodInst": "78336633",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO ARBI S.A.": {
+    "CodInst": "54403563",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "BANCO AUTOCASTRO S.A.": {
+    "CodInst": "09777384",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "LO"
+  },
+  "BANCO AUXILIAR S.A.": {
+    "CodInst": "60885100",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO B3 - PRUDENCIAL": {
+    "CodInst": "C0081225",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "BANCO B3 S.A.": {
+    "CodInst": "00997185",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "BANCO BANDEPE S.A.": {
+    "CodInst": "10866788",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "BANCO BANEB S.A.": {
+    "CodInst": "15142490",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO BANESTADO S.A.": {
+    "CodInst": "76492172",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO BARI DE INVESTIMENTO E FINANCI. - PRUDENCIAL": {
+    "CodInst": "C0080893",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "BANCO BARI DE INVESTIMENTOS E FINANCIAMENTOS S.A.": {
+    "CodInst": "00556603",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "BANCO BCN S.A.": {
+    "CodInst": "60898723",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO BEA S.A.": {
+    "CodInst": "04562120",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO BEC S.A.": {
+    "CodInst": "07196934",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO BEG S.A.": {
+    "CodInst": "01540541",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO BLUEBANK S.A.": {
+    "CodInst": "58497702",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "BANCO BMG CONSIGNADO S.A.": {
+    "CodInst": "50585090",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "BANCO BMG S.A.": {
+    "CodInst": "61186680",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "BANCO BNP PARIBAS BRASIL S.A.": {
+    "CodInst": "01522368",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "BANCO BOAVISTA INTERATLANTICO S.A.": {
+    "CodInst": "33485541",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO BOCOM BBM S.A.": {
+    "CodInst": "15114366",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "BANCO BOZANO, SIMONSEN S.A.": {
+    "CodInst": "61356762",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO BRADESCARD S.A.": {
+    "CodInst": "04184779",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "BANCO BRADESCO BBI S.A.": {
+    "CodInst": "06271464",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "BANCO BRADESCO BERJ S.A.": {
+    "CodInst": "33147315",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "BANCO BRADESCO CARTÕES S.A.": {
+    "CodInst": "59438325",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "I"
+  },
+  "BANCO BRADESCO FINANCIAMENTOS S.A.": {
+    "CodInst": "07207996",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "BANCO BRADESCO S.A.": {
+    "CodInst": "60746948",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "BANCO BRASILEIRO COMERCIAL S.A.": {
+    "CodInst": "13004577",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO BRASILEIRO DE CREDITO S.A.": {
+    "CodInst": "09777383",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "LO"
+  },
+  "BANCO BRASILEIRO DE CRÉDITO SOCIEDADE ANÔNIMA": {
+    "CodInst": "01852137",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "BANCO BRASILEIRO DO COMERCIO S.A.": {
+    "CodInst": "09777382",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "F"
+  },
+  "BANCO BRASILEIRO UNIDO S.A.": {
+    "CodInst": "09777381",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "F"
+  },
+  "BANCO BRASILEIRO-IRAQUIANO S.A.": {
+    "CodInst": "27894443",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO BRJ S.A.": {
+    "CodInst": "27937333",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO BS2 S.A.": {
+    "CodInst": "71027866",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "BANCO BTG PACTUAL S.A.": {
+    "CodInst": "30306294",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "BANCO BV S.A.": {
+    "CodInst": "01858774",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "BANCO BVA S.A.": {
+    "CodInst": "32254138",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO C6 - PRUDENCIAL": {
+    "CodInst": "C0084844",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "BANCO C6 CONSIGNADO S.A.": {
+    "CodInst": "61348538",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "BANCO C6 S.A.": {
+    "CodInst": "31872495",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "BANCO CACIQUE S.A.": {
+    "CodInst": "33349358",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "I"
+  },
+  "BANCO CAIXA GERAL - BRASIL S.A.": {
+    "CodInst": "33466988",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "BANCO CAMBIAL S.A.": {
+    "CodInst": "27598994",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO CARGILL S.A.": {
+    "CodInst": "03609817",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "BANCO CEDULA S.A.": {
+    "CodInst": "33132044",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "BANCO CENTRAL BRASILEIRO S.A.": {
+    "CodInst": "09777380",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO CENTRAL DO COMERCIO S.A.": {
+    "CodInst": "09777379",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO CENTRAL DO PERNAMBUCO S.A.": {
+    "CodInst": "09777378",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO CENTRAL MERCANTIL S.A.": {
+    "CodInst": "09777360",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO CETELEM S.A.": {
+    "CodInst": "00558456",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "I"
+  },
+  "BANCO CIDADE DE SALVADOR S.A.": {
+    "CodInst": "09777377",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO CIFRA S.A.": {
+    "CodInst": "62421979",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "BANCO CITIBANK S.A.": {
+    "CodInst": "33479023",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "BANCO CLASSICO S.A.": {
+    "CodInst": "31597552",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "BANCO COMANDO S/A (EX-CIVIA)": {
+    "CodInst": "09777376",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO COMERCIAL BRASILEIRO S.A.": {
+    "CodInst": "60937877",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "LO"
+  },
+  "BANCO COMERCIAL DA CAPITAL DA REPUBLICA S.A.": {
+    "CodInst": "09777375",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO COMERCIAL DE DESCONTOS S.A.": {
+    "CodInst": "09777374",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "F"
+  },
+  "BANCO COMERCIAL DE SÃO PAULO S.A.": {
+    "CodInst": "71705719",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO COMERCIAL DO ESTADO DA GUANABARA S.A.": {
+    "CodInst": "09777373",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO COMERCIAL E DE INVESTIMENTO SUDAMERIS S.A.": {
+    "CodInst": "61230165",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "I"
+  },
+  "BANCO COMERCIAL IPIRANGA S.A.": {
+    "CodInst": "33087594",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO COMERCIAL PARAGUAYO S.A.": {
+    "CodInst": "72971922",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "I"
+  },
+  "BANCO COMERCIAL S.A.": {
+    "CodInst": "09777372",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO COMERCIO DE SAO PAULO S.A.": {
+    "CodInst": "09777371",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "F"
+  },
+  "BANCO COMERCIO E INDUSTRIA DO RIO DE JANEIRO S.A.": {
+    "CodInst": "09777370",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO CONTINENTAL DE SAO PAULO S.A.": {
+    "CodInst": "09777369",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO COOPERATIVO SICOOB S.A. - BANCO SICOOB": {
+    "CodInst": "02038232",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "BANCO COOPERATIVO SICREDI S.A.": {
+    "CodInst": "01181521",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "BANCO CREDIBANCO S.A.": {
+    "CodInst": "33461468",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO CREDIPLAN S.A.": {
+    "CodInst": "13007703",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO CRÉDIT AGRICOLE BRASIL S.A.": {
+    "CodInst": "75647891",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "BANCO CREDITO GERAL S.A.": {
+    "CodInst": "09777366",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO CREDITO MANILIO GOBBI S.A.": {
+    "CodInst": "09777365",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO CREDITO MUTUO DE MINAS GERAIS S.A": {
+    "CodInst": "09777364",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "LO"
+  },
+  "BANCO CREFISA S.A.": {
+    "CodInst": "61033106",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "BANCO CRUZEIRO DO SUL S.A.": {
+    "CodInst": "62136254",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO DA AMAZONIA S.A.": {
+    "CodInst": "04902979",
+    "Td": "I",
+    "Tc": 1,
+    "Situacao": "A"
+  },
+  "BANCO DA BARRA DO PIRAI S.A.": {
+    "CodInst": "09777363",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "F"
+  },
+  "BANCO DA CHINA BRASIL S.A.": {
+    "CodInst": "10690848",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "BANCO DA ECONOMIA DE SAO PAULO S.A.": {
+    "CodInst": "58138991",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO DAS NACOES S.A.": {
+    "CodInst": "60601234",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO DAYCOVAL S.A.": {
+    "CodInst": "62232889",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "BANCO DE CREDITO COMERCIAL DE SAO PAULO S.A.": {
+    "CodInst": "09777367",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "F"
+  },
+  "BANCO DE CREDITO COMERCIAL S/A": {
+    "CodInst": "60633294",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "LO"
+  },
+  "BANCO DE CREDITO REAL DE MINAS GERAIS S.A.": {
+    "CodInst": "21562962",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO DE LA NACION ARGENTINA": {
+    "CodInst": "33042151",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "BANCO DE LA PROVINCIA DE BUENOS AIRES": {
+    "CodInst": "44189447",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "BANCO DE RORAIMA S.A.": {
+    "CodInst": "05938220",
+    "Td": "I",
+    "Tc": 1,
+    "Situacao": "A"
+  },
+  "BANCO DESTAK S.A.": {
+    "CodInst": "62027453",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO DIBENS S.A.": {
+    "CodInst": "61199881",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO DIGIMAIS - PRUDENCIAL": {
+    "CodInst": "C0081799",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "BANCO DIGIMAIS S.A.": {
+    "CodInst": "92874270",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "BANCO DO BRASIL S.A.": {
+    "CodInst": "00000000",
+    "Td": "I",
+    "Tc": 1,
+    "Situacao": "A"
+  },
+  "BANCO DO COMERCIO S.A.": {
+    "CodInst": "58129206",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO DO COMMERCIO E INDUSTRIA DE SAO PAULO S.A.": {
+    "CodInst": "61364022",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO DO DISTRITO FEDERAL S.A.": {
+    "CodInst": "09777362",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO DO ESTADO DE ALAGOAS S.A.": {
+    "CodInst": "12275749",
+    "Td": "I",
+    "Tc": 1,
+    "Situacao": "I"
+  },
+  "BANCO DO ESTADO DE MATO GROSSO S.A.": {
+    "CodInst": "03468907",
+    "Td": "I",
+    "Tc": 1,
+    "Situacao": "LO"
+  },
+  "BANCO DO ESTADO DE RORAIMA S.A.": {
+    "CodInst": "34794644",
+    "Td": "I",
+    "Tc": 1,
+    "Situacao": "I"
+  },
+  "BANCO DO ESTADO DE SANTA CATARINA S.A.": {
+    "CodInst": "83876003",
+    "Td": "I",
+    "Tc": 1,
+    "Situacao": "I"
+  },
+  "BANCO DO ESTADO DE SÃO PAULO S.A. - BANESPA": {
+    "CodInst": "61411633",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "I"
+  },
+  "BANCO DO ESTADO DE SERGIPE S.A.": {
+    "CodInst": "13009717",
+    "Td": "I",
+    "Tc": 1,
+    "Situacao": "A"
+  },
+  "BANCO DO ESTADO DO AMAPÁ S/A": {
+    "CodInst": "34943654",
+    "Td": "I",
+    "Tc": 1,
+    "Situacao": "I"
+  },
+  "BANCO DO ESTADO DO PARÁ S.A.": {
+    "CodInst": "04913711",
+    "Td": "I",
+    "Tc": 1,
+    "Situacao": "A"
+  },
+  "BANCO DO ESTADO DO PIAUÍ S.A. - BEP": {
+    "CodInst": "06833131",
+    "Td": "I",
+    "Tc": 1,
+    "Situacao": "I"
+  },
+  "BANCO DO ESTADO DO RIO GRANDE DO NORTE S.A.": {
+    "CodInst": "08321952",
+    "Td": "I",
+    "Tc": 1,
+    "Situacao": "I"
+  },
+  "BANCO DO ESTADO DO RIO GRANDE DO SUL S.A.": {
+    "CodInst": "92702067",
+    "Td": "I",
+    "Tc": 1,
+    "Situacao": "A"
+  },
+  "BANCO DO NORDESTE DO BRASIL S.A.": {
+    "CodInst": "07237373",
+    "Td": "I",
+    "Tc": 1,
+    "Situacao": "A"
+  },
+  "BANCO DOS ESTADOS S.A.": {
+    "CodInst": "09777361",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "F"
+  },
+  "BANCO EMPRESARIAL S.A.": {
+    "CodInst": "32067787",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO EQUATORIAL S.A.": {
+    "CodInst": "00675688",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO F. BARRETTO S.A.": {
+    "CodInst": "52503596",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO FATOR S.A.": {
+    "CodInst": "33644196",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "BANCO FIBRA S.A.": {
+    "CodInst": "58616418",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "BANCO FINANCIAL DA PRODUCAO S.A.": {
+    "CodInst": "09777359",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO FINANCIAL DO BRASIL S.A.": {
+    "CodInst": "09777358",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO FINANCIAL DO COMERCIO LIMITADO": {
+    "CodInst": "09777357",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "F"
+  },
+  "BANCO FINANCIAL S.A.": {
+    "CodInst": "03377934",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO FINASA S.A.": {
+    "CodInst": "57561615",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO FINAXIS S.A.": {
+    "CodInst": "11758741",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "BANCO FININVEST S.A.": {
+    "CodInst": "33098518",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO FRANCES INTERNACIONAL (BRASIL) S.A.": {
+    "CodInst": "42593459",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "I"
+  },
+  "BANCO FRANCES URUGUAY S.A.": {
+    "CodInst": "09978221",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "I"
+  },
+  "BANCO GENIAL S.A.": {
+    "CodInst": "45246410",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "BANCO GERAL DO CREDITO COMERCIAL S.A.": {
+    "CodInst": "09777356",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "F"
+  },
+  "BANCO GNPP S.A.": {
+    "CodInst": "42159129",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO GUANABARA S.A.": {
+    "CodInst": "31880826",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "BANCO HABITASUL S.A.": {
+    "CodInst": "92893411",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO HALLES S.A.": {
+    "CodInst": "33268434",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO HIPOTECARIO GRAMACHO S.A.": {
+    "CodInst": "09777355",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO HISPANO AMERICANO S.A.": {
+    "CodInst": "45666609",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "I"
+  },
+  "BANCO HOLANDES UNIDO S.A.": {
+    "CodInst": "33229113",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "I"
+  },
+  "BANCO HSBC - PRUDENCIAL": {
+    "CodInst": "C0084741",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "BANCO HSBC S.A.": {
+    "CodInst": "33852567",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "I"
+  },
+  "BANCO IMOBILIARIO BRASILEIRO S.A.": {
+    "CodInst": "09777354",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO INBURSA S.A.": {
+    "CodInst": "04866275",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "BANCO INDUSTRIAL BRASILEIRO S.A.": {
+    "CodInst": "09777353",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO INDUSTRIAL DE PERNAMBUCO S.A.": {
+    "CodInst": "10866333",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO INDUSTRIAL DO BRASIL S.A.": {
+    "CodInst": "31895683",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "BANCO INTER S.A.": {
+    "CodInst": "00416968",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "BANCO INTER-ATLÂNTICO S.A.": {
+    "CodInst": "47571625",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO INTERIOR DE SÃO PAULO S.A.": {
+    "CodInst": "69057453",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO INTERUNION S.A": {
+    "CodInst": "33861907",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "LO"
+  },
+  "BANCO INVESTCORP S.A.": {
+    "CodInst": "76642859",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO INVESTCRED UNIBANCO S.A.": {
+    "CodInst": "61182408",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "BANCO IPANEMA S.A.": {
+    "CodInst": "09777352",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "F"
+  },
+  "BANCO ITAÚ BBA S.A.": {
+    "CodInst": "17298092",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "I"
+  },
+  "BANCO ITAÚ CONSIGNADO S.A.": {
+    "CodInst": "33885724",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "BANCO ITAUBANK S.A.": {
+    "CodInst": "60394079",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "BANCO ITAÚ-BBA S.A.": {
+    "CodInst": "31516198",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO J. SAFRA S.A.": {
+    "CodInst": "03017677",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "BANCO J.P. MORGAN S.A.": {
+    "CodInst": "33172537",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "BANCO JOHN DEERE S.A.": {
+    "CodInst": "91884981",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "BANCO KDB DO BRASIL S.A.": {
+    "CodInst": "07656500",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "BANCO KEB HANA DO BRASIL S.A.": {
+    "CodInst": "02318507",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "BANCO LATINO AMERICANO S.A.": {
+    "CodInst": "09777351",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "F"
+  },
+  "BANCO LAVRA S.A.": {
+    "CodInst": "57950982",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO LUSO BRASILEIRO S.A.": {
+    "CodInst": "59118133",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "BANCO MAIS S.A.": {
+    "CodInst": "33074683",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO MAISONNAVE S.A.": {
+    "CodInst": "89329379",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "LO"
+  },
+  "BANCO MASTER - PRUDENCIAL": {
+    "CodInst": "C0080367",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "BANCO MASTER MÚLTIPLO S.A.": {
+    "CodInst": "33884941",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "BANCO MASTER S/A": {
+    "CodInst": "33923798",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "BANCO MERCANTIL DA METROPOLE S.A.": {
+    "CodInst": "09777350",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO MERCANTIL DE MINAS GERAIS S.A.": {
+    "CodInst": "09777349",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO MERCANTIL DE SÃO PAULO S.A.": {
+    "CodInst": "61065421",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO MERCANTIL DO BRASIL S.A.": {
+    "CodInst": "17184037",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "BANCO MERCANTIL DO ESPIRITO SANTO S.A.": {
+    "CodInst": "09777348",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "F"
+  },
+  "BANCO MERIDIONAL DE MINAS GERAIS S.A.": {
+    "CodInst": "09777337",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO METROPOLITANO DO BRASIL S.A.": {
+    "CodInst": "09777347",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO MINEIRO S.A.": {
+    "CodInst": "25999707",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO MIZUHO DO BRASIL S.A.": {
+    "CodInst": "61088183",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "BANCO MODAL S.A.": {
+    "CodInst": "30723886",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "BANCO MORADA S.A": {
+    "CodInst": "43717511",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO MORADA S.A.": {
+    "CodInst": "32504094",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO MORGAN STANLEY S.A.": {
+    "CodInst": "02801938",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "BANCO MUFG BRASIL S.A.": {
+    "CodInst": "60498557",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "BANCO MULTIPLIC S.A.": {
+    "CodInst": "42177527",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO NACIONAL BRASILEIRO S.A.": {
+    "CodInst": "33302779",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO NACIONAL DA CIDADE DE SAO PAULO SA": {
+    "CodInst": "09777345",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO NACIONAL DE CRÉDITO COOPERATIVO S.A.": {
+    "CodInst": "33618810",
+    "Td": "I",
+    "Tc": 1,
+    "Situacao": "I"
+  },
+  "BANCO NACIONAL DO COMERCIO DO RIO DE JANEIRO S.A.": {
+    "CodInst": "09777346",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO NACIONAL INTERAMERICANO S.A.": {
+    "CodInst": "09777344",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "LO"
+  },
+  "BANCO NOSSA CAIXA S.A.": {
+    "CodInst": "43073394",
+    "Td": "I",
+    "Tc": 1,
+    "Situacao": "I"
+  },
+  "BANCO OPEN S.A": {
+    "CodInst": "42466284",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO ORIGINAL S.A.": {
+    "CodInst": "92894922",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "BANCO PAN AMERICANO S.A.": {
+    "CodInst": "09777343",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO PAN S.A.": {
+    "CodInst": "59285411",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "BANCO PAULISTA - PRUDENCIAL": {
+    "CodInst": "C0080381",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "BANCO PAULISTA DA PRODUCAO S.A.": {
+    "CodInst": "09777342",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "F"
+  },
+  "BANCO PAULISTA S.A.": {
+    "CodInst": "61820817",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "BANCO PAULISTA S.A.(2A.FASE-ANUL.CONCOR)": {
+    "CodInst": "09777341",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "LO"
+  },
+  "BANCO PINE S.A.": {
+    "CodInst": "62144175",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "BANCO PINTO DE MAGALHAES S.A.": {
+    "CodInst": "33245333",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO PONTUAL S.A.": {
+    "CodInst": "06702112",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO POPULAR DE MINAS GERAIS S.A.": {
+    "CodInst": "09777340",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO POPULAR DO BRASIL S.A.": {
+    "CodInst": "60946290",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO PROGRESSO DO BRASIL S.A.": {
+    "CodInst": "09777338",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO PROLAR S.A. (2A. VEZ)": {
+    "CodInst": "09777336",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "F"
+  },
+  "BANCO PROSPER S.A.": {
+    "CodInst": "33876475",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO RABOBANK INTERNATIONAL BRASIL S.A.": {
+    "CodInst": "01023570",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "BANCO REAL DE SAO PAULO S.A.": {
+    "CodInst": "60394061",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO REGIONAL S.A.": {
+    "CodInst": "61196713",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "LO"
+  },
+  "BANCO RENDIMENTO S.A.": {
+    "CodInst": "68900810",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "BANCO RESIDENCIA S.A.": {
+    "CodInst": "42584466",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO RIBEIRÃO PRETO - PRUDENCIAL": {
+    "CodInst": "C0084349",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "BANCO RIBEIRAO PRETO S.A.": {
+    "CodInst": "00517645",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "BANCO RODOBENS S.A.": {
+    "CodInst": "33603457",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "BANCO RURAL S.A.": {
+    "CodInst": "33124959",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "LE"
+  },
+  "BANCO SAFRA S.A.": {
+    "CodInst": "58160789",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "BANCO SANTANDER (BRASIL) S.A.": {
+    "CodInst": "90400888",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "BANCO SANTANDER BRASIL S.A.": {
+    "CodInst": "61472676",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "I"
+  },
+  "BANCO SANTANDER CENTRAL HISPANO": {
+    "CodInst": "45686953",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "I"
+  },
+  "BANCO SANTANDER DE NEGOCIOS S.A.": {
+    "CodInst": "51035004",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "I"
+  },
+  "BANCO SANTANDER S.A.": {
+    "CodInst": "33517640",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "I"
+  },
+  "BANCO SANTOS NEVES S.A.": {
+    "CodInst": "28157204",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO SANTOS S.A.": {
+    "CodInst": "58257619",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO SAO BERNARDO S.A.": {
+    "CodInst": "09777334",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "F"
+  },
+  "BANCO SÃO JORGE S.A.": {
+    "CodInst": "60663655",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO SAVENA S.A.": {
+    "CodInst": "61391090",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO SEMEAR - PRUDENCIAL": {
+    "CodInst": "C0081380",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "BANCO SEMEAR S.A.": {
+    "CodInst": "00795423",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "BANCO SENFF S.A.": {
+    "CodInst": "11970623",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "BANCO SICOOB": {
+    "CodInst": "C0051750",
+    "Td": "C",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "BANCO SISTEMA S.A.": {
+    "CodInst": "76543115",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "BANCO SOCIETE GENERALE BRASIL S.A.": {
+    "CodInst": "61533584",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "BANCO SOFISA S.A.": {
+    "CodInst": "60889128",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "BANCO SPI S.A.": {
+    "CodInst": "60701836",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO SUDAMERIS BRASIL S.A.": {
+    "CodInst": "60942638",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "I"
+  },
+  "BANCO SUL BRASILEIRO S.A.": {
+    "CodInst": "87125019",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO SUMITOMO MITSUI BRASILEIRO S.A.": {
+    "CodInst": "60518222",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "BANCO TOPÁZIO S.A.": {
+    "CodInst": "07679404",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "BANCO TOPÁZIO S.A. - PRUDENCIAL": {
+    "CodInst": "C0081517",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "BANCO TRAVELEX - PRUDENCIAL": {
+    "CodInst": "C0080783",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "BANCO TRAVELEX S.A.": {
+    "CodInst": "11703662",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "BANCO TRIANGULO S.A.": {
+    "CodInst": "17351180",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "BANCO UBS (BRASIL) S.A.": {
+    "CodInst": "32062580",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "BANCO UBS S.A.": {
+    "CodInst": "30131502",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "I"
+  },
+  "BANCO UNIAO COMERCIAL S.A.": {
+    "CodInst": "09777333",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "LO"
+  },
+  "BANCO UNIAO DO BRASIL S.A.": {
+    "CodInst": "09777332",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "F"
+  },
+  "BANCO UNIAO MERCANTIL S.A.": {
+    "CodInst": "09777331",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "LO"
+  },
+  "BANCO UNIAO S.A.": {
+    "CodInst": "09777330",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "LO"
+  },
+  "BANCO ÚNICO S.A.": {
+    "CodInst": "00086413",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "I"
+  },
+  "BANCO UNIVERSAL S.A": {
+    "CodInst": "68700376",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO VEGA S.A.": {
+    "CodInst": "33822149",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO VOITER S.A.": {
+    "CodInst": "61024352",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "BANCO VOTORANTIM S.A.": {
+    "CodInst": "59588111",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "BANCO VR S.A.": {
+    "CodInst": "78626983",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "BANCO WACHOVIA S.A.": {
+    "CodInst": "33436486",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "I"
+  },
+  "BANCO WESTERN UNION DO BRASIL S.A.": {
+    "CodInst": "13720915",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "BANCO WOORI BANK DO BRASIL S.A.": {
+    "CodInst": "15357060",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "BANCO XP S.A.": {
+    "CodInst": "33264668",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "BANCO YAMAHA MOTOR DO BRASIL S.A.": {
+    "CodInst": "10371492",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "BANCO ZOGBI S.A.": {
+    "CodInst": "61535100",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCOOB - PRUDENCIAL": {
+    "CodInst": "C0080879",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "BANCOSEGURO S.A.": {
+    "CodInst": "10264663",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "BANESTES": {
+    "CodInst": "C0030159",
+    "Td": "C",
+    "Tc": 1,
+    "Situacao": "A"
+  },
+  "BANESTES - PRUDENCIAL": {
+    "CodInst": "C0080147",
+    "Td": "I",
+    "Tc": 1,
+    "Situacao": "A"
+  },
+  "BANESTES S.A. BANCO DO ESTADO DO ESPIRITO SANTO": {
+    "CodInst": "28127603",
+    "Td": "I",
+    "Tc": 1,
+    "Situacao": "A"
+  },
+  "BANFORT-BANCO FORTALEZA S.A.": {
+    "CodInst": "07216674",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANK OF AMERICA MERRILL LYNCH BANCO MÚLTIPLO S.A.": {
+    "CodInst": "62073200",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "BANK OF CHINA (BRASIL) - PRUDENCIAL": {
+    "CodInst": "C0080295",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "BANK OF CHINA (BRASIL) BANCO MÚLTIPLO S/A": {
+    "CodInst": "07450604",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "BANRISUL": {
+    "CodInst": "C0030173",
+    "Td": "C",
+    "Tc": 1,
+    "Situacao": "A"
+  },
+  "BANRISUL - PRUDENCIAL": {
+    "CodInst": "C0080154",
+    "Td": "I",
+    "Tc": 1,
+    "Situacao": "A"
+  },
+  "BARIGUI": {
+    "CodInst": "C0051774",
+    "Td": "C",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "BB": {
+    "CodInst": "C0049906",
+    "Td": "C",
+    "Tc": 1,
+    "Situacao": "A"
+  },
+  "BB - PRUDENCIAL": {
+    "CodInst": "C0080329",
+    "Td": "I",
+    "Tc": 1,
+    "Situacao": "A"
+  },
+  "BB BANCO POPULAR DO BRASIL S.A.": {
+    "CodInst": "06043056",
+    "Td": "I",
+    "Tc": 1,
+    "Situacao": "I"
+  },
+  "BBC S.A. - PRUDENCIAL": {
+    "CodInst": "C0084480",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "BCO ABN AMRO CLEARING - PRUDENCIAL": {
+    "CodInst": "C0081579",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "BCO ARBI S.A. - PRUDENCIAL": {
+    "CodInst": "C0081201",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "BCO CARGILL S.A. - PRUDENCIAL": {
+    "CodInst": "C0081414",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "BCO CEDULA S.A. - PRUDENCIAL": {
+    "CodInst": "C0081469",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "BCO CLASSICO S.A. - PRUDENCIAL": {
+    "CodInst": "C0081665",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "BCO COOPERATIVO SICREDI - PRUDENCIAL": {
+    "CodInst": "C0080745",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "BCO DA AMAZONIA S.A. - PRUDENCIAL": {
+    "CodInst": "C0081249",
+    "Td": "I",
+    "Tc": 1,
+    "Situacao": "A"
+  },
+  "BCO DAYCOVAL S.A - PRUDENCIAL": {
+    "CodInst": "C0081744",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "BCO DO EST. DE SE S.A. - PRUDENCIAL": {
+    "CodInst": "C0081634",
+    "Td": "I",
+    "Tc": 1,
+    "Situacao": "A"
+  },
+  "BCO DO EST. DO PA S.A. - PRUDENCIAL": {
+    "CodInst": "C0081586",
+    "Td": "I",
+    "Tc": 1,
+    "Situacao": "A"
+  },
+  "BCO DO NORDESTE DO BRASIL S.A. - PRUDENCIAL": {
+    "CodInst": "C0081593",
+    "Td": "I",
+    "Tc": 1,
+    "Situacao": "A"
+  },
+  "BCO FIBRA S.A. - PRUDENCIAL": {
+    "CodInst": "C0081483",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "BCO GUANABARA S.A. - PRUDENCIAL": {
+    "CodInst": "C0081672",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "BCO INBURSA S.A. - PRUDENCIAL": {
+    "CodInst": "C0081335",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "BCO KDB BRASIL S.A. - PRUDENCIAL": {
+    "CodInst": "C0081603",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "BCO KEB DO BRASIL SA - PRUDENCIAL": {
+    "CodInst": "C0081232",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "BCO LA NACION ARGENTINA - PRUDENCIAL": {
+    "CodInst": "C0081270",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "BCO LA PROVINCIA B AIRES BCE - PRUDENCIAL": {
+    "CodInst": "C0081263",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "BCO LUSO BRASILEIRO S.A. - PRUDENCIAL": {
+    "CodInst": "C0081706",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "BCO MUFG BRASIL S.A. - PRUDENCIAL": {
+    "CodInst": "C0081713",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "BCO RABOBANK INTL BRASIL S.A. - PRUDENCIAL": {
+    "CodInst": "C0081555",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "BCO SUMITOMO MITSUI BRASIL S.A. - PRUDENCIAL": {
+    "CodInst": "C0081720",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "BCO TRIANGULO S.A. - PRUDENCIAL": {
+    "CodInst": "C0081438",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "BCO WOORI BANK DO BRASIL S.A. - PRUDENCIAL": {
+    "CodInst": "C0081823",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "BIG S.A.-BANCO IRMÃOS GUIMARÃES": {
+    "CodInst": "62199039",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BMG": {
+    "CodInst": "C0030290",
+    "Td": "C",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "BMG - PRUDENCIAL": {
+    "CodInst": "C0080178",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "BMG BANCO COMERCIAL S.A.": {
+    "CodInst": "17161324",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BNP PARIBAS - PRUDENCIAL": {
+    "CodInst": "C0080673",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "BNY MELLON": {
+    "CodInst": "C0051808",
+    "Td": "C",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "BNY MELLON - PRUDENCIAL": {
+    "CodInst": "C0080910",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "BNY MELLON BANCO S.A.": {
+    "CodInst": "42272526",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "BOCOM": {
+    "CodInst": "C0052003",
+    "Td": "C",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "BOCOM - PRUDENCIAL": {
+    "CodInst": "C0084624",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "BOFA MERRILL LYNCH": {
+    "CodInst": "C0051255",
+    "Td": "C",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "BOFA MERRILL LYNCH - PRUDENCIAL": {
+    "CodInst": "C0080556",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "BRADESCO": {
+    "CodInst": "C0010045",
+    "Td": "C",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "BRADESCO - PRUDENCIAL": {
+    "CodInst": "C0080075",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "BRASBANCO S.A. BANCO COMERCIAL - EM LIQUIDAÇÃO ORDINÁRIA": {
+    "CodInst": "62111745",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BRB": {
+    "CodInst": "C0031976",
+    "Td": "C",
+    "Tc": 1,
+    "Situacao": "A"
+  },
+  "BRB - BANCO DE BRASILIA S.A.": {
+    "CodInst": "00000208",
+    "Td": "I",
+    "Tc": 1,
+    "Situacao": "A"
+  },
+  "BRB - PRUDENCIAL": {
+    "CodInst": "C0080288",
+    "Td": "I",
+    "Tc": 1,
+    "Situacao": "A"
+  },
+  "BS2 - PRUDENCIAL": {
+    "CodInst": "C0080422",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "BTG PACTUAL": {
+    "CodInst": "C0049944",
+    "Td": "C",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "BTG PACTUAL - PRUDENCIAL": {
+    "CodInst": "C0080336",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "C6 BANK": {
+    "CodInst": "C0052072",
+    "Td": "C",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "CAIXA ECONÔMICA DO ESTADO DE GOIÁS": {
+    "CodInst": "01600204",
+    "Td": "I",
+    "Tc": 1,
+    "Situacao": "LO"
+  },
+  "CAIXA ECONOMICA DO ESTADO DE MINAS GERAIS": {
+    "CodInst": "17176033",
+    "Td": "I",
+    "Tc": 1,
+    "Situacao": "I"
+  },
+  "CAIXA ECONOMICA DO ESTADO DE SANTA CATARINA S.A.": {
+    "CodInst": "83900159",
+    "Td": "I",
+    "Tc": 1,
+    "Situacao": "I"
+  },
+  "CAIXA ECONOMICA ESTADUAL DO RIO GRANDE DO SUL": {
+    "CodInst": "92818400",
+    "Td": "I",
+    "Tc": 1,
+    "Situacao": "I"
+  },
+  "CAIXA ECONOMICA FEDERAL": {
+    "CodInst": "00360305",
+    "Td": "I",
+    "Tc": 1,
+    "Situacao": "A"
+  },
+  "CAIXA ECONÔMICA FEDERAL": {
+    "CodInst": "C0051626",
+    "Td": "C",
+    "Tc": 1,
+    "Situacao": "A"
+  },
+  "CAIXA ECONÔMICA FEDERAL - PRUDENCIAL": {
+    "CodInst": "C0080738",
+    "Td": "I",
+    "Tc": 1,
+    "Situacao": "A"
+  },
+  "CAIXA GERAL": {
+    "CodInst": "C0051815",
+    "Td": "C",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "CAIXA GERAL - PRUDENCIAL": {
+    "CodInst": "C0080927",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "CASA BANCARIA CAVALCANTI COMANDITA POR ACOES": {
+    "CodInst": "09777325",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "F"
+  },
+  "CASA BANCARIA CENTENARIO S.A.": {
+    "CodInst": "09777324",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "F"
+  },
+  "CASA BANCARIA DE CREDITO CENTRAL DO DF": {
+    "CodInst": "09777326",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "F"
+  },
+  "CASA BANCARIA DE IMPORTACAO E EXPORTACAOS.A.": {
+    "CodInst": "09777319",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "F"
+  },
+  "CASA BANCARIA PAULICEA S.A.": {
+    "CodInst": "09777323",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "F"
+  },
+  "CASA BANCARIA PEREIRA LIMA LTDA": {
+    "CodInst": "09777322",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "CASA BANCARIA PINHEIRO S.A.": {
+    "CodInst": "09777321",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "CASA BANCARIA R. I. MOREIRA S.A.": {
+    "CodInst": "09777320",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "CCB": {
+    "CodInst": "C0032119",
+    "Td": "C",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "CITIBANK": {
+    "CodInst": "C0030403",
+    "Td": "C",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "CITIBANK - PRUDENCIAL": {
+    "CodInst": "C0080192",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "CITIBANK N.A.": {
+    "CodInst": "33042953",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "CONFIDENCE": {
+    "CodInst": "C0051671",
+    "Td": "C",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "CREDIT AGRICOLE - PRUDENCIAL": {
+    "CodInst": "C0080491",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "CREDITO CENTRAL DO DF S.A. CASA BANCARIA": {
+    "CodInst": "09777299",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "F"
+  },
+  "CREFISA": {
+    "CodInst": "C0052010",
+    "Td": "C",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "CREFISA S.A. CFI - PRUDENCIAL": {
+    "CodInst": "C0083632",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "DAYCOVAL": {
+    "CodInst": "C0051987",
+    "Td": "C",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "DEUTSCHE - PRUDENCIAL": {
+    "CodInst": "C0080532",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "DEUTSCHE BANK S.A. - BANCO ALEMAO": {
+    "CodInst": "62331228",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "FATOR - PRUDENCIAL": {
+    "CodInst": "C0080350",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "FINAXIS": {
+    "CodInst": "C0051688",
+    "Td": "C",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "FINAXIS - PRUDENCIAL": {
+    "CodInst": "C0080790",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "GENIAL": {
+    "CodInst": "C0051839",
+    "Td": "C",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "GENIAL - PRUDENCIAL": {
+    "CodInst": "C0080941",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "HIPERCARD BANCO MÚLTIPLO S.A.": {
+    "CodInst": "03012230",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "ICBC DO BRASIL BANCO MÚLTIPLO S.A.": {
+    "CodInst": "17453575",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "ICBC DO BRASIL BM S.A. - PRUDENCIAL": {
+    "CodInst": "C0081830",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "INDUSTRIAL DO BRASIL": {
+    "CodInst": "C0050988",
+    "Td": "C",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "INDUSTRIAL DO BRASIL - PRUDENCIAL": {
+    "CodInst": "C0080477",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "INTER": {
+    "CodInst": "C0051884",
+    "Td": "C",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "INTER - PRUDENCIAL": {
+    "CodInst": "C0080996",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "INTESA SANPAOLO BRASIL S.A. - BANCO MÚLTIPLO": {
+    "CodInst": "55230916",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "INTESA SANPAOLO BRASIL S.A. - PRUDENCIAL": {
+    "CodInst": "C0084057",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "ITAU": {
+    "CodInst": "C0010069",
+    "Td": "C",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "ITAU - PRUDENCIAL": {
+    "CodInst": "C0080099",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "ITAÚ UNIBANCO S.A.": {
+    "CodInst": "60701190",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "JP MORGAN CHASE": {
+    "CodInst": "C0020107",
+    "Td": "C",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "JP MORGAN CHASE - PRUDENCIAL": {
+    "CodInst": "C0080116",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "JPMORGAN CHASE BANK, NATIONAL ASSOCIATION": {
+    "CodInst": "46518205",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "KIRTON BANK S.A. - BANCO MÚLTIPLO": {
+    "CodInst": "01701201",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "MASTER": {
+    "CodInst": "C0050201",
+    "Td": "C",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "MERCANTIL DO BRASIL": {
+    "CodInst": "C0020152",
+    "Td": "C",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "MERCANTIL DO BRASIL - PRUDENCIAL": {
+    "CodInst": "C0080123",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "MIZUHO - PRUDENCIAL": {
+    "CodInst": "C0080697",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "MORGAN STANLEY": {
+    "CodInst": "C0051413",
+    "Td": "C",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "MORGAN STANLEY - PRUDENCIAL": {
+    "CodInst": "C0080628",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "NOVO BANCO CONTINENTAL S.A. - BANCO MÚLTIPLO": {
+    "CodInst": "74828799",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "NOVO BCO CONTINENTAL S.A. - BM - PRUDENCIAL": {
+    "CodInst": "C0081768",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "OMNI": {
+    "CodInst": "C0050940",
+    "Td": "C",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "OMNI - PRUDENCIAL": {
+    "CodInst": "C0080460",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "OMNI BANCO S.A.": {
+    "CodInst": "60850229",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "ORIGINAL - PRUDENCIAL": {
+    "CodInst": "C0080903",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "OURIBANK - PRUDENCIAL": {
+    "CodInst": "C0081012",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "OURIBANK S.A. BANCO MÚLTIPLO": {
+    "CodInst": "78632767",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "PAGBANK-PAGSEGURO": {
+    "CodInst": "C0052182",
+    "Td": "C",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "PAGSEGURO - PRUDENCIAL": {
+    "CodInst": "C0084813",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "PARAIBAN - BANCO DA PARAIBA S.A.": {
+    "CodInst": "09093352",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "I"
+  },
+  "PARANÁ BANCO": {
+    "CodInst": "C0030881",
+    "Td": "C",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "PARANÁ BANCO - PRUDENCIAL": {
+    "CodInst": "C0080233",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "PARANÁ BANCO S.A.": {
+    "CodInst": "14388334",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "PICPAY - FINANCEIRO": {
+    "CodInst": "C0052632",
+    "Td": "C",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "PICPAY - PRUDENCIAL": {
+    "CodInst": "C0088022",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "PICPAY BANK - BANCO MÚLTIPLO S.A": {
+    "CodInst": "09516419",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "PINE": {
+    "CodInst": "C0050304",
+    "Td": "C",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "PINE - PRUDENCIAL": {
+    "CodInst": "C0080374",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "RENDIMENTO": {
+    "CodInst": "C0051468",
+    "Td": "C",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "RENDIMENTO - PRUDENCIAL": {
+    "CodInst": "C0080659",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "RESERVA BANCO COMERCIAL S.A.": {
+    "CodInst": "09978156",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "RODOBENS - PRUDENCIAL": {
+    "CodInst": "C0080855",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "SAFRA": {
+    "CodInst": "C0010083",
+    "Td": "C",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "SAFRA - PRUDENCIAL": {
+    "CodInst": "C0080109",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "SANTANDER": {
+    "CodInst": "C0030379",
+    "Td": "C",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "SANTANDER - PRUDENCIAL": {
+    "CodInst": "C0080185",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "SCOTIABANK": {
+    "CodInst": "C0052230",
+    "Td": "C",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "SCOTIABANK BRASIL - PRUDENCIAL": {
+    "CodInst": "C0081452",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "SCOTIABANK BRASIL S.A. BANCO MÚLTIPLO": {
+    "CodInst": "29030467",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "SENFFNET IP - PRUDENCIAL": {
+    "CodInst": "C0083670",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "SIQUEIRA CAVANTI & CIA CASA BANCARIA": {
+    "CodInst": "09777262",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "F"
+  },
+  "SOCIAL BANK BANCO MULTIPLO - PRUDENCIAL": {
+    "CodInst": "C0081641",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "SOCIAL BANK BANCO MÚLTIPLO S/A": {
+    "CodInst": "15173776",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "SOCIETE GENERALE - PRUDENCIAL": {
+    "CodInst": "C0080264",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "SOFISA": {
+    "CodInst": "C0031873",
+    "Td": "C",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "SOFISA - PRUDENCIAL": {
+    "CodInst": "C0080271",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "STATE STREET BRASIL - PRUDENCIAL": {
+    "CodInst": "C0081627",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "STATE STREET BRASIL S.A. - BANCO COMERCIAL": {
+    "CodInst": "09274232",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "UBS (BRASIL)": {
+    "CodInst": "C0030771",
+    "Td": "C",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "UBS (BRASIL) - PRUDENCIAL": {
+    "CodInst": "C0080219",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "UNIBANCO - UNIÃO DE BANCOS BRASILEIROS S.A.": {
+    "CodInst": "33700394",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "UNICARD BANCO MÚLTIPLO S.A.": {
+    "CodInst": "61071387",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "I"
+  },
+  "VOTORANTIM": {
+    "CodInst": "C0051011",
+    "Td": "C",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "VOTORANTIM - PRUDENCIAL": {
+    "CodInst": "C0080484",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "VR": {
+    "CodInst": "C0050524",
+    "Td": "C",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "VR - PRUDENCIAL": {
+    "CodInst": "C0080408",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "WESTERN UNION": {
+    "CodInst": "C0051767",
+    "Td": "C",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "WESTERN UNION - PRUDENCIAL": {
+    "CodInst": "C0080886",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "XP": {
+    "CodInst": "C0052120",
+    "Td": "C",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "XP - PRUDENCIAL": {
+    "CodInst": "C0082475",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "YAMAHA MOTOR - PRUDENCIAL": {
+    "CodInst": "C0080721",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "ALVORADA BANCO DE INVESTIMENTO S.A.": {
+    "CodInst": "65724965",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "I"
+  },
+  "BANCO ABB S.A.": {
+    "CodInst": "04095983",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "I"
+  },
+  "BANCO ADOLPHO OLIVEIRA & ASSOCIADOS S.A.": {
+    "CodInst": "29956208",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO ALFA DE INVESTIMENTO S.A.": {
+    "CodInst": "60770336",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "BANCO ATLANTIS S.A.": {
+    "CodInst": "42465872",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO AUXILIAR DE INVESTIMENTO S/A": {
+    "CodInst": "60853066",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO AXIAL S.A.": {
+    "CodInst": "93088433",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO BAMERINDUS DE INVESTIMENTO S/A": {
+    "CodInst": "76484575",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO BANCORP S.A.": {
+    "CodInst": "17359522",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO BANDEIRANTES DE INVESTIMENTOS S/A": {
+    "CodInst": "63090609",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO BANKPAR S.A.": {
+    "CodInst": "60419645",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "I"
+  },
+  "BANCO BANORTE S.A.": {
+    "CodInst": "10781532",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO BBM - COMERCIAL, CRED.IMOB. E CRED.FIN.INV. S.A.": {
+    "CodInst": "31548894",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO BESA S.A.": {
+    "CodInst": "15124464",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "BANCO BOAVISTA DE INVESTIMENTOS S/A": {
+    "CodInst": "42583286",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO BPI DE INVESTIMENTO S A": {
+    "CodInst": "46517264",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO BRADESCO DE INVESTIMENTO S/A": {
+    "CodInst": "60885092",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO CATERPILLAR S.A.": {
+    "CodInst": "02658435",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "BANCO CIDADE S.A.": {
+    "CodInst": "61377677",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO CINDAM S.A.": {
+    "CodInst": "29916293",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO CNH INDUSTRIAL CAPITAL S.A - PRUDENCIAL": {
+    "CodInst": "C0081407",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "BANCO CNH INDUSTRIAL CAPITAL S.A.": {
+    "CodInst": "02992446",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "BANCO COLUMBIA DE INVESTIMENTO S.A.": {
+    "CodInst": "59652578",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "LO"
+  },
+  "BANCO COLUMBIA S.A.": {
+    "CodInst": "48712111",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "LO"
+  },
+  "BANCO COMERCIAL BANCESA S.A.": {
+    "CodInst": "07814999",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO CRECIF DE INVESTIMENTOS S.A.": {
+    "CodInst": "09777368",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "LO"
+  },
+  "BANCO CREDICARD S.A.": {
+    "CodInst": "34098442",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "I"
+  },
+  "BANCO CREDIT COMMERCIAL DE FRANCE S.A.": {
+    "CodInst": "50589357",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO CREFISUL S.A.": {
+    "CodInst": "52940350",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO CSF S.A.": {
+    "CodInst": "08357240",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "BANCO DAIMLERCHRYSLER S.A.": {
+    "CodInst": "02831756",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "I"
+  },
+  "BANCO DAS NACOES S.A": {
+    "CodInst": "96230370",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO DE INVESTIMENTO AMERICA DO SUL S/A": {
+    "CodInst": "61100046",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO DE INVESTIMENTO ESTREL S/A": {
+    "CodInst": "59608919",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO DE INVESTIMENTOS BMC S.A.": {
+    "CodInst": "58685322",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO DE INVESTIMENTOS OK S/A": {
+    "CodInst": "03626082",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO DE INVESTIMENTOS UBS (BRASIL) S.A.": {
+    "CodInst": "33987793",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "BANCO DE LAGE LANDEN BRASIL S.A.": {
+    "CodInst": "05040481",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "BANCO DE TOKYO S.A.": {
+    "CodInst": "61415428",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "I"
+  },
+  "BANCO D'EL REY DE INVESTIMENTOS S/A": {
+    "CodInst": "59551945",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO DIGIBANCO S.A.": {
+    "CodInst": "60680881",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO DIGIO S.A.": {
+    "CodInst": "27098060",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "BANCO DIMENSAO S.A.": {
+    "CodInst": "31198187",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO DO ESTADO DE RONDÔNIA S/A": {
+    "CodInst": "04797262",
+    "Td": "I",
+    "Tc": 1,
+    "Situacao": "I"
+  },
+  "BANCO DO ESTADO DO ACRE S.A.": {
+    "CodInst": "04064077",
+    "Td": "I",
+    "Tc": 1,
+    "Situacao": "I"
+  },
+  "BANCO DO PROGRESSO S.A.": {
+    "CodInst": "22531842",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO DRACMA S.A": {
+    "CodInst": "17348152",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO ECONOMICO DE INVESTIMENTO S/A": {
+    "CodInst": "13538319",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO EUROINVEST S.A. - EUROBANCO": {
+    "CodInst": "13636030",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO FENICIA S.A.": {
+    "CodInst": "52940319",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO FINASA DE INVESTIMENTO S/A": {
+    "CodInst": "60664844",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO FITAL S.A.": {
+    "CodInst": "32219669",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO FONTE CINDAM S.A": {
+    "CodInst": "33794033",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO GARAVELO S.A.": {
+    "CodInst": "29012655",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO GM S.A.": {
+    "CodInst": "59274605",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "BANCO GULFINVEST S.A.": {
+    "CodInst": "33922964",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO HÉRCULES S.A.": {
+    "CodInst": "17204694",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO HEXABANCO S.A.": {
+    "CodInst": "47206529",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "I"
+  },
+  "BANCO HKB S.A.": {
+    "CodInst": "60395357",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO HNF S.A.": {
+    "CodInst": "08249716",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO HONDA S.A.": {
+    "CodInst": "03634220",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "BANCO HYUNDAI CAPITAL BRASIL S.A.": {
+    "CodInst": "30172491",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "BANCO IBM S.A.": {
+    "CodInst": "34270520",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "BANCO IBM S.A. - PRUDENCIAL": {
+    "CodInst": "C0081689",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "BANCO ICATU S.A.": {
+    "CodInst": "31332547",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO INDEPENDENCIA-DECRED DE INVESTIMENTO S.A.": {
+    "CodInst": "42171132",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "LO"
+  },
+  "BANCO INDUSCRED DE INVESTIMENTO S.A.": {
+    "CodInst": "33588252",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "BANCO INTER-ATLANTICO S.A.": {
+    "CodInst": "42568253",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO INTERCONTINENTAL DE INVESTIMENTO S/A": {
+    "CodInst": "33953621",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO INTERFINANCE S.A.": {
+    "CodInst": "64875610",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO INTERPACIFICO S.A.": {
+    "CodInst": "62238977",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO INTERPART S.A.": {
+    "CodInst": "59531103",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO INVESTOR DE INVESTIMENTO S.A.": {
+    "CodInst": "28176477",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO IOCHPE S.A.": {
+    "CodInst": "13005830",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO IPIRANGA DE INVESTIMENTOS S.A.": {
+    "CodInst": "33907528",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO ITABANCO S.A.": {
+    "CodInst": "92723550",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO ITAMARATI S.A.": {
+    "CodInst": "61602801",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO ITAÚ CARTÕES S.A.": {
+    "CodInst": "32109167",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO ITAU DE INVESTIMENTO S/A": {
+    "CodInst": "61200044",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO ITAÚ VEÍCULOS S.A.": {
+    "CodInst": "61190658",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "BANCO ITAUCARD S.A.": {
+    "CodInst": "17192451",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "BANCO ITAUCRED FINANCIAMENTOS S.A.": {
+    "CodInst": "59461152",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO ITAULEASING S.A.": {
+    "CodInst": "49925225",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO ITAUSAGA S.A.": {
+    "CodInst": "59601047",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "I"
+  },
+  "BANCO JPM S.A.": {
+    "CodInst": "62204169",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "I"
+  },
+  "BANCO KOMATSU DO BRASIL - PRUDENCIAL": {
+    "CodInst": "C0084576",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "BANCO KOMATSU DO BRASIL S.A.": {
+    "CodInst": "23903068",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "BANCO LOSANGO S.A. - BANCO MÚLTIPLO": {
+    "CodInst": "33254319",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "BANCO MAISONNAVE DE INVESTIMENTOS S.A.": {
+    "CodInst": "17180399",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "LO"
+  },
+  "BANCO MARKA S.A.": {
+    "CodInst": "15207244",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO MARTINELLI S.A.": {
+    "CodInst": "61083697",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO MASTER DE INVESTIMENTO S.A.": {
+    "CodInst": "09526594",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "BANCO MATRIX S.A.": {
+    "CodInst": "57869166",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO MERCANTIL DE INVESTIMENTOS S/A": {
+    "CodInst": "34169557",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "BANCO MERCEDES-BENZ DO BRASIL S.A.": {
+    "CodInst": "60814191",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "BANCO MINAS S.A.": {
+    "CodInst": "42972760",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO MISASI DE INVESTIMENTO S.A.": {
+    "CodInst": "61942629",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO MONEO S.A.": {
+    "CodInst": "07441209",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "BANCO MONEO S.A. - PRUDENCIAL": {
+    "CodInst": "C0081500",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "BANCO NACIONAL BRASILEIRO DE INVESTIMENTOS S.A.": {
+    "CodInst": "33267246",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO NACIONAL DE INVESTIMENTOS S.A.": {
+    "CodInst": "33222241",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "BANCO NACIONAL S.A.": {
+    "CodInst": "17157777",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "BANCO NORCHEM S.A.": {
+    "CodInst": "46570388",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO OK DE INVESTIMENTOS S.A.": {
+    "CodInst": "00689364",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO OLÉ CONSIGNADO S.A.": {
+    "CodInst": "71371686",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO PACCAR - PRUDENCIAL": {
+    "CodInst": "C0084899",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "BANCO PACCAR S.A.": {
+    "CodInst": "28517628",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "BANCO PATENTE S.A.": {
+    "CodInst": "61790390",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO PERFORMANCE DE INVESTIMENTOS S.A.": {
+    "CodInst": "87411088",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO PORTO REAL DE INVEST.S.A - PRUDENCIAL": {
+    "CodInst": "C0081359",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "BANCO PORTO REAL DE INVESTIMENTOS S.A": {
+    "CodInst": "40429946",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "BANCO RANDON S.A.": {
+    "CodInst": "11476673",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "BANCO RCI BRASIL S.A.": {
+    "CodInst": "62307848",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "BANCO REAL S.A.": {
+    "CodInst": "17156514",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "I"
+  },
+  "BANCO RESIDENCIA DE INVESTIMENTOS S/A": {
+    "CodInst": "61585337",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO RNX S.A.": {
+    "CodInst": "80271455",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "BANCO RNX S.A. - PRUDENCIAL": {
+    "CodInst": "C0081775",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "BANCO ROSA S.A.": {
+    "CodInst": "33812322",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO ROYAL DE INVESTIMENTO S.A.": {
+    "CodInst": "21594726",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO RURAL DE INVESTIMENTOS S/A": {
+    "CodInst": "32173023",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO SAFRA BSI S.A.": {
+    "CodInst": "07002898",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO SAFRA DE INVESTIMENTOS S/A": {
+    "CodInst": "61088696",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO SANTANDER NOROESTE S.A.": {
+    "CodInst": "60700556",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "I"
+  },
+  "BANCO SELLER S.A.": {
+    "CodInst": "57774325",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO SHECK S.A.": {
+    "CodInst": "62158126",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO SIBISA S.A COMERCIAL, DE INVESTIMENTO, DE CRED. AO CONSUMIDOR E CRED.IMOB.": {
+    "CodInst": "89432926",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO SINTESE DE INVESTIMENTO S.A.": {
+    "CodInst": "74419714",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO STELLANTIS S.A.": {
+    "CodInst": "62237425",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "BANCO SUDAMERIS DE INVESTIMENTO S.A.": {
+    "CodInst": "48103014",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "I"
+  },
+  "BANCO TECNICORP S.A.": {
+    "CodInst": "33888439",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO TENDENCIA S.A.": {
+    "CodInst": "56077217",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO TOYOTA DO BRASIL S.A.": {
+    "CodInst": "03215790",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "BANCO TRICURY S.A.": {
+    "CodInst": "57839805",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "BANCO TRIPLIK S.A.": {
+    "CodInst": "33826371",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO UNITED S.A.": {
+    "CodInst": "65448037",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO VARIG S.A.": {
+    "CodInst": "62372511",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO VETOR S.A.": {
+    "CodInst": "33880220",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO VOLKSWAGEN S.A.": {
+    "CodInst": "59109165",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "BANCO VOLVO BRASIL S.A.": {
+    "CodInst": "58017179",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "BANCO XCMG BRASIL - PRUDENCIAL": {
+    "CodInst": "C0085300",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "BANCO XCMG BRASIL S.A.": {
+    "CodInst": "36658769",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "BANERJ - BANCO DE INVESTIMENTOS S/A": {
+    "CodInst": "33801796",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANK OF AMERICA - LIBERAL S.A. (BANCO MULTIPLO)": {
+    "CodInst": "33922188",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "I"
+  },
+  "BANORTE - BANCO DE INVESTIMENTO S/A": {
+    "CodInst": "11558657",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BBA-CREDITANSTALT BANCO DE INVESTIMENTO S/A": {
+    "CodInst": "59233502",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BB-BANCO DE INVESTIMENTO S/A": {
+    "CodInst": "24933830",
+    "Td": "I",
+    "Tc": 1,
+    "Situacao": "A"
+  },
+  "BBVA BRASIL BANCO DE INVESTIMENTO S.A.": {
+    "CodInst": "45283173",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "BBVA BRASIL BI S.A. - PRUDENCIAL": {
+    "CodInst": "C0081366",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "BCO CATERPILLAR S.A. - PRUDENCIAL": {
+    "CodInst": "C0081397",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "BCO CSF S.A. - PRUDENCIAL": {
+    "CodInst": "C0081610",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "BCO DE LAGE LANDEN BRASIL S.A. - PRUDENCIAL": {
+    "CodInst": "C0081421",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "BCO INDUSCRED DE INVESTIM. S/A - PRUDENCIAL": {
+    "CodInst": "C0081342",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "BCO TOYOTA DO BRASIL S.A. - PRUDENCIAL": {
+    "CodInst": "C0081562",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "BCO TRICURY S.A. - PRUDENCIAL": {
+    "CodInst": "C0081696",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "BCR BANCO DE CREDITO REAL S.A.": {
+    "CodInst": "92691328",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BFI - BANCO DE FINANCIAMENTO INTERNACIONAL S/A": {
+    "CodInst": "31136708",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BPA BANCO PAO DE ACUCAR S.A.": {
+    "CodInst": "51183135",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BR PARTNERS - PRUDENCIAL": {
+    "CodInst": "C0080934",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "BR PARTNERS BANCO DE INVESTIMENTO S.A.": {
+    "CodInst": "13220493",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "BRASILINVEST S.A. BANCO DE INVESTIMENTO": {
+    "CodInst": "50246131",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BRAZA BANK BCO CÂMBIO - PRUDENCIAL": {
+    "CodInst": "C0081294",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "BRAZA BANK S.A. BANCO DE CÂMBIO": {
+    "CodInst": "19307785",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "CHASE FLEMING BANCO DE INVESTIMENTO S.A.": {
+    "CodInst": "33760497",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "COMIND BANCO DE INVESTIMENTO S.A.": {
+    "CodInst": "60394939",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "DAYCOVAL LEASING - BANCO MÚLTIPLO S.A.": {
+    "CodInst": "43818780",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "DEUTSCHE SPARKASSEN LEASING DO BRASIL - PRUDENCIAL": {
+    "CodInst": "C0084545",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "DEUTSCHE SPARKASSEN LEASING DO BRASIL BANCO MÚLTIPLO S.A.": {
+    "CodInst": "23511655",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "DIGIBANCO-BANCO DE INVESTIMENTO S/A": {
+    "CodInst": "54046107",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "EBURY BANCO DE CÂMBIO - PRUDENCIAL": {
+    "CodInst": "C0080862",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "EBURY BANCO DE CÂMBIO S.A.": {
+    "CodInst": "13059145",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "FINANCILAR BANCO DE INVESTIMENTO S.A.": {
+    "CodInst": "92694025",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "GM - PRUDENCIAL": {
+    "CodInst": "C0080848",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "GOLDMAN SACHS": {
+    "CodInst": "C0051585",
+    "Td": "C",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "GOLDMAN SACHS - PRUDENCIAL": {
+    "CodInst": "C0080714",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "GOLDMAN SACHS DO BRASIL BANCO MULTIPLO S.A.": {
+    "CodInst": "04332281",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "HAITONG": {
+    "CodInst": "C0051482",
+    "Td": "C",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "HAITONG - PRUDENCIAL": {
+    "CodInst": "C0080666",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "HAITONG BANCO DE INVESTIMENTO DO BRASIL S.A.": {
+    "CodInst": "34111187",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "HONDA": {
+    "CodInst": "C0051396",
+    "Td": "C",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "HONDA - PRUDENCIAL": {
+    "CodInst": "C0080611",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "HSBC REPUBLIC BANK BRASIL S.A. - BANCO MULTIPLO": {
+    "CodInst": "42166959",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "I"
+  },
+  "INTEX BANK BANCO DE CÂMBIO S.A.": {
+    "CodInst": "02992317",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "INTEX BANK BCO CÂMBIO - PRUDENCIAL": {
+    "CodInst": "C0081885",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "INTL FCSTONE": {
+    "CodInst": "C0052041",
+    "Td": "C",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "ITAÚ UNIBANCO HOLDING S.A.": {
+    "CodInst": "60872504",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "MERCEDES-BENZ": {
+    "CodInst": "C0051262",
+    "Td": "C",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "MERCEDES-BENZ - PRUDENCIAL": {
+    "CodInst": "C0080563",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "MERIDIONAL - BANCO DE INVESTIMENTO S/A": {
+    "CodInst": "43144112",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "METROBANCO - BANCO DE INVESTIMENTO S.A.": {
+    "CodInst": "58954512",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "MILBANCO S.A.": {
+    "CodInst": "17346222",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "MONEYCORP - PRUDENCIAL": {
+    "CodInst": "C0082028",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "MONEYCORP BANCO DE CÂMBIO S.A.": {
+    "CodInst": "08609934",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "RANDON - PRUDENCIAL": {
+    "CodInst": "C0080800",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "SCANIA - PRUDENCIAL": {
+    "CodInst": "C0080776",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "SCANIA BANCO S.A.": {
+    "CodInst": "11417016",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "STELLANTIS": {
+    "CodInst": "C0052508",
+    "Td": "C",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "STELLANTIS - PRUDENCIAL": {
+    "CodInst": "C0087298",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "STONEX BANCO DE CÂMBIO S.A.": {
+    "CodInst": "28811341",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "STONEX DTVM - PRUDENCIAL": {
+    "CodInst": "C0084088",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "UBS BB BANCO DE INVESTIMENTO S.A.": {
+    "CodInst": "18520834",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "UNIBANCO - BANCO DE INVESTIMENTO DO BRASIL S/A": {
+    "CodInst": "60400512",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "VOLKSWAGEN - PRUDENCIAL": {
+    "CodInst": "C0080202",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "VOLVO - PRUDENCIAL": {
+    "CodInst": "C0080769",
+    "Td": "I",
+    "Tc": 3,
+    "Situacao": "A"
+  },
+  "CCEC DO ESTADO DO RIO DE JANEIRO LTDA.": {
+    "CodInst": "29021722",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "CENTRAL COOPERATIVA DE CRÉDITO NO ESTADO DO ESPÍRITO SANTO - CECOOP": {
+    "CodInst": "05790149",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "CENTRAL DAS COOPERATIVAS DE CRÉDITO DO ESTADO DE SÃO PAULO - SICOOB CENTRAL CECRESP": {
+    "CodInst": "62931522",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "CENTRAL DAS COOPERATIVAS DE CRÉDITO DO NORDESTE - SICOOB CENTRAL NE": {
+    "CodInst": "70116611",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "CENTRAL DAS COOPERATIVAS DE CRÉDITO DO RIO GRANDE DO NORTE LTDA": {
+    "CodInst": "09978310",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "CENTRAL DAS COOPERATIVAS DE CRÉDITO DOS ESTADOS DE MATO GROSSO, MATO GROSSO DO SUL E DO MUNICÍPIO DE CACOAL/RO - SICOOB CENTRAL RONDON": {
+    "CodInst": "00106180",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "CENTRAL DAS COOPERATIVAS DE CRÉDITO INDEPENDENTES DE MINAS GERAIS LTDA": {
+    "CodInst": "71438162",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "CENTRAL DAS COOPERATIVAS DE CREDITO MUTUO DO ESTADO DO ESPIRITO SANTO - CECREST": {
+    "CodInst": "32433674",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "CENTRAL DAS COOPERATIVAS DE CRÉDITO MÚTUO DO RIO GRANDE DO SUL, SANTA CATARINA E PARANÁ - CECRESUL": {
+    "CodInst": "03618104",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "CENTRAL DAS COOPERATIVAS DE CRÉDITO MÚTUO DOS POLICIAIS FEDERAIS E SERVIDORES DA UNIÃO - FEDERALCRED CENTRAL": {
+    "CodInst": "04843307",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "CENTRAL DAS COOPERATIVAS DE CREDITO UNICOOB - SICOOB CENTRAL UNICOOB": {
+    "CodInst": "05036532",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "CENTRAL DAS COOPERATIVAS DE ECONOMIA E CREDITO DO ESTADO DE MINAS GERAIS LTDA. - SICOOB CENTRAL CECREMGE": {
+    "CodInst": "00309024",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "CENTRAL DAS COOPERATIVAS DE ECONOMIA E CRÉDITO DO PLANALTO CENTRAL LTDA - SICOOB PLANALTO CENTRAL": {
+    "CodInst": "00692214",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "CENTRAL SICOOB UNI DE COOPERATIVAS DE CRÉDITO": {
+    "CodInst": "04243780",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "CONFEDERACAO DAS COOPERATIVAS DO SICREDI - CONFEDERACAO SICREDI": {
+    "CodInst": "03795072",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "CONFEDERAÇÃO NACIONAL DAS COOPERATIVAS CENTRAIS DE CRÉDITO E ECONOMIA FAMILIAR E SOLIDÁRIA - CRESOL CONFEDERAÇÃO": {
+    "CodInst": "10398952",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "CONFEDERACAO NACIONAL DAS COOPERATIVAS DO SICOOB LTDA": {
+    "CodInst": "04891850",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA CENTRAL DE CRÉDITO - AILOS": {
+    "CodInst": "05463212",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA CENTRAL DE CRÉDITO COM INTERAÇÃO SOLIDÁRIA - CENTRAL CRESOL BASER": {
+    "CodInst": "01401771",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA CENTRAL DE CRÉDITO COM INTERAÇÃO SOLIDÁRIA - CENTRAL CRESOL NORDESTE EM LIQUIDAÇÃO": {
+    "CodInst": "10013534",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "COOPERATIVA CENTRAL DE CRÉDITO DA BAHIA LTDA - SICOOB CENTRAL BA": {
+    "CodInst": "34148882",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA CENTRAL DE CRÉDITO DE GOIÁS, DISTRITO FEDERAL E TOCANTINS LTDA. - SICOOB NOVA CENTRAL": {
+    "CodInst": "33416108",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA CENTRAL DE CRÉDITO DE MINAS GERAIS LTDA. - SICOOB CENTRAL CREDIMINAS": {
+    "CodInst": "25683434",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA CENTRAL DE CRÉDITO DE SANTA CATARINA E RIO GRANDE DO SUL - SICOOB CENTRAL SC/RS": {
+    "CodInst": "80160260",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA CENTRAL DE CRÉDITO DE SAO PAULO - CENTRAL SICREDI SP": {
+    "CodInst": "03235367",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "COOPERATIVA CENTRAL DE CREDITO DO ESPIRITO SANTO - SICOOB CENTRAL ES": {
+    "CodInst": "32428294",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA CENTRAL DE CRÉDITO DO ESTADO DE SÃO PAULO - SICOOB SÃO PAULO": {
+    "CodInst": "63917579",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA CENTRAL DE CRÉDITO DO ESTADO DO PARÁ E AMAPÁ - SICOOB CENTRAL AMAZÔNIA": {
+    "CodInst": "83355818",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "COOPERATIVA CENTRAL DE CRÉDITO DO NORTE DO BRASIL - SICOOB NORTE": {
+    "CodInst": "03502131",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA CENTRAL DE CRÉDITO DOS ESTADOS DO CEARÁ, PIAUÍ E RIO GRANDE DO NORTE LTDA.": {
+    "CodInst": "05599773",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "COOPERATIVA CENTRAL DE CRÉDITO E ECONOMIA COM INTERAÇÃO SOLIDÁRIA - CRESOL CENTRAL BRASIL": {
+    "CodInst": "07202627",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA CENTRAL DE CRÉDITO E ECONOMIA SOLIDÁRIA - ECOSOL": {
+    "CodInst": "06267304",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "COOPERATIVA CENTRAL DE CRÉDITO E INVESTIMENTO COM INTERAÇÃO SOLIDÁRIA - CENTRAL CRESOL SICOPER": {
+    "CodInst": "21198087",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA CENTRAL DE CRÉDITO RURAL DO ESTADO DO RIO DE JANEIRO LTDA": {
+    "CodInst": "39447206",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "COOPERATIVA CENTRAL DE CREDITO RURAL HORIZONTES NOVOS - CREHNOR CENTRAL": {
+    "CodInst": "05879577",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "COOPERATIVA CENTRAL DE CRÉDITO UNICRED CENTRAL COALIZÃO LTDA - UNICRED CENTRAL COALIZÃO": {
+    "CodInst": "86774775",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "COOPERATIVA CENTRAL DE CRÉDITO UNICRED CONEXÃO LTDA - UNICRED CENTRAL CONEXÃO": {
+    "CodInst": "00543968",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "COOPERATIVA CENTRAL DE CRÉDITO UNICRED DO BRASIL - UNICRED DO BRASIL": {
+    "CodInst": "00315557",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA CENTRAL DE CRÉDITO UNICRED GERAÇÃO LTDA. - UNICRED CENTRAL GERAÇÃO": {
+    "CodInst": "01634601",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "COOPERATIVA CENTRAL DE CRÉDITO, POUPANÇA E INVESTIMENTO DE MATO GROSSO DO SUL, GOIÁS, DISTRITO FEDERAL E TOCANTINS - CENTRAL SICREDI BRASIL CENTRAL": {
+    "CodInst": "33737818",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA CENTRAL DE CRÉDITO, POUPANÇA E INVESTIMENTO DO CENTRO NORTE DO BRASIL - CENTRAL SICREDI CENTRO NORTE": {
+    "CodInst": "33667205",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA CENTRAL DE CRÉDITO, POUPANÇA E INVESTIMENTO DO NORDESTE - CENTRAL SICREDI NORDESTE": {
+    "CodInst": "70119680",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA CENTRAL DE CRÉDITO, POUPANÇA E INVESTIMENTO DO SUL E SUDESTE - CENTRAL SICREDI SUL/SUDESTE": {
+    "CodInst": "87437687",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA CENTRAL DE CRÉDITO, POUPANÇA E INVESTIMENTO DOS ESTADOS DO PARANÁ, SÃO PAULO E RIO DE JANEIRO - CENTRAL SICREDI PR/SP/RJ": {
+    "CodInst": "80230774",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA CENTRAL DE ECONOMIA E CRÉDITO MÚTUO  - SICOOB UNIMAIS": {
+    "CodInst": "73085573",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "COOPERATIVA CENTRAL DE ECONOMIA E CRÉDITO MÚTUO DAS UNICREDS  DA AMAZÔNIA OCIDENTAL LTDA - UNICRED CENTRAL AMAZÔNIA OCIDENTAL": {
+    "CodInst": "02470935",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "COOPERATIVA CENTRAL DE ECONOMIA E CRÉDITO MÚTUO DAS UNICREDS DO ESTADO DE MATO GROSSO DO SUL LTDA - UNICRED CENTRAL MS": {
+    "CodInst": "02588604",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "COOPERATIVA CENTRAL DE ECONOMIA E CRÉDITO SICOOB UNIMAIS RIO LTDA.": {
+    "CodInst": "14568725",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO UNICRED CENTRAL MULTIRREGIONAL LTDA. - UCM": {
+    "CodInst": "00184068",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "CREDISIS - CENTRAL DE COOPERATIVAS DE CRÉDITO LTDA.": {
+    "CodInst": "04632856",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "UNIPRIME CENTRAL NACIONAL - CENTRAL NACIONAL DE COOPERATIVA DE CREDITO": {
+    "CodInst": "03046391",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "ACECREDI - COOPERATIVA DE ECONOMIA E CRÉDITO MÚTUO DOS ADMINISTRADORES, CONTABILISTAS E ECONOMISTAS DA REGIÃO METROPOLITANA DE FORTALEZA LTDA": {
+    "CodInst": "04876519",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "ADMCRED-RJ-COOPERATIVA DE ECONOMIA E CREDITO MUTUO DOS BACHAREIS  E PROFESSORES DA AREA DE ADMINISTRACAO DA REGIAO METROPOLITANA DO RIO JANEIRO LTDA": {
+    "CodInst": "05123285",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO DE CREDITO POPULAR UNIAO SOCIEDADE COOPERATIVA DE RESPONSABILIDADE LTDA": {
+    "CodInst": "33353558",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO DE CREDITO SOLAR - SOCIEDADE COOPERATIVA DE RESPONSABILIDADE LTDA": {
+    "CodInst": "33617960",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BANCO RURAL DO PARANA LTDA SOCIEDADE COOPERATIVA": {
+    "CodInst": "09777335",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "BARRACRED - COOPERATIVA DE ECONOMIA E CRÉDITO MÚTUO": {
+    "CodInst": "01439107",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "CAC -COOPERATIVA REGIONAL DE CRÉDITO RURAL": {
+    "CodInst": "62370119",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "CECM COMERCIANTES DE AUTOMOTORES, PEÇAS E SERVIÇOS DE CUIABÁ E VÁRZEA GRANDE E EMPREGADOS EM SANEAMENTO DO MATO GROSSO E FUNCIONÁRIOS DO SISTEMA FIEMT, FECOMÉRCIO, FAMATO E FETRAMAR - SICOOB MULTIPLO": {
+    "CodInst": "04310638",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "CECM DOS PROFISSIONAIS DE SAÚDE DE CUIABÁ E REGIÃO": {
+    "CodInst": "04093770",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "COOCREDI - COOPERATIVA DE CRÉDITO RURAL DA REGIÃO DE ITAPIPOCA LTDA.": {
+    "CodInst": "04723991",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "COOPCOM-COOPERATIVA DE ECONOMIA E CRÉDITO MÚTUO DOS COMERCIANTES DE CONFECÇÃO DA REGIÃO DOS LAGOS LTDA": {
+    "CodInst": "04225340",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "COOPERÁGUIA - COOPERATIVA DE ECONOMIA E CRÉDITO MÚTUO DOS EMPREGADOS DO GRUPO ÁGUIA BRANCA": {
+    "CodInst": "27171974",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERASA - COOPERATIVA DE ECONOMIA E CRÉDITO MÚTUO DOS FUNCIONARIOS DAS EMPRESAS DA AGUIA PARTICIPAÇÕES": {
+    "CodInst": "05296712",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "COOPERATIVA    DE    ECONOMIA    E    CRÉDITO   MÚTUO  MINUANO": {
+    "CodInst": "88325113",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA  DE CRÉDITO DE LIVRE ADMISSÃO DE ASSOCIADOS UNIRONDÔNIA LTDA": {
+    "CodInst": "01664968",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "COOPERATIVA  ECONOMIA CRÉDITO MÚTUO  SERVS E EMPREGADOS PÚBLICOS MUNIC DE BELO HORIZONTE BETIM BRUMADINHO CONTAGEM IBIRITÉ NOVA LIMA RIBEIRÃO DAS NEVES SABARÁ SANTA LUZIA E VESPASIANO SICOOB CREDISERV": {
+    "CodInst": "01864151",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA AGRO-PASTORIL LTDA": {
+    "CodInst": "07172067",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "COOPERATIVA BANCO CREDITO FEDERAL LTDA": {
+    "CodInst": "33717299",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "COOPERATIVA CARIOCA DE CREDITO POPULAR, SOCIEDADE DE RESPONSABILIDADE LTDA": {
+    "CodInst": "09777309",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "COOPERATIVA CENTRAL INSTITUTO DE PECUARIA DA BAHIA RESPONSABILIDADE LTDA": {
+    "CodInst": "09777308",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "COOPERATIVA DE CAPITAL E EMPRÉSTIMO COOPERMULTICRED - COOPERMC": {
+    "CodInst": "51010858",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO  DE FRONTEIRAS  LTDA. - SICOOB FRONTEIRAS": {
+    "CodInst": "03612764",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CREDITO - SICOOB CREDICOONAI": {
+    "CodInst": "53923116",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "COOPERATIVA DE CRÉDITO - SICREDI COOMAMP": {
+    "CodInst": "05545390",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO - SICREDI EXPANSÃO": {
+    "CodInst": "41180092",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CREDITO , POUPANÇA E INVESTIMENTO DO ESTADO DO PIAUÍ - SICREDI PIAUÍ": {
+    "CodInst": "03128973",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "COOPERATIVA DE CRÉDITO AGROCREDI LTDA. - SICOOB AGROCREDI": {
+    "CodInst": "42873828",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO AGROPECUÁRIO DO SUL DE SÃO PAULO LTDA": {
+    "CodInst": "53311833",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "COOPERATIVA DE CRÉDITO ALIANÇA RS/SC/ES - SICREDI ALIANÇA RS/SC/ES": {
+    "CodInst": "87795639",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO ALTO VALE DO ITAJAÍ - SICOOB ALTO VALE": {
+    "CodInst": "80959612",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO ARACOOP LTDA. - SICOOB ARACOOP": {
+    "CodInst": "03320525",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO ARACREDI LTDA. - SICOOB ARACREDI": {
+    "CodInst": "00068987",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO ASCOOB SUDOESTE - ASCOOB SUDOESTE": {
+    "CodInst": "03071386",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "COOPERATIVA DE CRÉDITO CAIXA RURAL DE GUARATINGUETA": {
+    "CodInst": "48549588",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "COOPERATIVA DE CRÉDITO CAIXEIRAL DO CRATO LTDA.": {
+    "CodInst": "07174980",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "COOPERATIVA DE CRÉDITO CAPITAL FORTE - SICOOB CREDIFORTE": {
+    "CodInst": "03497143",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "COOPERATIVA DE CRÉDITO CARLOS CHAGAS LTDA. - SICOOB CARLOS CHAGAS": {
+    "CodInst": "41753500",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CREDITO CECRES - SICOOB CECRES": {
+    "CodInst": "54603022",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "COOPERATIVA DE CRÉDITO CENTRO LESTE NORTE MARANHENSE - SICOOB CENTROLESTE": {
+    "CodInst": "09403026",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO CENTRO-NORTE DO ESPÍRITO SANTO - SICOOB CENTRO-NORTE": {
+    "CodInst": "39345806",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "COOPERATIVA DE CREDITO CLASSICA DO ESTADO DO RIO DE JANEIRO - SICOOB EMPRESAS RJ": {
+    "CodInst": "04120633",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO CLÁSSICA DOS EMPREGADOS DA VALE S/A E ENTIDADES VINCULADAS LTDA. - SICOOB COOPVALE": {
+    "CodInst": "33924028",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO CLÁSSICA DOS FUNCIONÁRIOS E PRESTADORES DE SERVIÇOS DAS EMPRESAS LIGADAS AO GRUPO EUCATUR LTDA. - SICOOB EUCRED": {
+    "CodInst": "21110927",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "COOPERATIVA DE CRÉDITO COCRE": {
+    "CodInst": "54401286",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO COGEM": {
+    "CodInst": "44401800",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO CONEXÃO - SICOOB CONEXÃO": {
+    "CodInst": "32430233",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO COOCRELIVRE": {
+    "CodInst": "53935029",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO COOPACREDI LTDA. - SICOOB COOPACREDI": {
+    "CodInst": "65229254",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO COOPCRED": {
+    "CodInst": "53623781",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO COOPERAÇÃO - SICREDI COOPERAÇÃO": {
+    "CodInst": "87779625",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO COOPERMAIS - SICOOB COOPERMAIS": {
+    "CodInst": "31804966",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO COOPHARMA": {
+    "CodInst": "02814832",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CREDITO COOPLIVRE": {
+    "CodInst": "49389307",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO COPERSUL LTDA - SICOOB COPERSUL": {
+    "CodInst": "18966739",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO CREDCOOPER LTDA - SICOOB CREDCOOPER": {
+    "CodInst": "19449602",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CREDITO CREDIAGRO LTDA. - SICOOB CREDIAGRO": {
+    "CodInst": "00429890",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO CREDIALP LTDA - SICOOB CREDIALP": {
+    "CodInst": "25353939",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO CREDIARA LTDA - SICOOB CREDIARA": {
+    "CodInst": "66398496",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO CREDIBAM LTDA. - SICOOB CREDIBAM": {
+    "CodInst": "66259110",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO CREDIBELO LTDA. - SICOOB CREDIBELO": {
+    "CodInst": "71237184",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO CREDIBOM LTDA. - SICOOB CREDIBOM": {
+    "CodInst": "21670187",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO CREDICAF LTDA - SICOOB CREDICAF": {
+    "CodInst": "25395435",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO CREDICAMPINA LTDA. - SICOOB CREDICAMPINA": {
+    "CodInst": "01609345",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO CREDICAMPO LTDA.- SICOOB CREDICAMPO": {
+    "CodInst": "21661202",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO CREDICAPI LTDA - SICOOB CREDICAPI": {
+    "CodInst": "00804046",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO CREDICARPA LTDA. - SICOOB CREDICARPA": {
+    "CodInst": "23949522",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CREDITO CREDICERIPA - SICOOB CREDICERIPA": {
+    "CodInst": "00966246",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CREDITO CREDICITRUS": {
+    "CodInst": "54037916",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO CREDICOCAPEC": {
+    "CodInst": "67096909",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO CREDICOPE LTDA. - SICOOB CREDICOPE": {
+    "CodInst": "38588174",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO CREDIESMERALDAS LTDA. - SICOOB CREDIESMERALDAS": {
+    "CodInst": "68512748",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO CREDIFIEMG LTDA. - SICOOB CREDIFIEMG": {
+    "CodInst": "07469260",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO CREDIFOR LTDA - SICOOB CREDIFOR": {
+    "CodInst": "41931445",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO CREDIGUAÇU - SICOOB CREDIGUAÇU": {
+    "CodInst": "67960229",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO CREDIJEQUITINHONHA LTDA. - SICOOB CREDIJEQUITINHONHA": {
+    "CodInst": "71243034",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO CREDILIVRE LTDA. - SICOOB CREDILIVRE": {
+    "CodInst": "41697103",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO CREDIMAC LTDA - SICOOB CREDIMAC": {
+    "CodInst": "64480833",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO CREDIMATA LTDA. - SICOOB CREDIMATA": {
+    "CodInst": "01152097",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CREDITO CREDIMOTA   SICOOB CREDIMOTA": {
+    "CodInst": "66788142",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO CREDINACIONAL LTDA. - SICOOB CREDINACIONAL": {
+    "CodInst": "25420696",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO CREDINOR LTDA - SICOOB CREDINOR": {
+    "CodInst": "21866694",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO CREDINORTE LTDA. - SICOOB CREDINORTE": {
+    "CodInst": "64276058",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO CREDINOSSO LTDA - SICOOB CREDINOSSO": {
+    "CodInst": "06324872",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO CREDINTER LTDA. - SICOOB CREDINTER": {
+    "CodInst": "24048910",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO CREDIPEU LTDA.  - SICOOB CREDIPEU": {
+    "CodInst": "66262643",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO CREDIPIMENTA LTDA. - SICOOB CREDIPIMENTA": {
+    "CodInst": "42934794",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO CREDIRAMA LTDA - SICOOB CREDIRAMA": {
+    "CodInst": "03412878",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CREDITO CREDIROCHAS - SICOOB CREDIROCHAS": {
+    "CodInst": "03358914",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO CREDISETE LTDA. - SICOOB CREDISETE": {
+    "CodInst": "22753982",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO CREDISG LTDA. - SICOOB CREDISG": {
+    "CodInst": "03645752",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CREDITO CREDISUDESTE LTDA. - SICOOB CREDISUDESTE": {
+    "CodInst": "22656789",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO CREDIUNA LTDA - SICOOB CREDIUNA": {
+    "CodInst": "64237530",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO CREDIVALE LTDA - SICOOB CREDIVALE": {
+    "CodInst": "25387655",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO CREDIVAR LTDA. - SICOOB CREDIVAR": {
+    "CodInst": "25798596",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO CREDIVAZ LTDA. - SICOOB CREDIVAZ": {
+    "CodInst": "00803287",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO CREDIVERDE LTDA. - SICOOB CREDIVERDE": {
+    "CodInst": "25528753",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO CREDIVERTENTES LTDA. - SICOOB CREDIVERTENTES": {
+    "CodInst": "22724710",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CREDITO CREDLIDER - SICOOB CREDLIDER": {
+    "CodInst": "05463934",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO CREDPLUS LTDA. - SICOOB CREDPLUS": {
+    "CodInst": "25536764",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO CREDSAOPAULO - SICOOB CREDSAOPAULO": {
+    "CodInst": "02197569",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO DA AMAZÔNIA - SICOOB AMAZÔNIA": {
+    "CodInst": "05203605",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CREDITO DA CAPITAL DE MINAS LTDA": {
+    "CodInst": "09777307",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "COOPERATIVA DE CRÉDITO DA FOZ DO RIO ITAJAÍ AÇU - CREDIFOZ": {
+    "CodInst": "09512539",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO DA GRANDE FLORIANÓPOLIS - ÚNILOS": {
+    "CodInst": "02405189",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO DA REGIÃO CENTRAL DE MINAS LTDA. - SICOOB UNIÃO CENTRAL": {
+    "CodInst": "22749014",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO DA REGIÃO DE CRATEÚS - SICREDI CRATEÚS": {
+    "CodInst": "00068389",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "COOPERATIVA DE CRÉDITO DA REGIÃO DO CONTESTADO - CIVIA": {
+    "CodInst": "10218474",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO DA REGIÃO DO VALE DO RIO GRANDE LTDA. - SICOOB CREDILEITE": {
+    "CodInst": "86585049",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO DA REGIÃO E COLAR METROPOLITANO DO VALE DO AÇO LTDA. - SICOOB COSMIPA": {
+    "CodInst": "17361536",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO DA REGIÃO MERIDIONAL DO BRASIL - SICOOB UNICOOB MERIDIONAL": {
+    "CodInst": "05392810",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO DA REGIÃO METROPOLITANA DE BELÉM": {
+    "CodInst": "83347294",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "COOPERATIVA DE CRÉDITO DA SERRA CATARINENSE - CREDICOMIN": {
+    "CodInst": "09590601",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO DE BARBALHA LTDA": {
+    "CodInst": "07052616",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "COOPERATIVA DE CRÉDITO DE BAURU LTDA": {
+    "CodInst": "45009594",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "COOPERATIVA DE CRÉDITO DE CAMPINA GRANDE - SICREDI CENTRO PARAIBANA": {
+    "CodInst": "01151186",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "COOPERATIVA DE CRÉDITO DE CAPITAL E EMPRÉSTIMO DOS EMPREGADOS CELETISTAS DE COOPERATIVAS DOS ESTADOS DE SÃO PAULO E MINAS GERAIS - COCREUNI": {
+    "CodInst": "57987273",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO DE CAPITAL E EMPRÉSTIMO DOS FUNCIONÁRIOS DA SAÚDE DO SETOR PRIVADO DE MANAUS LTDA - COOPCRESP MANAUS": {
+    "CodInst": "34503581",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "COOPERATIVA DE CRÉDITO DE CAPITAL E EMPRÉSTIMO DOS TRABALHADORES NAS EMPRESAS DE TECNOLOGIA E INFORMÁTICA DE BELO HORIZONTE E CIDADES LIMÍTROFES LTDA - COOPERINFOR": {
+    "CodInst": "28435685",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO DE EMPRESÁRIOS - SICOOB EMPRESARIAL MT": {
+    "CodInst": "04019608",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "COOPERATIVA DE CRÉDITO DE EMPRESÁRIOS - SICOOB/TRANSCREDI": {
+    "CodInst": "04247370",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO DE GUAPÉ LTDA - SICOOB CREDIGUAPÉ": {
+    "CodInst": "71009237",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "COOPERATIVA DE CRÉDITO DE ITABUNA": {
+    "CodInst": "14343693",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "COOPERATIVA DE CRÉDITO DE ITAPETININGA - SICOOB CRED-ACI": {
+    "CodInst": "08844074",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO DE ITORORÓ": {
+    "CodInst": "16426181",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE  ADMISSÃO DE JI-PARANÁ E REGIÃO LTDA. - SICOOB UNIJPR": {
+    "CodInst": "05007327",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO - SICOOB COPESITA": {
+    "CodInst": "19875244",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO BURITIS - SICOOB BURITIS": {
+    "CodInst": "05247312",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO CENTRO BRASILEIRA LTDA.": {
+    "CodInst": "37395399",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO CENTRO LESTE DO PARANÁ - SICOOB CENTRO LESTE": {
+    "CodInst": "07458684",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO CENTRO NORDESTE - SICOOB CENTRO NORDESTE": {
+    "CodInst": "03102185",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO CENTRO OESTE LTDA.": {
+    "CodInst": "07502031",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO CREDFAZ LTDA. - SICOOB CREDFAZ": {
+    "CodInst": "00952415",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO CREDIEMBRAPA LTDA - SICOOB.": {
+    "CodInst": "02338666",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DA CIDADE DE GOIÂNIA E ENTORNO LTDA.": {
+    "CodInst": "97360804",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DA GRANDE GOIÂNIA LTDA.": {
+    "CodInst": "10209619",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DA MARGEM ESQUERDA DO URUCUIA E SÃO FRANCISCO LTDA - SICOOB CREDICHAPADA": {
+    "CodInst": "14046512",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DA PARAÍBA - SICOOB PARAÍBA": {
+    "CodInst": "11907520",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DA REGIÃO CENTRAL DE RONDÔNIA   SICOOB OUROCREDI": {
+    "CodInst": "02144899",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DA REGIÃO CENTRAL E OESTE MINEIRO LTDA. - SICOOB DIVICRED": {
+    "CodInst": "01736516",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DA REGIÃO DE  PARÁ DE MINAS LTDA - SICOOB CREDIRURAL": {
+    "CodInst": "25387713",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DA REGIÃO DE FRUTAL LTDA.   SICOOB FRUTAL": {
+    "CodInst": "71419600",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DA REGIÃO DE GUAXUPÉ LTDA. - SICOOB ACICREDI": {
+    "CodInst": "01699652",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DA REGIÃO DE SÃO SEBASTIÃO DO PARAÍSO LTDA. - SICOOB PARAÍSOCRED": {
+    "CodInst": "01657678",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DA REGIÃO DO CAPARAÓ LTDA. - SICOOB SAÚDE": {
+    "CodInst": "71261184",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DA REGIÃO DO CIRCUITO CAMPOS DAS VERTENTES LTDA - SICOOB COPERMEC": {
+    "CodInst": "02232383",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DA REGIÃO LESTE DA BACIA DO RIO DOCE LTDA   SICOOB CREDILESTE": {
+    "CodInst": "05158093",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DA REGIÃO METROPOLITANA DE CURITIBA - SICREDI COPERCREDI PR": {
+    "CodInst": "09035503",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DA REGIÃO METROPOLITANA DE GOIÂNIA LTDA.": {
+    "CodInst": "07599206",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CREDITO DE LIVRE ADMISSÃO DA REGIÃO SUDESTE DE MINAS GERAIS LTDA. - SICOOB CREDISUCESSO": {
+    "CodInst": "42887133",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DA REGIÃO SUL DO MARANHÃO - SICREDI SUL DO MARANHÃO": {
+    "CodInst": "26191078",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DA SERRA GERAL DE MINAS LTDA. - SICOOB CREDIGERAIS": {
+    "CodInst": "02804469",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DA UNIÃO DOS VALES DO PIRANGA E MATIPÓ LTDA. - SICOOB UNIÃO DOS VALES": {
+    "CodInst": "01060307",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DA ZONA DA MATA LTDA   SICOOB COOPEMATA": {
+    "CodInst": "02335109",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DE  LAGOA DA PRATA E REGIÃO LTDA.   SICOOB LAGOACRED GERAIS": {
+    "CodInst": "01739375",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DE ANÁPOLIS E REGIÃO LTDA": {
+    "CodInst": "33615055",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DE ARAXÁ LTDA - SICOOB COOCREZ": {
+    "CodInst": "71378426",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DE ARCOS LTDA. - SICOOB ARCOMCREDI": {
+    "CodInst": "71230338",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DE ASSOCIADOS - SICOOB CREDICARU SC/RS": {
+    "CodInst": "00694389",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DE ASSOCIADOS - SICOOB CRUZ ALTA": {
+    "CodInst": "73326449",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DE ASSOCIADOS AURIVERDE -  SICOOB - CREDIAL SC/RS": {
+    "CodInst": "78858107",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DE ASSOCIADOS DA QUARTA COLÔNIA DO RGS - SICREDI QUARTA COLÔNIA": {
+    "CodInst": "87755047",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DE ASSOCIADOS DA REGIÃO DOS VALES DE GOIÁS": {
+    "CodInst": "01816701",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DE ASSOCIADOS DE AJURICABA - SICREDI AJURICABA RS": {
+    "CodInst": "93136471",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DE ASSOCIADOS DE COLORADO E REGIÃO - SICOOB COLORADO": {
+    "CodInst": "11610996",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DE ASSOCIADOS DE DORES DO INDAIÁ LTDA - SICOOB COOPCREDI": {
+    "CodInst": "02254376",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DE ASSOCIADOS DE IBIRUBÁ - SICREDI IBIRUBÁ RS": {
+    "CodInst": "87732657",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DE ASSOCIADOS DE INDAIAL - SC SICOOB INDACREDI": {
+    "CodInst": "08083363",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DE ASSOCIADOS DE JARAGUÁ DO SUL E REGIÃO - SICOOB CEJASCRED": {
+    "CodInst": "12384953",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DE ASSOCIADOS DE MANAUS": {
+    "CodInst": "01566038",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DE ASSOCIADOS DE MIRASSOL E REGIÃO - SICREDI NOROESTE PAULISTA": {
+    "CodInst": "52436367",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DE ASSOCIADOS DE PANAMBI - SICREDI PANAMBI RS": {
+    "CodInst": "91983155",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DE ASSOCIADOS DE PONTA PORÃ E REGIÃO - SICREDI FRONTEIRA MS": {
+    "CodInst": "26408096",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DE ASSOCIADOS DE POSSE/GO E REGIÃO - SICREDI INTEGRAÇÃO": {
+    "CodInst": "17617302",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DE ASSOCIADOS DO ALTO URUGUAI CATARINENSE - SICOOB CREDIAUC": {
+    "CodInst": "78840071",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DE ASSOCIADOS DO ARAGUAIA - SICREDI ARAGUAIA": {
+    "CodInst": "32953317",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DE ASSOCIADOS DO CENTRO SUL DO RGS - SICREDI CENTRO SUL": {
+    "CodInst": "87733341",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DE ASSOCIADOS DO MEIO OESTE CATARINENSE - SICOOB CREDIMOC SC": {
+    "CodInst": "80959638",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DE ASSOCIADOS DO NORTE PIONEIRO - SICOOB NORTE PIONEIRO": {
+    "CodInst": "12993518",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DE ASSOCIADOS DO PLANALTO CATARINENSE SICOOB CREDIPLANALTO SC/RS": {
+    "CodInst": "01389651",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DE ASSOCIADOS DO PLANALTO SERRANO - SICOOB CREDISERRA SC": {
+    "CodInst": "01692448",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DE ASSOCIADOS DO SUDESTE PARAENSE - SICREDI CARAJÁS PA": {
+    "CodInst": "08723661",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DE ASSOCIADOS DO SUDOESTE DA BAHIA LTDA. - SICOOB SUDOESTE": {
+    "CodInst": "02558287",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DE ASSOCIADOS DO SUL DO BRASIL - CREVISC": {
+    "CodInst": "10143743",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DE ASSOCIADOS DO SUL DO ESTADO DE SANTA CATARINA - SICREDI SUL CATARINENSE SC": {
+    "CodInst": "10342559",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DE ASSOCIADOS DO SUL DO PARÁ - SICREDI SUL PA": {
+    "CodInst": "10779018",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DE ASSOCIADOS DO VALE DO CANOINHAS - SICOOB CREDICANOINHAS/SC": {
+    "CodInst": "78834975",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DE ASSOCIADOS DO VALE DO IGUAÇU - SICOOB VALE DO IGUAÇU": {
+    "CodInst": "01480754",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DE ASSOCIADOS DO VALE DO RIO CAMAQUÃ - SICREDI VALE DO CAMAQUÃ": {
+    "CodInst": "88473798",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DE ASSOCIADOS DO VALE DO SOTURNO - SICREDI VALE DO SOTURNO": {
+    "CodInst": "87788394",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DE ASSOCIADOS DO VALE DO VINHO - SICOOB VALE DO VINHO": {
+    "CodInst": "81016131",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DE ASSOCIADOS DOS ESTADOS DO TOCANTINS E OESTE DA BAHIA - SICREDI UNIÃO CERRADO": {
+    "CodInst": "03836609",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DE ASSOCIADOS DOS VALES DO ITAJAÍ E ITAPOCÚ, DO LITORAL DE SANTA CATARINA E LITORAL SUL DO PARANÁ - SICOOB BLUCREDI SUL": {
+    "CodInst": "03960819",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DE ASSOCIADOS GRANDE SANTA ROSA   SICREDI GRANDE SANTA ROSA RS": {
+    "CodInst": "87766507",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "COOPERATIVA DE CREDITO DE LIVRE ADMISSÃO DE ASSOCIADOS ITAIPU SICOOB CREDITAIPU": {
+    "CodInst": "81014060",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DE ASSOCIADOS ITAPIRANGA - SICOOB CREDITAPIRANGA SC/RS": {
+    "CodInst": "78483310",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DE ASSOCIADOS LTDA. - SICOOB JUDICIÁRIO": {
+    "CodInst": "37076205",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DE ASSOCIADOS MISSÕES - SICREDI MISSÕES RS": {
+    "CodInst": "87732608",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DE ASSOCIADOS NOVA TRENTO   SICOOB TRENTOCREDI SC": {
+    "CodInst": "02641969",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DE ASSOCIADOS NOVOS CAMPOS - SICOOB NOVOS CAMPOS": {
+    "CodInst": "78862083",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DE ASSOCIADOS OESTE CATARINENSE": {
+    "CodInst": "78825023",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DE ASSOCIADOS OURO VERDE DE MATO GROSSO - SICREDI OURO VERDE MT": {
+    "CodInst": "26565770",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DE ASSOCIADOS SANTOAUGUSTENSE - SICREDI SANTO AUGUSTO RS": {
+    "CodInst": "92564145",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DE ASSOCIADOS SÃO MIGUEL DO OESTE - SICOOB SÃO MIGUEL SC/PR/RS": {
+    "CodInst": "81607046",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DE ASSOCIADOS SICOOB ECOCREDI": {
+    "CodInst": "11565109",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DE ASSOCIADOS SUDOESTE DO RIO GRANDE DO SUL - SICREDI SUDOESTE RS": {
+    "CodInst": "87903316",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DE ASSOCIADOS SUL CATARINENSE - SICOOB CREDISULCA SC": {
+    "CodInst": "81367880",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DE ASSOCIADOS URUBICI - SICOOB CREDIARAUCÁRIA/SC": {
+    "CodInst": "02587492",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DE ASSOCIADOS VALE DO CHAPECOZINHO - SICOOB VALCREDI SUL": {
+    "CodInst": "02090126",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DE ASSOCIADOS VALE DO RIO DO PEIXE - SICOOB CREDIRIO SC": {
+    "CodInst": "78865995",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DE BELO HORIZONTE E CIDADES POLO DO ESTADO DE MINAS GERAIS LTDA. - SICOOB NOSSACOOP": {
+    "CodInst": "01760242",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DE BOA ESPERANÇA LTDA. - SICOOB BELCREDI": {
+    "CodInst": "00869687",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DE CAMPOS GERAIS E CAMPO DO MEIO LTDA - SICOOB CREDCAM": {
+    "CodInst": "71146450",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DE CARMO DO RIO CLARO LTDA - SICOOB CREDICARMO": {
+    "CodInst": "25743311",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DE CERES E RIALMA LTDA": {
+    "CodInst": "09576849",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DE CURVELO LTDA. - SICOOB CREDICENTRO": {
+    "CodInst": "21682737",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DE GOIÂNIA E MICRORREGIÕES LTDA.": {
+    "CodInst": "01720488",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DE ITAJUBÁ LTDA - SICOOB SUDESTE MAIS": {
+    "CodInst": "04079285",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DE ITAÚNA E REGIÃO LTDA - SICOOB CENTRO-OESTE": {
+    "CodInst": "66463407",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DE JATAÍ E REGIÃO LTDA.": {
+    "CodInst": "10143499",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DE MANAUS   SICOOB MANAUS": {
+    "CodInst": "05580585",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DE MICRO REGIÕES DE GOIÂNIA E ADJACENTES LTDA.": {
+    "CodInst": "01601342",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DE MURIAÉ LTDA - SICOOB CREDIMUR": {
+    "CodInst": "66193350",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DE PALMEIRAS E REGIÃO LTDA.": {
+    "CodInst": "37631058",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CREDITO DE LIVRE ADMISSAO DE PARA DE MINAS LTDA - SICOOB ASCICRED": {
+    "CodInst": "01009908",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DE PEDRO LEOPOLDO LTDA - SICOOB CREDIPEL": {
+    "CodInst": "71441406",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DE PERNAMBUCO - SICOOB PERNAMBUCO": {
+    "CodInst": "03732359",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DE PIRACANJUBA LTDA. - SICOOB CERRADO": {
+    "CodInst": "05222094",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CREDITO DE LIVRE ADMISSAO DE PITANGUI E REGIAO LTDA. - SICOOB CREDPIT": {
+    "CodInst": "04181542",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DE PITANGUI, PAPAGAIOS, MARAVILHAS E REGIÃO LTDA. - SICOOB CREDICOOP": {
+    "CodInst": "41931221",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DE RIO VERDE E REGIÃO LTDA.": {
+    "CodInst": "09033698",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DE RORAIMA LTDA.": {
+    "CodInst": "02137018",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CREDITO DE LIVRE ADMISSAO DE RUBIATABA E REGIAO LTDA": {
+    "CodInst": "73422792",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DE SANTA CRUZ DAS PALMEIRAS E REGIÃO": {
+    "CodInst": "06910457",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DE SANTO ANTÔNIO DO MONTE LTDA.   SICOOB CREDIMONTE": {
+    "CodInst": "41707258",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CREDITO DE LIVRE ADMISSÃO DE SAO GONÇALO DO PARA LTDA - SICOOB CREDISAOGONÇALO": {
+    "CodInst": "41683228",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DE SÃO ROQUE DE MINAS LTDA.": {
+    "CodInst": "66402207",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DE VITÓRIA DA CONQUISTA": {
+    "CodInst": "02833202",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DFMIL LTDA. - SICOOB DFMIL": {
+    "CodInst": "04649337",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DO ALTO E MÉDIO SÃO FRANCISCO LTDA - SICOOB SÃO FRANCISCO.": {
+    "CodInst": "00912488",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DO ALTO SÃO FRANCISCO LTDA.": {
+    "CodInst": "41805003",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DO ALTO VALE DO ITAJAÍ - VIACREDI ALTO VALE": {
+    "CodInst": "16779741",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DO BRASIL CENTRAL LTDA. - SICOOB EXECUTIVO": {
+    "CodInst": "00694877",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DO CENTRO GOIANO LTDA.": {
+    "CodInst": "03730508",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "COOPERATIVA DE CREDITO DE LIVRE ADMISSAO DO CENTRO NORDESTE MINEIRO LTDA - SICOOB CREDICENM": {
+    "CodInst": "02173447",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DO CENTRO NORTE BRASILEIRO": {
+    "CodInst": "02282709",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DO CENTRO NORTE DOS ESTADOS DE MATO GROSSO E MATO GROSSO DO SUL - SICOOB UNIÃO MT/MS": {
+    "CodInst": "03326437",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DO CENTRO OESTE PANTANEIRO - SICOOB FEDERAL": {
+    "CodInst": "37497245",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DO CENTRO SUL DA BAHIA LTDA - SICOOB CENTRO SUL": {
+    "CodInst": "04642801",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DO CENTRO SUL DE MATO GROSSO DO SUL - SICOOB CENTRO SUL MS": {
+    "CodInst": "10319386",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DO CENTRO SUL RONDONIENSE - SICOOB CREDIP.": {
+    "CodInst": "02015588",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DO CENTRO-SUL GOIANO LTDA": {
+    "CodInst": "33579731",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DO CIRCUITO DAS ÁGUAS - SICOOB CIRCUITO DAS ÁGUAS": {
+    "CodInst": "03941182",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DO ESTADO DE GOIÁS": {
+    "CodInst": "04406371",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DO ESTADO DE SÃO PAULO - SICOOB PAULISTA": {
+    "CodInst": "10262276",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DO ESTADO DO ACRE LTDA.": {
+    "CodInst": "01608685",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DO ESTADO DO AMAPÁ - SICOOB AMAPÁ": {
+    "CodInst": "13517050",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DO ESTADO DO PARÁ - SICOOB COOESA": {
+    "CodInst": "83836114",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DO ESTADO DO RIO DE JANEIRO - SICOOB FLUMINENSE": {
+    "CodInst": "02931668",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DO MÉDIO PIRACICABA, CIRCUITO DO OURO, GRANDE BH E RIO GRANDE DO NORTE LTDA. -  SICOOB CREDIMEPI": {
+    "CodInst": "01644264",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DO NOROESTE DE MINAS GERAIS LTDA.   SICOOB CREDIPINHO": {
+    "CodInst": "71154876",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DO NORTE DE MATO GROSSO - SICOOB NORTE MT": {
+    "CodInst": "23623636",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DO NORTE PAULISTA - SICOOB UNIMAIS NORTE PAULISTA": {
+    "CodInst": "02250781",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DO OESTE MARANHENSE - SICOOB OESTE MARANHENSE": {
+    "CodInst": "09424988",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DO OESTE MINEIRO LTDA. - SICOOB CREDICOPA": {
+    "CodInst": "71297899",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DO PONTAL DO TRIANGULO LTDA - SICOOB CREDIPONTAL": {
+    "CodInst": "26178533",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DO SUDOESTE DO PARANÁ - SICOOB SUDOESTE": {
+    "CodInst": "10511786",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DO SUDOESTE GOIANO": {
+    "CodInst": "24795049",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DO SUL CATARINENSE - ACENTRA": {
+    "CodInst": "03427097",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CREDITO DE LIVRE ADMISSÃO DO SUL DE MINAS LTDA - SICOOB CREDIVASS": {
+    "CodInst": "01604998",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DO SUL DE MINAS LTDA.   UNICRED ITAJUBÁ": {
+    "CodInst": "01673891",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DO SUL E SUDOESTE MINEIRO LTDA. - SICOOB CREDIACIP": {
+    "CodInst": "00599085",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DO TOCANTINS LTDA": {
+    "CodInst": "26960328",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DO VALE - SICOOB CREDIVALE/SC": {
+    "CodInst": "86829827",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CREDITO DE LIVRE ADMISSAO DO VALE DO AÇO LTDA - SICOOB VALE DO AÇO": {
+    "CodInst": "19869338",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CREDITO DE LIVRE ADMISSAO DO VALE DO ARAGUAIA - SICOOB ARAGUAIA": {
+    "CodInst": "05244177",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DO VALE DO ARAGUAIA LTDA.": {
+    "CodInst": "24830879",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CREDITO DE LIVRE ADMISSÃO DO VALE DO GORUTUBA LTDA - SICOOB CREDIVAG": {
+    "CodInst": "25404542",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DO VALE DO PARANAÍBA LTDA.": {
+    "CodInst": "24799033",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DO VALE DO PARANAPANEMA": {
+    "CodInst": "01637949",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DO VALE DO RIO GRANDE LTDA. - SICOOB UBERABA": {
+    "CodInst": "25683475",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CREDITO DE LIVRE ADMISSÃO DO VALE DO SÃO PATRICIO LTDA.": {
+    "CodInst": "00968602",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DO VALE MADEIRA-MAMORÉ - SICOOB PORTOCREDI": {
+    "CodInst": "04544165",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO DO VALE RIO CRIXÁS LTDA.": {
+    "CodInst": "07108146",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO E DOS ADVOGADOS LTDA. - SICOOB CREDIJUR": {
+    "CodInst": "02480577",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO E DOS TRANSPORTADORES RODOVIÁRIOS DE VEÍCULOS - SICOOB CREDCEG": {
+    "CodInst": "07789195",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO LEGISLATIVO LTDA.– SICOOB LEGISLATIVO": {
+    "CodInst": "03329154",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "I"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO LTDA. - SICOOB CREDIJUSTRA": {
+    "CodInst": "37079720",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO SICOOB ARENITO PARANÁ / SÃO PAULO": {
+    "CodInst": "07026923",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO SICOOB COOPJUS LTDA.": {
+    "CodInst": "25363615",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO SICOOB CREDIACIL": {
+    "CodInst": "08795285",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  },
+  "COOPERATIVA DE CRÉDITO DE LIVRE ADMISSÃO SICOOB CREDMISSÃO LTDA. - SICOOB CREDMISSÃO": {
+    "CodInst": "01667352",
+    "Td": "I",
+    "Tc": 2,
+    "Situacao": "A"
+  }
+}
