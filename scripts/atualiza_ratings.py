@@ -76,17 +76,17 @@ RATINGS = {
     },
     "ABC Brasil": {
         "rating_moodys": "Ba1",
-        "rating_fitch":  "",
+        "rating_fitch":  "BB",
         "rating_sp":     "",
         "rating_perspectiva": "Estável",
-        "rating_fonte": "Moody's (2025)",
+        "rating_fonte": "Moody's Ba1 / Fitch BB (escala global, 2024)",
     },
     "Daycoval": {
         "rating_moodys": "Ba1",
-        "rating_fitch":  "",
-        "rating_sp":     "",
+        "rating_fitch":  "BB",
+        "rating_sp":     "BB-",
         "rating_perspectiva": "Estável",
-        "rating_fonte": "Moody's (2025)",
+        "rating_fonte": "Moody's Ba1 / Fitch BB / S&P BB- (RI Daycoval mar/2026)",
     },
     "Votorantim": {
         "rating_moodys": "Ba1",
@@ -130,6 +130,29 @@ RATINGS = {
         "rating_perspectiva": "Estável",
         "rating_fonte": "Moody's (mar/2026) / Fitch",
     },
+    # ── COOPERATIVAS ─────────────────────────────────────────────────────────
+    "Banco Sicoob": {
+        "rating_moodys": "",
+        "rating_fitch":  "AAA(bra)",
+        "rating_sp":     "",
+        "rating_perspectiva": "Estável",
+        "rating_fonte": "Fitch AAA(bra) / F1+(bra) (out/2025)",
+    },
+    "Sicoob": {
+        "rating_moodys": "",
+        "rating_fitch":  "AAA(bra)",
+        "rating_sp":     "",
+        "rating_perspectiva": "Estável",
+        "rating_fonte": "Fitch AAA(bra) / F1+(bra) (out/2025)",
+    },
+    "Sicredi": {
+        "rating_moodys": "Ba1",
+        "rating_fitch":  "AAA(bra)",
+        "rating_sp":     "",
+        "rating_perspectiva": "Estável",
+        "rating_fonte": "Fitch AAA(bra) (out/2024) / Moody's Ba1 (2025)",
+    },
+
     # ── FINTECHS / DIGITAIS ───────────────────────────────────────────────────
     "Nubank": {
         "rating_moodys": "Ba2",    # Nu Financeira Ba2 global scale (Moody's 2023, reafirmado)
@@ -151,6 +174,13 @@ RATINGS = {
         "rating_sp":     "",
         "rating_perspectiva": "Estável",
         "rating_fonte": "Moody's (2025)",
+    },
+    "Agibank": {
+        "rating_moodys": "",
+        "rating_fitch":  "AA-(bra)",
+        "rating_sp":     "",
+        "rating_perspectiva": "Estável",
+        "rating_fonte": "Fitch AA-(bra) / F1+(bra) upgrade (ago/2025)",
     },
     "C6 Bank": {
         "rating_moodys": "",
