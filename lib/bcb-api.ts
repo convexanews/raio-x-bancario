@@ -6,6 +6,8 @@ export interface BancoRaioX {
   tipo: string;
   basileia: number;
   imobilizacao: number;
+  funding_capital: number;
+  cobertura_prudencial: number;
   patrimonio_liquido: number;
   score: number;
   situacao: 'verde' | 'amarelo' | 'vermelho';
