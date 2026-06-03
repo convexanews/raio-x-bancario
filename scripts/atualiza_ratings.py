@@ -32,25 +32,25 @@ RATINGS = {
         "rating_fonte": "Moody's (2025)",
     },
     "Bradesco": {
-        "rating_moodys": "Ba1",
+        "rating_moodys": "Baa3",   # Moody's counterparty; depósitos Ba1
         "rating_fitch":  "BB+",
-        "rating_sp":     "",
+        "rating_sp":     "BB",
         "rating_perspectiva": "Estável",
-        "rating_fonte": "Moody's/Fitch (2025-2026)",
+        "rating_fonte": "Moody's/Fitch/S&P (RI Bradesco mar/2026)",
     },
     "Santander Brasil": {
-        "rating_moodys": "Ba1",
+        "rating_moodys": "Baa3",   # upgrade de Ba1 para Baa3 (out/2024)
         "rating_fitch":  "BB+",
-        "rating_sp":     "",
-        "rating_perspectiva": "Estável",
-        "rating_fonte": "Moody's/Fitch (2025)",
+        "rating_sp":     "BB",
+        "rating_perspectiva": "Positiva",
+        "rating_fonte": "Moody's (Baa3 out/2024) / S&P 20-F 2025",
     },
     "BTG Pactual": {
         "rating_moodys": "Ba1",
-        "rating_fitch":  "BB+",
+        "rating_fitch":  "BB+",    # upgrade de BB para BB+ (Fitch dez/2025)
         "rating_sp":     "",
         "rating_perspectiva": "Positiva",
-        "rating_fonte": "Moody's/Fitch (2026)",
+        "rating_fonte": "Moody's Ba1 / Fitch BB+ upgrade (dez/2025)",
     },
     "BNDES": {
         "rating_moodys": "Ba1",
@@ -112,7 +112,7 @@ RATINGS = {
     "Banrisul": {
         "rating_moodys": "Ba3",
         "rating_fitch":  "BB-",
-        "rating_sp":     "B",
+        "rating_sp":     "BB-",    # corrigido: BB- e nao B (RI Banrisul confirmado)
         "rating_perspectiva": "Estável",
         "rating_fonte": "Moody's/Fitch/S&P (RI Banrisul 2025)",
     },
@@ -132,11 +132,11 @@ RATINGS = {
     },
     # ── FINTECHS / DIGITAIS ───────────────────────────────────────────────────
     "Nubank": {
-        "rating_moodys": "Ba1",
+        "rating_moodys": "Ba2",    # Nu Financeira Ba2 global scale (Moody's 2023, reafirmado)
         "rating_fitch":  "",
         "rating_sp":     "",
-        "rating_perspectiva": "Positiva",
-        "rating_fonte": "Moody's (2025)",
+        "rating_perspectiva": "Estável",
+        "rating_fonte": "Moody's Ba2 (Nu Financeira, escala global)",
     },
     "Inter": {
         "rating_moodys": "Ba2",
