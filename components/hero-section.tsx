@@ -43,12 +43,12 @@ export function HeroSection({ atualizadoEm, totalBancos, bancos }: HeroSectionPr
           </div>
 
           <h1 className="text-balance text-4xl font-bold tracking-tight text-foreground sm:text-5xl lg:text-6xl">
-            Seu banco e{' '}
+            Seu banco é{' '}
             <span className="text-primary">seguro</span>?
           </h1>
 
           <p className="mt-6 text-pretty text-lg leading-relaxed text-muted-foreground sm:text-xl">
-            Descubra a saude financeira dos bancos brasileiros com dados oficiais do Banco Central, ratings internacionais e score de saude.
+            Descubra a saúde financeira dos bancos brasileiros com dados oficiais do Banco Central, ratings internacionais e score de saúde.
           </p>
 
           {/* Search */}

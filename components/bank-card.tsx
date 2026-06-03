@@ -22,8 +22,8 @@ export function BankCard({ banco }: BankCardProps) {
   const statusConfig = {
     excellent: { label: 'Excelente', color: 'bg-accent text-accent-foreground' },
     good: { label: 'Bom', color: 'bg-primary text-primary-foreground' },
-    warning: { label: 'Atencao', color: 'bg-yellow-500 text-black' },
-    danger: { label: 'Critico', color: 'bg-destructive text-destructive-foreground' },
+    warning: { label: 'Atenção', color: 'bg-yellow-500 text-black' },
+    danger: { label: 'Crítico', color: 'bg-destructive text-destructive-foreground' },
   };
 
   const config = statusConfig[healthStatus];
@@ -74,7 +74,7 @@ export function BankCard({ banco }: BankCardProps) {
               </div>
             </div>
             <div className="space-y-1">
-              <div className="flex items-center gap-1.5 text-xs text-muted-foreground"><Percent className="h-3.5 w-3.5" /><span>Imobilizacao</span></div>
+              <div className="flex items-center gap-1.5 text-xs text-muted-foreground"><Percent className="h-3.5 w-3.5" /><span>Imobilização</span></div>
               <div className="flex items-center gap-1.5">
                 <span className="text-lg font-semibold text-foreground">{banco.imobilizacao.toFixed(1)}%</span>
                 {!isLiquidado && <TrendingIndicator value={banco.imobilizacao} threshold={30} inverted />}

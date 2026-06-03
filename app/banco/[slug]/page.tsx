@@ -171,7 +171,7 @@ export default async function BancoPage({ params }: { params: Promise<{ slug: st
             </div>
             <div className="mt-4 rounded-lg bg-secondary/50 p-3">
               <p className="text-center text-sm text-muted-foreground">
-                Score total: <span className="font-bold text-foreground">{banco.basileia >= 15 ? 50 : banco.basileia >= 10.5 ? 30 : 10}</span> (Basileia) + <span className="font-bold text-foreground">{banco.imobilizacao <= 10 ? 50 : banco.imobilizacao <= 25 ? 30 : banco.imobilizacao <= 50 ? 15 : 5}</span> (Imobilizacao) = <span className="text-lg font-bold text-primary">{banco.score}/100</span>
+                Score total: <span className="font-bold text-foreground">{banco.basileia >= 15 ? 50 : banco.basileia >= 10.5 ? 30 : 10}</span> (Basileia) + <span className="font-bold text-foreground">{banco.imobilizacao <= 10 ? 50 : banco.imobilizacao <= 25 ? 30 : banco.imobilizacao <= 50 ? 15 : 5}</span> (Imobilização) = <span className="text-lg font-bold text-primary">{banco.score}/100</span>
               </p>
             </div>
           </div>
@@ -350,7 +350,7 @@ export default async function BancoPage({ params }: { params: Promise<{ slug: st
               <RatingCard agency="S&P" rating={banco.rating_sp} description={getSPDescription(banco.rating_sp)} />
             </div>
           ) : (
-            <p className="text-sm text-muted-foreground">Esta instituicao nao possui ratings publicados pelas agencias internacionais (Moodys, Fitch, S&P).</p>
+            <p className="text-sm text-muted-foreground">Esta instituição não possui ratings publicados pelas agências internacionais (Moody's, Fitch, S&P).</p>
           )}
           {banco.rating_perspectiva && (
             <div className="mt-4 flex items-center gap-2 rounded-lg bg-secondary/50 px-3 py-2 text-sm">

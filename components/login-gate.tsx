@@ -91,9 +91,9 @@ function LoginScreen({ onLogin }: { onLogin: (data: UserData) => void }) {
             <Radar className="h-8 w-8 text-primary-foreground" />
           </div>
           <h1 className="text-3xl font-bold text-white">
-            Radar <span className="text-primary">Bancario</span>
+            Radar <span className="text-primary">Bancário</span>
           </h1>
-          <p className="mt-2 text-sm text-white/50">Descubra a saude financeira dos bancos brasileiros</p>
+          <p className="mt-2 text-sm text-white/50">Descubra a saúde financeira dos bancos brasileiros</p>
         </div>
 
         <div className="rounded-2xl border border-white/10 bg-white/5 p-6 backdrop-blur-xl">
@@ -137,7 +137,7 @@ function LoginScreen({ onLogin }: { onLogin: (data: UserData) => void }) {
           </form>
 
           <p className="mt-4 text-center text-[11px] text-white/20">
-            Ao se cadastrar, voce concorda com nossos Termos de Uso e Politica de Privacidade.
+            Ao se cadastrar, você concorda com nossos Termos de Uso e Política de Privacidade.
           </p>
         </div>
       </div>

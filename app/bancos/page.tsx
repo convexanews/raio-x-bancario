@@ -6,7 +6,7 @@ import { getBancos } from '@/lib/bcb-api';
 
 export const metadata = {
   title: 'Ranking dos Bancos | Radar Bancario',
-  description: 'Ranking completo dos bancos brasileiros por score de saude financeira, indice de Basileia e taxa de imobilizacao.',
+  description: 'Ranking completo dos bancos brasileiros por score de saúde financeira, índice de Basileia e taxa de imobilização.',
 };
 
 export default function BancosPage() {

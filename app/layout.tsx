@@ -16,7 +16,7 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'Radar Bancario | Analise de Saude Financeira dos Bancos',
+  title: 'Radar Bancário | Análise de Saúde Financeira dos Bancos',
   description: 'Analise a saúde financeira dos bancos brasileiros com dados oficiais do Banco Central. Taxa de imobilização, indicadores prudenciais e muito mais.',
   keywords: 'bancos, banco central, taxa imobilização, indicadores financeiros, IF.data, saúde bancária',
   generator: 'v0.app',
