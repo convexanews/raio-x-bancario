@@ -375,9 +375,15 @@ export default async function BancoPage({ params }: { params: Promise<{ slug: st
         </div>
 
         {/* Disclaimer */}
-        <div className="rounded-lg border border-border bg-secondary/50 p-4">
+        <div className="rounded-lg border border-amber-200 bg-amber-50 dark:border-amber-900/40 dark:bg-amber-950/20 p-4">
           <p className="text-xs leading-relaxed text-muted-foreground">
-            <strong className="text-foreground">Aviso:</strong> As informações são baseadas em dados públicos do Banco Central (IF.data). O score é uma métrica simplificada e não substitui análise profissional. Consulte um especialista antes de tomar decisões financeiras.
+            <strong className="text-foreground">⚠️ Aviso Legal:</strong> Esta página reproduz exclusivamente dados públicos
+            disponibilizados pelo <strong className="text-foreground">Banco Central do Brasil</strong> via sistema IF.data
+            (Lei nº 12.527/2011). Os indicadores e o score são ferramentas informativas baseadas em metodologia regulatória
+            — <strong className="text-foreground">não constituem recomendação de investimento</strong>, consultoria financeira
+            ou qualquer forma de aconselhamento regulado. Um score mais baixo reflete posição em indicadores regulatórios
+            públicos e não implica insolvência ou irregularidade da instituição. Dados com defasagem de 60 a 90 dias.
+            Consulte sempre um profissional certificado antes de tomar decisões financeiras.
           </p>
         </div>
       </main>

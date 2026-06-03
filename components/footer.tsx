@@ -94,22 +94,47 @@ export function Footer() {
           </div>
         </div>
 
-        {/* Disclaimer */}
-        <div className="mt-10 rounded-lg border border-border bg-secondary/50 p-4">
-          <p className="text-xs leading-relaxed text-muted-foreground">
-            <strong className="text-foreground">Aviso Legal:</strong> As informações apresentadas neste site são baseadas em dados públicos 
-            disponibilizados pelo Banco Central do Brasil através do sistema IF.data. Este site não presta consultoria financeira e as 
-            análises apresentadas têm caráter meramente informativo. Sempre consulte um profissional qualificado antes de tomar decisões financeiras.
-          </p>
+        {/* Disclaimer principal */}
+        <div className="mt-10 rounded-lg border border-amber-200 bg-amber-50 dark:border-amber-900/40 dark:bg-amber-950/20 p-5">
+          <p className="mb-2 text-xs font-bold uppercase tracking-wide text-amber-700 dark:text-amber-400">⚠️ Aviso Legal Importante</p>
+          <div className="space-y-2 text-xs leading-relaxed text-muted-foreground">
+            <p>
+              <strong className="text-foreground">Transparência de dados públicos:</strong> Este site reproduz exclusivamente dados oficiais
+              disponibilizados pelo <strong className="text-foreground">Banco Central do Brasil</strong> por meio do sistema público IF.data
+              (Lei de Acesso à Informação — Lei nº 12.527/2011). Todos os indicadores apresentados — Índice de Basileia, Taxa de Imobilização,
+              Patrimônio de Referência, RWA e demais — são calculados conforme a metodologia regulatória do próprio Banco Central
+              (Resolução CMN 4.958/2021 e normas correlatas).
+            </p>
+            <p>
+              <strong className="text-foreground">Não é recomendação:</strong> As informações, scores e classificações apresentadas têm
+              <strong className="text-foreground"> caráter exclusivamente informativo e educacional</strong>. Não constituem recomendação de
+              investimento, consultoria financeira, análise de valores mobiliários ou qualquer forma de aconselhamento regulado pela CVM
+              (Comissão de Valores Mobiliários) ou pelo Banco Central do Brasil.
+            </p>
+            <p>
+              <strong className="text-foreground">Interpretação dos dados:</strong> Um score mais baixo reflete apenas a posição relativa
+              do banco em indicadores regulatórios públicos — não implica insolvência, irregularidade ou qualquer juízo de valor sobre
+              a instituição. Bancos de desenvolvimento, cooperativas e instituições com características operacionais específicas podem
+              apresentar indicadores atípicos por sua natureza, sem que isso represente risco adicional.
+            </p>
+            <p>
+              <strong className="text-foreground">Defasagem temporal:</strong> Os dados são publicados pelo Banco Central com defasagem
+              de 60 a 90 dias após o período de referência. A situação atual de cada instituição pode ser diferente dos dados exibidos.
+            </p>
+            <p>
+              Antes de tomar qualquer decisão financeira, consulte um <strong className="text-foreground">profissional certificado</strong>
+              (assessor de investimentos credenciado pela ANCORD/CVM, planejador financeiro CFP ou consultor regulado).
+            </p>
+          </div>
         </div>
 
         {/* Copyright */}
         <div className="mt-8 flex flex-col items-center justify-between gap-4 border-t border-border pt-8 sm:flex-row">
           <p className="text-sm text-muted-foreground">
-            © {new Date().getFullYear()} Radar Bancario. Todos os direitos reservados.
+            © {new Date().getFullYear()} Radar Bancário. Todos os direitos reservados.
           </p>
           <p className="text-xs text-muted-foreground">
-            Dados atualizados trimestralmente pelo Banco Central
+            Dados: IF.data BCB — dez/2025 · Atualização trimestral
           </p>
         </div>
       </div>
