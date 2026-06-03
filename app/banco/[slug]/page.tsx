@@ -7,6 +7,7 @@ import { getBancos, type BancoRaioX } from '@/lib/bcb-api';
 import { GaugeChart } from '@/components/gauge-chart';
 import { basileiaStatus, imobilizacaoStatus, BASILEIA_ZONES, IMOBILIZACAO_ZONES } from '@/lib/gauge-utils';
 import { gerarInterpretacao, gerarResumoSEO } from '@/lib/interpretacao';
+import { ShareButton } from '@/components/share-button';
 
 function slugify(nome: string) {
   return nome.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
@@ -49,10 +50,20 @@ export default async function BancoPage({ params }: { params: Promise<{ slug: st
     <div className="min-h-screen bg-background">
       <Header />
       <main className="mx-auto max-w-4xl px-4 py-8 sm:px-6 lg:px-8">
-        {/* Back */}
-        <Link href="/#bancos" className="mb-6 inline-flex items-center gap-2 text-sm text-muted-foreground transition hover:text-foreground">
-          <ArrowLeft className="h-4 w-4" /> Voltar ao ranking
-        </Link>
+        {/* Back + Badge + Share */}
+        <div className="mb-6 flex flex-wrap items-center justify-between gap-3">
+          <Link href="/#bancos" className="inline-flex items-center gap-2 text-sm text-muted-foreground transition hover:text-foreground">
+            <ArrowLeft className="h-4 w-4" /> Voltar ao ranking
+          </Link>
+          <div className="flex items-center gap-2">
+            <div className="inline-flex items-center gap-1.5 rounded-full border border-green-200 bg-green-50 px-3 py-1 text-xs font-medium text-green-700 dark:border-green-800 dark:bg-green-950/20 dark:text-green-400">
+              <CheckCircle2 className="h-3.5 w-3.5" /> Dados verificados · IF.data BCB dez/2025
+            </div>
+            {!isLiquidado && (
+              <ShareButton banco={banco.nome} score={banco.score} basileia={banco.basileia} situacao={banco.situacao} />
+            )}
+          </div>
+        </div>
 
         {/* Header do banco */}
         <div className="mb-8 flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">

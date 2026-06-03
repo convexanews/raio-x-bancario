@@ -18,7 +18,7 @@ interface BanksGridProps {
   bancos: BancoRaioX[];
 }
 
-type SortKey = 'nome' | 'score' | 'basileia' | 'imobilizacao';
+type SortKey = 'nome' | 'score' | 'basileia' | 'imobilizacao' | 'ativo_total';
 type SortOrder = 'asc' | 'desc';
 
 export function BanksGrid({ bancos }: BanksGridProps) {
@@ -26,6 +26,8 @@ export function BanksGrid({ bancos }: BanksGridProps) {
   const [sortKey, setSortKey] = useState<SortKey>('score');
   const [sortOrder, setSortOrder] = useState<SortOrder>('desc');
   const [tipoFilter, setTipoFilter] = useState<string>('all');
+  const [basileiaMin, setBasileiaMin] = useState<string>('0');
+  const [scoreMin, setScoreMin] = useState<string>('0');
 
   const filteredAndSortedBancos = useMemo(() => {
     let result = [...bancos];
@@ -39,6 +41,12 @@ export function BanksGrid({ bancos }: BanksGridProps) {
 
     if (tipoFilter !== 'all') {
       result = result.filter(b => b.tipo === tipoFilter);
+    }
+    if (parseFloat(basileiaMin) > 0) {
+      result = result.filter(b => b.basileia >= parseFloat(basileiaMin));
+    }
+    if (parseFloat(scoreMin) > 0) {
+      result = result.filter(b => b.score >= parseFloat(scoreMin));
     }
 
     result.sort((a, b) => {
@@ -83,7 +91,7 @@ export function BanksGrid({ bancos }: BanksGridProps) {
           </div>
         </div>
 
-        <div className="mb-8 flex flex-col gap-4 rounded-xl border border-border bg-card p-4 sm:flex-row sm:items-center">
+        <div className="mb-4 flex flex-col gap-3 rounded-xl border border-border bg-card p-4">
           <div className="relative flex-1">
             <Search className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-muted-foreground" />
             <Input
@@ -112,25 +120,44 @@ export function BanksGrid({ bancos }: BanksGridProps) {
 
           <div className="flex items-center gap-2">
             <Select value={sortKey} onValueChange={(v) => setSortKey(v as SortKey)}>
-              <SelectTrigger className="w-40 bg-secondary">
+              <SelectTrigger className="w-44 bg-secondary">
                 <SelectValue placeholder="Ordenar por" />
               </SelectTrigger>
               <SelectContent>
-                <SelectItem value="nome">Nome</SelectItem>
                 <SelectItem value="score">Score</SelectItem>
                 <SelectItem value="basileia">Basileia</SelectItem>
                 <SelectItem value="imobilizacao">Imobilização</SelectItem>
+                <SelectItem value="ativo_total">Maior banco</SelectItem>
+                <SelectItem value="nome">Nome A-Z</SelectItem>
               </SelectContent>
             </Select>
-            <Button
-              variant="outline"
-              size="icon"
-              onClick={toggleSortOrder}
-              className="shrink-0"
-            >
+            <Button variant="outline" size="icon" onClick={toggleSortOrder} className="shrink-0">
               <ArrowUpDown className={`h-4 w-4 transition-transform ${sortOrder === 'desc' ? 'rotate-180' : ''}`} />
             </Button>
           </div>
+        </div>
+
+        {/* Filtros avançados */}
+        <div className="mb-8 flex flex-wrap gap-3 items-center">
+          <span className="text-xs text-muted-foreground font-medium">Filtrar:</span>
+          {[
+            { label: 'Todos', val: '0', key: 'score' as const },
+            { label: 'Score ≥ 80', val: '80', key: 'score' as const },
+            { label: 'Basileia ≥ 15%', val: '15', key: 'basileia' as const },
+            { label: 'Basileia ≥ 20%', val: '20', key: 'basileia' as const },
+          ].map(f => {
+            const active = f.key === 'score' ? scoreMin === f.val : basileiaMin === f.val;
+            return (
+              <button key={f.label} onClick={() => {
+                if (f.val === '0') { setScoreMin('0'); setBasileiaMin('0'); }
+                else if (f.key === 'score') { setScoreMin(f.val); setBasileiaMin('0'); }
+                else { setBasileiaMin(f.val); setScoreMin('0'); }
+              }}
+                className={`rounded-full px-3 py-1 text-xs font-medium border transition ${active ? 'bg-primary text-primary-foreground border-primary' : 'border-border bg-secondary text-muted-foreground hover:border-primary/40'}`}>
+                {f.label}
+              </button>
+            );
+          })}
         </div>
 
         {filteredAndSortedBancos.length > 0 ? (

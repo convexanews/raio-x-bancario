@@ -48,26 +48,14 @@ export function Footer() {
           <div>
             <h4 className="mb-4 text-sm font-semibold text-foreground">Navegação</h4>
             <ul className="space-y-2.5">
-              <li>
-                <Link href="/" className="text-sm text-muted-foreground transition-colors hover:text-foreground">
-                  Início
-                </Link>
-              </li>
-              <li>
-                <Link href="#bancos" className="text-sm text-muted-foreground transition-colors hover:text-foreground">
-                  Ranking dos Bancos
-                </Link>
-              </li>
-              <li>
-                <Link href="#indicadores" className="text-sm text-muted-foreground transition-colors hover:text-foreground">
-                  Indicadores
-                </Link>
-              </li>
-              <li>
-                <Link href="#sobre" className="text-sm text-muted-foreground transition-colors hover:text-foreground">
-                  Sobre
-                </Link>
-              </li>
+              <li><Link href="/" className="text-sm text-muted-foreground transition-colors hover:text-foreground">Início</Link></li>
+              <li><Link href="/meu-banco" className="text-sm text-muted-foreground transition-colors hover:text-foreground">Meu Banco</Link></li>
+              <li><Link href="/bancos" className="text-sm text-muted-foreground transition-colors hover:text-foreground">Ranking dos Bancos</Link></li>
+              <li><Link href="/comparar" className="text-sm text-muted-foreground transition-colors hover:text-foreground">Comparador</Link></li>
+              <li><Link href="/ranking" className="text-sm text-muted-foreground transition-colors hover:text-foreground">Bancos Mais Seguros</Link></li>
+              <li><Link href="/calculadora-fgc" className="text-sm text-muted-foreground transition-colors hover:text-foreground">Calculadora FGC</Link></li>
+              <li><Link href="/faq" className="text-sm text-muted-foreground transition-colors hover:text-foreground">Perguntas Frequentes</Link></li>
+              <li><Link href="/metodologia" className="text-sm text-muted-foreground transition-colors hover:text-foreground">Metodologia</Link></li>
             </ul>
           </div>
 

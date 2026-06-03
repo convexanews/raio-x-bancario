@@ -23,11 +23,11 @@ export function Header() {
 
         <nav className="hidden items-center gap-6 md:flex">
           <Link href="/" className="text-sm font-medium text-muted-foreground transition-colors hover:text-foreground">Início</Link>
+          <Link href="/meu-banco" className="text-sm font-medium text-muted-foreground transition-colors hover:text-foreground">Meu Banco</Link>
           <Link href="/bancos" className="text-sm font-medium text-muted-foreground transition-colors hover:text-foreground">Bancos</Link>
           <Link href="/comparar" className="text-sm font-medium text-muted-foreground transition-colors hover:text-foreground">Comparar</Link>
           <Link href="/ranking" className="text-sm font-medium text-muted-foreground transition-colors hover:text-foreground">Ranking</Link>
-          <Link href="/#indicadores" className="text-sm font-medium text-muted-foreground transition-colors hover:text-foreground">Indicadores</Link>
-          <Link href="/#sobre" className="text-sm font-medium text-muted-foreground transition-colors hover:text-foreground">Sobre</Link>
+          <Link href="/calculadora-fgc" className="text-sm font-medium text-muted-foreground transition-colors hover:text-foreground">Calculadora FGC</Link>
         </nav>
 
         <div className="hidden items-center gap-2 md:flex">
@@ -43,10 +43,11 @@ export function Header() {
         <div className="border-t border-border bg-background md:hidden">
           <nav className="flex flex-col gap-2 p-4">
             <Link href="/" className="rounded-lg px-3 py-2 text-sm font-medium text-foreground hover:bg-secondary" onClick={() => setIsMenuOpen(false)}>Início</Link>
+            <Link href="/meu-banco" className="rounded-lg px-3 py-2 text-sm font-medium text-muted-foreground hover:bg-secondary hover:text-foreground" onClick={() => setIsMenuOpen(false)}>Meu Banco</Link>
             <Link href="/bancos" className="rounded-lg px-3 py-2 text-sm font-medium text-muted-foreground hover:bg-secondary hover:text-foreground" onClick={() => setIsMenuOpen(false)}>Bancos</Link>
             <Link href="/comparar" className="rounded-lg px-3 py-2 text-sm font-medium text-muted-foreground hover:bg-secondary hover:text-foreground" onClick={() => setIsMenuOpen(false)}>Comparar</Link>
             <Link href="/ranking" className="rounded-lg px-3 py-2 text-sm font-medium text-muted-foreground hover:bg-secondary hover:text-foreground" onClick={() => setIsMenuOpen(false)}>Ranking</Link>
-            <Link href="/#indicadores" className="rounded-lg px-3 py-2 text-sm font-medium text-muted-foreground hover:bg-secondary hover:text-foreground" onClick={() => setIsMenuOpen(false)}>Indicadores</Link>
+            <Link href="/calculadora-fgc" className="rounded-lg px-3 py-2 text-sm font-medium text-muted-foreground hover:bg-secondary hover:text-foreground" onClick={() => setIsMenuOpen(false)}>Calculadora FGC</Link>
             <div className="mt-2">
               <ThemeToggle />
             </div>
