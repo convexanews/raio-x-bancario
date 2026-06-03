@@ -13,8 +13,15 @@ export interface BancoRaioX {
   rwa?: number;
   pr?: number;
   capital_principal?: number;
+  capital_nivel1?: number;
+  razao_alavancagem?: number;
   carteira_credito?: number;
   depositos_total?: number;
+  captacoes_total?: number;
+  lucro_liquido?: number;
+  tvm?: number;
+  vr_estimado?: number;
+  ar_estimado?: number;
   score: number;
   situacao: 'verde' | 'amarelo' | 'vermelho';
   rating_moodys: string;

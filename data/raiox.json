@@ -14,7 +14,7 @@
       "capital_nivel1": 15.05,
       "razao_alavancagem": 6.08,
       "funding_capital": 12.15,
-      "cobertura_prudencial": 50.22,
+      "cobertura_prudencial": 68.79,
       "patrimonio_liquido": 112336800541.66,
       "ativo_total": 2219854559426.4,
       "rwa": 960072333608.86,
@@ -31,7 +31,10 @@
       "rating_sp": "",
       "rating_perspectiva": "",
       "rating_fonte": "",
-      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)"
+      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)",
+      "tvm": 0.0,
+      "vr_estimado": 1911740999171.0,
+      "ar_estimado": 1315148153734.0
     },
     {
       "nome": "BNDES",
@@ -42,7 +45,7 @@
       "capital_nivel1": 22.58,
       "razao_alavancagem": 16.12,
       "funding_capital": 2.98,
-      "cobertura_prudencial": 133.14,
+      "cobertura_prudencial": 67.65,
       "patrimonio_liquido": 172037866444.72,
       "ativo_total": 962020087440.68,
       "rwa": 791650899782.13,
@@ -59,7 +62,10 @@
       "rating_sp": "",
       "rating_perspectiva": "",
       "rating_fonte": "",
-      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)"
+      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)",
+      "tvm": 0.0,
+      "vr_estimado": 594598316842.0,
+      "ar_estimado": 402243400814.0
     },
     {
       "nome": "Nubank",
@@ -70,7 +76,7 @@
       "capital_nivel1": 14.36,
       "razao_alavancagem": 0.0,
       "funding_capital": 7.77,
-      "cobertura_prudencial": 77.72,
+      "cobertura_prudencial": 62.66,
       "patrimonio_liquido": 23152428325.22,
       "ativo_total": 345307050927.7,
       "rwa": 171142037672.2,
@@ -87,7 +93,10 @@
       "rating_sp": "",
       "rating_perspectiva": "",
       "rating_fonte": "",
-      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)"
+      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)",
+      "tvm": 638905000.0,
+      "vr_estimado": 220189251772.0,
+      "ar_estimado": 137972800533.0
     },
     {
       "nome": "Safra",
@@ -98,7 +107,7 @@
       "capital_nivel1": 13.34,
       "razao_alavancagem": 7.57,
       "funding_capital": 8.1,
-      "cobertura_prudencial": 74.54,
+      "cobertura_prudencial": 93.4,
       "patrimonio_liquido": 17430294933.09,
       "ativo_total": 285827562000.0,
       "rwa": 168191650482.08,
@@ -115,7 +124,10 @@
       "rating_sp": "",
       "rating_perspectiva": "",
       "rating_fonte": "",
-      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)"
+      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)",
+      "tvm": 69502538000.0,
+      "vr_estimado": 225643931221.0,
+      "ar_estimado": 210756777401.0
     },
     {
       "nome": "Sicredi",
@@ -126,7 +138,7 @@
       "capital_nivel1": 20.03,
       "razao_alavancagem": 3.42,
       "funding_capital": 24.75,
-      "cobertura_prudencial": 20.04,
+      "cobertura_prudencial": 24.16,
       "patrimonio_liquido": 5313879530.65,
       "ativo_total": 222952946884.64,
       "rwa": 38323769680.15,
@@ -143,7 +155,10 @@
       "rating_sp": "",
       "rating_perspectiva": "",
       "rating_fonte": "",
-      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)"
+      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)",
+      "tvm": 0.0,
+      "vr_estimado": 191278188143.0,
+      "ar_estimado": 46213053820.0
     },
     {
       "nome": "JP Morgan",
@@ -154,7 +169,7 @@
       "capital_nivel1": 23.46,
       "razao_alavancagem": 8.17,
       "funding_capital": 10.02,
-      "cobertura_prudencial": 42.53,
+      "cobertura_prudencial": 42.88,
       "patrimonio_liquido": 11314584092.55,
       "ativo_total": 141875066000.0,
       "rwa": 46833182296.87,
@@ -171,7 +186,10 @@
       "rating_sp": "",
       "rating_perspectiva": "",
       "rating_fonte": "",
-      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)"
+      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)",
+      "tvm": 44639172000.0,
+      "vr_estimado": 110127062892.0,
+      "ar_estimado": 47218423066.0
     },
     {
       "nome": "Votorantim",
@@ -182,7 +200,7 @@
       "capital_nivel1": 15.25,
       "razao_alavancagem": 9.47,
       "funding_capital": 6.92,
-      "cobertura_prudencial": 86.53,
+      "cobertura_prudencial": 105.68,
       "patrimonio_liquido": 12692152487.79,
       "ativo_total": 138417787000.0,
       "rwa": 90040132325.84,
@@ -199,7 +217,10 @@
       "rating_sp": "",
       "rating_perspectiva": "",
       "rating_fonte": "",
-      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)"
+      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)",
+      "tvm": 33451668000.0,
+      "vr_estimado": 104054293595.0,
+      "ar_estimado": 109965371038.0
     },
     {
       "nome": "Cielo",
@@ -210,7 +231,7 @@
       "capital_nivel1": 0.0,
       "razao_alavancagem": 0.0,
       "funding_capital": 2.25,
-      "cobertura_prudencial": 246.63,
+      "cobertura_prudencial": 0.0,
       "patrimonio_liquido": 15114269289.49,
       "ativo_total": 119098329505.19,
       "rwa": 25359605112.11,
@@ -227,7 +248,10 @@
       "rating_sp": "",
       "rating_perspectiva": "",
       "rating_fonte": "",
-      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)"
+      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)",
+      "tvm": 0.0,
+      "vr_estimado": 10282639305.0,
+      "ar_estimado": 0.0
     },
     {
       "nome": "PagBank",
@@ -238,7 +262,7 @@
       "capital_nivel1": 29.29,
       "razao_alavancagem": 0.0,
       "funding_capital": 6.07,
-      "cobertura_prudencial": 56.27,
+      "cobertura_prudencial": 19.31,
       "patrimonio_liquido": 7816763828.25,
       "ativo_total": 75614319293.26,
       "rwa": 26855992271.69,
@@ -255,7 +279,10 @@
       "rating_sp": "",
       "rating_perspectiva": "",
       "rating_fonte": "",
-      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)"
+      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)",
+      "tvm": 5388121000.0,
+      "vr_estimado": 47728315288.0,
+      "ar_estimado": 9217451040.0
     },
     {
       "nome": "ABC Brasil",
@@ -266,7 +293,7 @@
       "capital_nivel1": 13.84,
       "razao_alavancagem": 10.71,
       "funding_capital": 5.56,
-      "cobertura_prudencial": 110.44,
+      "cobertura_prudencial": 97.89,
       "patrimonio_liquido": 6776126038.8,
       "ativo_total": 63884711000.0,
       "rwa": 55603284601.69,
@@ -283,7 +310,10 @@
       "rating_sp": "",
       "rating_perspectiva": "",
       "rating_fonte": "",
-      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)"
+      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)",
+      "tvm": 26514815000.0,
+      "vr_estimado": 50347114784.0,
+      "ar_estimado": 49284883962.0
     },
     {
       "nome": "Stone",
@@ -294,7 +324,7 @@
       "capital_nivel1": 15.66,
       "razao_alavancagem": 0.0,
       "funding_capital": 8.28,
-      "cobertura_prudencial": 77.16,
+      "cobertura_prudencial": 10.46,
       "patrimonio_liquido": 9980553349.68,
       "ativo_total": 55418012825.35,
       "rwa": 18334985559.15,
@@ -311,7 +341,10 @@
       "rating_sp": "",
       "rating_perspectiva": "",
       "rating_fonte": "",
-      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)"
+      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)",
+      "tvm": 30434000.0,
+      "vr_estimado": 23761823661.0,
+      "ar_estimado": 2485734948.0
     },
     {
       "nome": "BNP Paribas",
@@ -322,7 +355,7 @@
       "capital_nivel1": 16.47,
       "razao_alavancagem": 10.84,
       "funding_capital": 3.86,
-      "cobertura_prudencial": 130.43,
+      "cobertura_prudencial": 104.54,
       "patrimonio_liquido": 4660010234.26,
       "ativo_total": 45815096306.33,
       "rwa": 33283581109.66,
@@ -339,7 +372,10 @@
       "rating_sp": "",
       "rating_perspectiva": "",
       "rating_fonte": "",
-      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)"
+      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)",
+      "tvm": 20187179000.0,
+      "vr_estimado": 25518286642.0,
+      "ar_estimado": 26676044720.0
     },
     {
       "nome": "Bank of America",
@@ -350,7 +386,7 @@
       "capital_nivel1": 22.59,
       "razao_alavancagem": 13.58,
       "funding_capital": 3.93,
-      "cobertura_prudencial": 112.63,
+      "cobertura_prudencial": 10.25,
       "patrimonio_liquido": 6917106706.49,
       "ativo_total": 42970964544.25,
       "rwa": 30370342902.42,
@@ -367,7 +403,10 @@
       "rating_sp": "",
       "rating_perspectiva": "",
       "rating_fonte": "",
-      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)"
+      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)",
+      "tvm": 0.0,
+      "vr_estimado": 26964695936.0,
+      "ar_estimado": 2763897777.0
     },
     {
       "nome": "Bocom BBM",
@@ -378,7 +417,7 @@
       "capital_nivel1": 11.24,
       "razao_alavancagem": 5.8,
       "funding_capital": 10.7,
-      "cobertura_prudencial": 58.0,
+      "cobertura_prudencial": 94.19,
       "patrimonio_liquido": 1643375513.74,
       "ativo_total": 32641101000.0,
       "rwa": 16162573742.2,
@@ -395,7 +434,10 @@
       "rating_sp": "",
       "rating_perspectiva": "",
       "rating_fonte": "",
-      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)"
+      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)",
+      "tvm": 10005128000.0,
+      "vr_estimado": 27868235125.0,
+      "ar_estimado": 26249757654.0
     },
     {
       "nome": "Banco Clássico",
@@ -406,7 +448,7 @@
       "capital_nivel1": 42.9,
       "razao_alavancagem": 61.91,
       "funding_capital": 0.0,
-      "cobertura_prudencial": 14873358.71,
+      "cobertura_prudencial": 0.0,
       "patrimonio_liquido": 20007125512.26,
       "ativo_total": 32316067345.19,
       "rwa": 46637892663.21,
@@ -423,7 +465,10 @@
       "rating_sp": "",
       "rating_perspectiva": "",
       "rating_fonte": "",
-      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)"
+      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)",
+      "tvm": 0.0,
+      "vr_estimado": 313567.0,
+      "ar_estimado": 0.0
     },
     {
       "nome": "BRDE",
@@ -434,7 +479,7 @@
       "capital_nivel1": 19.94,
       "razao_alavancagem": 16.28,
       "funding_capital": 4.24,
-      "cobertura_prudencial": 118.27,
+      "cobertura_prudencial": 106.74,
       "patrimonio_liquido": 5233897036.13,
       "ativo_total": 29251361022.06,
       "rwa": 26104285967.01,
@@ -451,7 +496,10 @@
       "rating_sp": "",
       "rating_perspectiva": "",
       "rating_fonte": "",
-      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)"
+      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)",
+      "tvm": 0.0,
+      "vr_estimado": 22071642685.0,
+      "ar_estimado": 23558907915.0
     },
     {
       "nome": "Goldman Sachs",
@@ -462,7 +510,7 @@
       "capital_nivel1": 33.27,
       "razao_alavancagem": 21.03,
       "funding_capital": 1.5,
-      "cobertura_prudencial": 200.42,
+      "cobertura_prudencial": 211.93,
       "patrimonio_liquido": 5169569696.05,
       "ativo_total": 27595338000.0,
       "rwa": 15060684775.21,
@@ -479,7 +527,10 @@
       "rating_sp": "",
       "rating_perspectiva": "",
       "rating_fonte": "",
-      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)"
+      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)",
+      "tvm": 15925820000.0,
+      "vr_estimado": 7514741351.0,
+      "ar_estimado": 15925820000.0
     },
     {
       "nome": "CNH Industrial Capital",
@@ -490,7 +541,7 @@
       "capital_nivel1": 11.38,
       "razao_alavancagem": 9.85,
       "funding_capital": 6.28,
-      "cobertura_prudencial": 104.08,
+      "cobertura_prudencial": 107.7,
       "patrimonio_liquido": 2738748009.14,
       "ativo_total": 27391993300.42,
       "rwa": 23922257229.14,
@@ -507,7 +558,10 @@
       "rating_sp": "",
       "rating_perspectiva": "",
       "rating_fonte": "",
-      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)"
+      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)",
+      "tvm": 0.0,
+      "vr_estimado": 22985429495.0,
+      "ar_estimado": 24755783976.0
     },
     {
       "nome": "Morgan Stanley",
@@ -518,7 +572,7 @@
       "capital_nivel1": 22.52,
       "razao_alavancagem": 22.47,
       "funding_capital": 0.95,
-      "cobertura_prudencial": 465.04,
+      "cobertura_prudencial": 162.83,
       "patrimonio_liquido": 6408681985.15,
       "ativo_total": 23832465000.0,
       "rwa": 28123941149.6,
@@ -535,7 +589,10 @@
       "rating_sp": "",
       "rating_perspectiva": "",
       "rating_fonte": "",
-      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)"
+      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)",
+      "tvm": 9847643000.0,
+      "vr_estimado": 6047627646.0,
+      "ar_estimado": 9847643000.0
     },
     {
       "nome": "Sicoob SC/RS",
@@ -546,7 +603,7 @@
       "capital_nivel1": 17.62,
       "razao_alavancagem": 3.87,
       "funding_capital": 0.91,
-      "cobertura_prudencial": 625.3,
+      "cobertura_prudencial": 40.32,
       "patrimonio_liquido": 1482870210.58,
       "ativo_total": 23468747143.2,
       "rwa": 5048362752.79,
@@ -563,7 +620,10 @@
       "rating_sp": "",
       "rating_perspectiva": "",
       "rating_fonte": "",
-      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)"
+      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)",
+      "tvm": 0.0,
+      "vr_estimado": 807344842.0,
+      "ar_estimado": 325485051.0
     },
     {
       "nome": "Banco Carrefour",
@@ -574,7 +634,7 @@
       "capital_nivel1": 16.18,
       "razao_alavancagem": 11.33,
       "funding_capital": 1.42,
-      "cobertura_prudencial": 435.53,
+      "cobertura_prudencial": 427.43,
       "patrimonio_liquido": 3140286848.39,
       "ativo_total": 23088555107.56,
       "rwa": 18467266584.57,
@@ -591,7 +651,10 @@
       "rating_sp": "",
       "rating_perspectiva": "",
       "rating_fonte": "",
-      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)"
+      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)",
+      "tvm": 0.0,
+      "vr_estimado": 4240181298.0,
+      "ar_estimado": 18123829480.0
     },
     {
       "nome": "Crédit Agricole",
@@ -602,7 +665,7 @@
       "capital_nivel1": 26.19,
       "razao_alavancagem": 16.31,
       "funding_capital": 3.82,
-      "cobertura_prudencial": 99.94,
+      "cobertura_prudencial": 66.54,
       "patrimonio_liquido": 4139205670.74,
       "ativo_total": 21344413845.53,
       "rwa": 15610038647.21,
@@ -619,7 +682,10 @@
       "rating_sp": "",
       "rating_perspectiva": "",
       "rating_fonte": "",
-      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)"
+      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)",
+      "tvm": 0.0,
+      "vr_estimado": 15619761608.0,
+      "ar_estimado": 10393450780.0
     },
     {
       "nome": "Bank of China Brasil",
@@ -630,7 +696,7 @@
       "capital_nivel1": 15.3,
       "razao_alavancagem": 12.36,
       "funding_capital": 5.94,
-      "cobertura_prudencial": 110.0,
+      "cobertura_prudencial": 74.43,
       "patrimonio_liquido": 1914455408.84,
       "ativo_total": 21094349065.72,
       "rwa": 18613643960.39,
@@ -647,7 +713,10 @@
       "rating_sp": "",
       "rating_perspectiva": "",
       "rating_fonte": "",
-      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)"
+      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)",
+      "tvm": 0.0,
+      "vr_estimado": 16921088968.0,
+      "ar_estimado": 12594781967.0
     },
     {
       "nome": "Banpará",
@@ -658,7 +727,7 @@
       "capital_nivel1": 15.08,
       "razao_alavancagem": 10.72,
       "funding_capital": 7.27,
-      "cobertura_prudencial": 82.6,
+      "cobertura_prudencial": 91.44,
       "patrimonio_liquido": 2242663728.75,
       "ativo_total": 19508379385.88,
       "rwa": 13534415726.22,
@@ -675,7 +744,10 @@
       "rating_sp": "",
       "rating_perspectiva": "",
       "rating_fonte": "",
-      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)"
+      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)",
+      "tvm": 0.0,
+      "vr_estimado": 16386149298.0,
+      "ar_estimado": 14982788066.0
     },
     {
       "nome": "Deutsche Bank Brasil",
@@ -686,7 +758,7 @@
       "capital_nivel1": 18.05,
       "razao_alavancagem": 13.02,
       "funding_capital": 3.94,
-      "cobertura_prudencial": 140.51,
+      "cobertura_prudencial": 59.51,
       "patrimonio_liquido": 2971195898.89,
       "ativo_total": 18796082082.33,
       "rwa": 16465818547.98,
@@ -703,7 +775,10 @@
       "rating_sp": "",
       "rating_perspectiva": "",
       "rating_fonte": "",
-      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)"
+      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)",
+      "tvm": 3526901000.0,
+      "vr_estimado": 11718655248.0,
+      "ar_estimado": 6974193733.0
     },
     {
       "nome": "Sicoob SP",
@@ -714,7 +789,7 @@
       "capital_nivel1": 18.26,
       "razao_alavancagem": 2.8,
       "funding_capital": 0.63,
-      "cobertura_prudencial": 863.38,
+      "cobertura_prudencial": 0.0,
       "patrimonio_liquido": 844061165.59,
       "ativo_total": 18708812556.28,
       "rwa": 2819260386.48,
@@ -731,7 +806,10 @@
       "rating_sp": "",
       "rating_perspectiva": "",
       "rating_fonte": "",
-      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)"
+      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)",
+      "tvm": 0.0,
+      "vr_estimado": 326537216.0,
+      "ar_estimado": 0.0
     },
     {
       "nome": "UBS Brasil",
@@ -742,7 +820,7 @@
       "capital_nivel1": 35.9,
       "razao_alavancagem": 18.06,
       "funding_capital": 1.47,
-      "cobertura_prudencial": 189.5,
+      "cobertura_prudencial": 50.27,
       "patrimonio_liquido": 4898970145.52,
       "ativo_total": 18441377866.12,
       "rwa": 12332779621.78,
@@ -759,7 +837,10 @@
       "rating_sp": "",
       "rating_perspectiva": "",
       "rating_fonte": "",
-      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)"
+      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)",
+      "tvm": 0.0,
+      "vr_estimado": 6508150326.0,
+      "ar_estimado": 3271858445.0
     },
     {
       "nome": "Credicitrus",
@@ -770,7 +851,7 @@
       "capital_nivel1": 29.1,
       "razao_alavancagem": 18.3,
       "funding_capital": 3.78,
-      "cobertura_prudencial": 90.9,
+      "cobertura_prudencial": 86.24,
       "patrimonio_liquido": 3514716236.79,
       "ativo_total": 18262538000.0,
       "rwa": 11765528795.47,
@@ -787,7 +868,10 @@
       "rating_sp": "",
       "rating_perspectiva": "",
       "rating_fonte": "",
-      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)"
+      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)",
+      "tvm": 2283008000.0,
+      "vr_estimado": 12943123844.0,
+      "ar_estimado": 11161904495.0
     },
     {
       "nome": "Sofisa",
@@ -798,7 +882,7 @@
       "capital_nivel1": 14.21,
       "razao_alavancagem": 7.27,
       "funding_capital": 10.33,
-      "cobertura_prudencial": 57.21,
+      "cobertura_prudencial": 105.89,
       "patrimonio_liquido": 1130533771.49,
       "ativo_total": 18111446000.0,
       "rwa": 9052828451.42,
@@ -815,7 +899,10 @@
       "rating_sp": "",
       "rating_perspectiva": "",
       "rating_fonte": "",
-      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)"
+      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)",
+      "tvm": 8728472000.0,
+      "vr_estimado": 15825198350.0,
+      "ar_estimado": 16757419828.0
     },
     {
       "nome": "Scotiabank Brasil",
@@ -826,7 +913,7 @@
       "capital_nivel1": 33.55,
       "razao_alavancagem": 15.43,
       "funding_capital": 4.02,
-      "cobertura_prudencial": 74.07,
+      "cobertura_prudencial": 15.78,
       "patrimonio_liquido": 3112584645.91,
       "ativo_total": 17476000266.73,
       "rwa": 9031495811.41,
@@ -843,7 +930,10 @@
       "rating_sp": "",
       "rating_perspectiva": "",
       "rating_fonte": "",
-      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)"
+      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)",
+      "tvm": 0.0,
+      "vr_estimado": 12193480551.0,
+      "ar_estimado": 1923956889.0
     },
     {
       "nome": "CloudWalk",
@@ -854,7 +944,7 @@
       "capital_nivel1": 32.27,
       "razao_alavancagem": 0.0,
       "funding_capital": 1.25,
-      "cobertura_prudencial": 248.1,
+      "cobertura_prudencial": 25.07,
       "patrimonio_liquido": 14059382610.9,
       "ativo_total": 17173297074.09,
       "rwa": 5410723904.36,
@@ -871,7 +961,10 @@
       "rating_sp": "",
       "rating_perspectiva": "",
       "rating_fonte": "",
-      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)"
+      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)",
+      "tvm": 0.0,
+      "vr_estimado": 2180852616.0,
+      "ar_estimado": 546641851.0
     },
     {
       "nome": "GM Financial",
@@ -882,7 +975,7 @@
       "capital_nivel1": 19.14,
       "razao_alavancagem": 14.97,
       "funding_capital": 4.84,
-      "cobertura_prudencial": 107.9,
+      "cobertura_prudencial": 109.22,
       "patrimonio_liquido": 2644740987.16,
       "ativo_total": 16954652745.15,
       "rwa": 13399071360.45,
@@ -899,7 +992,10 @@
       "rating_sp": "",
       "rating_perspectiva": "",
       "rating_fonte": "",
-      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)"
+      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)",
+      "tvm": 0.0,
+      "vr_estimado": 12417697542.0,
+      "ar_estimado": 13562656756.0
     },
     {
       "nome": "Br Partners",
@@ -910,7 +1006,7 @@
       "capital_nivel1": 17.8,
       "razao_alavancagem": 22.02,
       "funding_capital": 11.28,
-      "cobertura_prudencial": 39.25,
+      "cobertura_prudencial": 104.51,
       "patrimonio_liquido": 590837963.3,
       "ativo_total": 16497680843.98,
       "rwa": 5741744389.94,
@@ -927,7 +1023,10 @@
       "rating_sp": "",
       "rating_perspectiva": "",
       "rating_fonte": "",
-      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)"
+      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)",
+      "tvm": 15104047000.0,
+      "vr_estimado": 14627743433.0,
+      "ar_estimado": 15286727797.0
     },
     {
       "nome": "Viacredi",
@@ -938,7 +1037,7 @@
       "capital_nivel1": 31.03,
       "razao_alavancagem": 18.36,
       "funding_capital": 3.65,
-      "cobertura_prudencial": 88.19,
+      "cobertura_prudencial": 76.39,
       "patrimonio_liquido": 3237785887.13,
       "ativo_total": 16356834000.0,
       "rwa": 10435334771.7,
@@ -955,7 +1054,10 @@
       "rating_sp": "",
       "rating_perspectiva": "",
       "rating_fonte": "",
-      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)"
+      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)",
+      "tvm": 660328000.0,
+      "vr_estimado": 11832468250.0,
+      "ar_estimado": 9038538935.0
     },
     {
       "nome": "Banco Mizuho",
@@ -966,7 +1068,7 @@
       "capital_nivel1": 21.45,
       "razao_alavancagem": 8.71,
       "funding_capital": 10.63,
-      "cobertura_prudencial": 43.85,
+      "cobertura_prudencial": 27.08,
       "patrimonio_liquido": 1293371368.04,
       "ativo_total": 16034842702.43,
       "rwa": 5851180516.68,
@@ -983,7 +1085,10 @@
       "rating_sp": "",
       "rating_perspectiva": "",
       "rating_fonte": "",
-      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)"
+      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)",
+      "tvm": 0.0,
+      "vr_estimado": 13344431230.0,
+      "ar_estimado": 3613502756.0
     },
     {
       "nome": "HSBC Brasil",
@@ -994,7 +1099,7 @@
       "capital_nivel1": 22.13,
       "razao_alavancagem": 10.17,
       "funding_capital": 6.03,
-      "cobertura_prudencial": 74.99,
+      "cobertura_prudencial": 83.83,
       "patrimonio_liquido": 1538960442.64,
       "ativo_total": 15623723000.0,
       "rwa": 8866455630.74,
@@ -1011,7 +1116,10 @@
       "rating_sp": "",
       "rating_perspectiva": "",
       "rating_fonte": "",
-      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)"
+      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)",
+      "tvm": 4934838000.0,
+      "vr_estimado": 11823773443.0,
+      "ar_estimado": 9911440504.0
     },
     {
       "nome": "Unicred Brasil",
@@ -1022,7 +1130,7 @@
       "capital_nivel1": 24.07,
       "razao_alavancagem": 2.43,
       "funding_capital": 0.0,
-      "cobertura_prudencial": 972947.58,
+      "cobertura_prudencial": 0.0,
       "patrimonio_liquido": 660467302.36,
       "ativo_total": 15209280282.64,
       "rwa": 1414657414.97,
@@ -1039,7 +1147,10 @@
       "rating_sp": "",
       "rating_perspectiva": "",
       "rating_fonte": "",
-      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)"
+      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)",
+      "tvm": 0.0,
+      "vr_estimado": 145399.0,
+      "ar_estimado": 0.0
     },
     {
       "nome": "BDMG",
@@ -1050,7 +1161,7 @@
       "capital_nivel1": 22.17,
       "razao_alavancagem": 13.03,
       "funding_capital": 5.3,
-      "cobertura_prudencial": 85.08,
+      "cobertura_prudencial": 72.68,
       "patrimonio_liquido": 2409527738.96,
       "ativo_total": 14329088735.83,
       "rwa": 9262951938.22,
@@ -1067,7 +1178,10 @@
       "rating_sp": "",
       "rating_perspectiva": "",
       "rating_fonte": "",
-      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)"
+      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)",
+      "tvm": 0.0,
+      "vr_estimado": 10886961628.0,
+      "ar_estimado": 7912462901.0
     },
     {
       "nome": "Sicoob ES",
@@ -1078,7 +1192,7 @@
       "capital_nivel1": 15.8,
       "razao_alavancagem": 3.56,
       "funding_capital": 1.03,
-      "cobertura_prudencial": 611.83,
+      "cobertura_prudencial": 744.08,
       "patrimonio_liquido": 685428003.06,
       "ativo_total": 14285333000.0,
       "rwa": 3180556211.64,
@@ -1095,7 +1209,10 @@
       "rating_sp": "",
       "rating_perspectiva": "",
       "rating_fonte": "",
-      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)"
+      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)",
+      "tvm": 3743310000.0,
+      "vr_estimado": 519842677.0,
+      "ar_estimado": 3868068596.0
     },
     {
       "nome": "Sicoob Cocred",
@@ -1106,7 +1223,7 @@
       "capital_nivel1": 17.69,
       "razao_alavancagem": 12.21,
       "funding_capital": 6.44,
-      "cobertura_prudencial": 87.85,
+      "cobertura_prudencial": 71.52,
       "patrimonio_liquido": 1862347824.05,
       "ativo_total": 14233415829.0,
       "rwa": 10134127767.89,
@@ -1123,7 +1240,10 @@
       "rating_sp": "",
       "rating_perspectiva": "",
       "rating_fonte": "",
-      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)"
+      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)",
+      "tvm": 0.0,
+      "vr_estimado": 11535481427.0,
+      "ar_estimado": 8250155652.0
     },
     {
       "nome": "Ailos",
@@ -1134,7 +1254,7 @@
       "capital_nivel1": 36.32,
       "razao_alavancagem": 3.66,
       "funding_capital": 4.62,
-      "cobertura_prudencial": 59.55,
+      "cobertura_prudencial": 31.3,
       "patrimonio_liquido": 967860749.9,
       "ativo_total": 13667096606.94,
       "rwa": 1501242985.58,
@@ -1151,7 +1271,10 @@
       "rating_sp": "",
       "rating_perspectiva": "",
       "rating_fonte": "",
-      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)"
+      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)",
+      "tvm": 0.0,
+      "vr_estimado": 2520940779.0,
+      "ar_estimado": 789111800.0
     },
     {
       "nome": "Sicredi Ouro",
@@ -1162,7 +1285,7 @@
       "capital_nivel1": 17.43,
       "razao_alavancagem": 12.06,
       "funding_capital": 2.92,
-      "cobertura_prudencial": 192.81,
+      "cobertura_prudencial": 141.84,
       "patrimonio_liquido": 1996279429.7,
       "ativo_total": 13331045565.94,
       "rwa": 11410282068.29,
@@ -1179,7 +1302,10 @@
       "rating_sp": "",
       "rating_perspectiva": "",
       "rating_fonte": "",
-      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)"
+      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)",
+      "tvm": 0.0,
+      "vr_estimado": 5917790663.0,
+      "ar_estimado": 8393938387.0
     },
     {
       "nome": "Paraná Banco",
@@ -1190,7 +1316,7 @@
       "capital_nivel1": 16.67,
       "razao_alavancagem": 8.43,
       "funding_capital": 11.23,
-      "cobertura_prudencial": 53.4,
+      "cobertura_prudencial": 76.91,
       "patrimonio_liquido": 1256216257.45,
       "ativo_total": 13251676853.98,
       "rwa": 6178357117.58,
@@ -1207,7 +1333,10 @@
       "rating_sp": "",
       "rating_perspectiva": "",
       "rating_fonte": "",
-      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)"
+      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)",
+      "tvm": 0.0,
+      "vr_estimado": 11569399672.0,
+      "ar_estimado": 8897844370.0
     },
     {
       "nome": "Sicoob Conexão",
@@ -1218,7 +1347,7 @@
       "capital_nivel1": 0.0,
       "razao_alavancagem": 0.0,
       "funding_capital": 3.84,
-      "cobertura_prudencial": 106.82,
+      "cobertura_prudencial": 89.15,
       "patrimonio_liquido": 2509104826.92,
       "ativo_total": 13152011521.29,
       "rwa": 9611999913.2,
@@ -1235,7 +1364,10 @@
       "rating_sp": "",
       "rating_perspectiva": "",
       "rating_fonte": "",
-      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)"
+      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)",
+      "tvm": 0.0,
+      "vr_estimado": 8998277569.0,
+      "ar_estimado": 8022132577.0
     },
     {
       "nome": "Sicredi Pioneira",
@@ -1246,7 +1378,7 @@
       "capital_nivel1": 19.18,
       "razao_alavancagem": 9.79,
       "funding_capital": 6.76,
-      "cobertura_prudencial": 77.14,
+      "cobertura_prudencial": 71.7,
       "patrimonio_liquido": 1206216565.51,
       "ativo_total": 11237440379.57,
       "rwa": 6276373243.49,
@@ -1263,7 +1395,10 @@
       "rating_sp": "",
       "rating_perspectiva": "",
       "rating_fonte": "",
-      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)"
+      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)",
+      "tvm": 0.0,
+      "vr_estimado": 8136809251.0,
+      "ar_estimado": 5834368050.0
     },
     {
       "nome": "POUPEX",
@@ -1274,7 +1409,7 @@
       "capital_nivel1": 56.12,
       "razao_alavancagem": 0.0,
       "funding_capital": 1.91,
-      "cobertura_prudencial": 93.12,
+      "cobertura_prudencial": 146.55,
       "patrimonio_liquido": 7674747372.88,
       "ativo_total": 11149831002.13,
       "rwa": 3060922590.81,
@@ -1291,7 +1426,10 @@
       "rating_sp": "",
       "rating_perspectiva": "",
       "rating_fonte": "",
-      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)"
+      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)",
+      "tvm": 0.0,
+      "vr_estimado": 3286951999.0,
+      "ar_estimado": 4816869570.0
     },
     {
       "nome": "Honda Financeira",
@@ -1302,7 +1440,7 @@
       "capital_nivel1": 22.38,
       "razao_alavancagem": 16.58,
       "funding_capital": 2.76,
-      "cobertura_prudencial": 162.12,
+      "cobertura_prudencial": 123.46,
       "patrimonio_liquido": 6247721381.17,
       "ativo_total": 10959767000.0,
       "rwa": 13328546071.23,
@@ -1319,7 +1457,10 @@
       "rating_sp": "",
       "rating_perspectiva": "",
       "rating_fonte": "",
-      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)"
+      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)",
+      "tvm": 276239000.0,
+      "vr_estimado": 8221334318.0,
+      "ar_estimado": 10149952026.0
     },
     {
       "nome": "Sicredi Sul/Sudeste",
@@ -1330,7 +1471,7 @@
       "capital_nivel1": 21.92,
       "razao_alavancagem": 4.49,
       "funding_capital": 0.03,
-      "cobertura_prudencial": 17214.89,
+      "cobertura_prudencial": 0.0,
       "patrimonio_liquido": 2641423453.58,
       "ativo_total": 10931583674.01,
       "rwa": 1733218275.43,
@@ -1347,7 +1488,10 @@
       "rating_sp": "",
       "rating_perspectiva": "",
       "rating_fonte": "",
-      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)"
+      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)",
+      "tvm": 0.0,
+      "vr_estimado": 10068134.0,
+      "ar_estimado": 0.0
     },
     {
       "nome": "Sicoob Maxicrédito",
@@ -1358,7 +1502,7 @@
       "capital_nivel1": 16.48,
       "razao_alavancagem": 10.89,
       "funding_capital": 6.16,
-      "cobertura_prudencial": 98.51,
+      "cobertura_prudencial": 86.4,
       "patrimonio_liquido": 1302975450.06,
       "ativo_total": 10912414294.68,
       "rwa": 8004713339.35,
@@ -1375,7 +1519,10 @@
       "rating_sp": "",
       "rating_perspectiva": "",
       "rating_fonte": "",
-      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)"
+      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)",
+      "tvm": 0.0,
+      "vr_estimado": 8125511439.0,
+      "ar_estimado": 7020303140.0
     },
     {
       "nome": "Sisprime",
@@ -1386,7 +1533,7 @@
       "capital_nivel1": 22.8,
       "razao_alavancagem": 16.71,
       "funding_capital": 4.63,
-      "cobertura_prudencial": 94.64,
+      "cobertura_prudencial": 65.31,
       "patrimonio_liquido": 1837127145.41,
       "ativo_total": 10460224019.12,
       "rwa": 7985962217.15,
@@ -1403,7 +1550,10 @@
       "rating_sp": "",
       "rating_perspectiva": "",
       "rating_fonte": "",
-      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)"
+      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)",
+      "tvm": 0.0,
+      "vr_estimado": 8438270472.0,
+      "ar_estimado": 5510648093.0
     },
     {
       "nome": "Sicoob Credicom",
@@ -1414,7 +1564,7 @@
       "capital_nivel1": 0.0,
       "razao_alavancagem": 0.0,
       "funding_capital": 6.03,
-      "cobertura_prudencial": 69.8,
+      "cobertura_prudencial": 66.01,
       "patrimonio_liquido": 1360346863.84,
       "ativo_total": 9681848000.0,
       "rwa": 5366627477.02,
@@ -1431,7 +1581,10 @@
       "rating_sp": "",
       "rating_perspectiva": "",
       "rating_fonte": "",
-      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)"
+      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)",
+      "tvm": 253847000.0,
+      "vr_estimado": 7688199239.0,
+      "ar_estimado": 5074613605.0
     },
     {
       "nome": "Banco MUFG",
@@ -1442,7 +1595,7 @@
       "capital_nivel1": 29.75,
       "razao_alavancagem": 16.88,
       "funding_capital": 4.06,
-      "cobertura_prudencial": 82.88,
+      "cobertura_prudencial": 33.23,
       "patrimonio_liquido": 1622026592.6,
       "ativo_total": 9317376453.83,
       "rwa": 5314981350.66,
@@ -1459,7 +1612,10 @@
       "rating_sp": "",
       "rating_perspectiva": "",
       "rating_fonte": "",
-      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)"
+      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)",
+      "tvm": 0.0,
+      "vr_estimado": 6412907800.0,
+      "ar_estimado": 2131141214.0
     },
     {
       "nome": "Crefisa S.A. Cfi",
@@ -1470,7 +1626,7 @@
       "capital_nivel1": 54.78,
       "razao_alavancagem": 78.07,
       "funding_capital": 0.15,
-      "cobertura_prudencial": 1245.85,
+      "cobertura_prudencial": 451.8,
       "patrimonio_liquido": 7010216187.23,
       "ativo_total": 9277378521.36,
       "rwa": 12574568577.05,
@@ -1487,7 +1643,10 @@
       "rating_sp": "",
       "rating_perspectiva": "",
       "rating_fonte": "",
-      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)"
+      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)",
+      "tvm": 0.0,
+      "vr_estimado": 1009317459.0,
+      "ar_estimado": 4560092765.0
     },
     {
       "nome": "Itaú Unibanco",
@@ -1498,7 +1657,7 @@
       "capital_nivel1": 13.83,
       "razao_alavancagem": 6.98,
       "funding_capital": 9.17,
-      "cobertura_prudencial": 71.81,
+      "cobertura_prudencial": 88.49,
       "patrimonio_liquido": 227761732143.46,
       "ativo_total": 2741499329000.0,
       "rwa": 1505476182413.97,
@@ -1515,7 +1674,10 @@
       "rating_sp": "",
       "rating_perspectiva": "",
       "rating_fonte": "",
-      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)"
+      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)",
+      "tvm": 623182740000.0,
+      "vr_estimado": 2096587810507.0,
+      "ar_estimado": 1855260101245.0
     },
     {
       "nome": "Banco do Brasil",
@@ -1526,7 +1688,7 @@
       "capital_nivel1": 14.26,
       "razao_alavancagem": 7.74,
       "funding_capital": 9.42,
-      "cobertura_prudencial": 70.14,
+      "cobertura_prudencial": 95.65,
       "patrimonio_liquido": 184896726369.69,
       "ativo_total": 2454390684000.0,
       "rwa": 1351829023504.43,
@@ -1543,7 +1705,10 @@
       "rating_sp": "",
       "rating_perspectiva": "",
       "rating_fonte": "",
-      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)"
+      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)",
+      "tvm": 727135387000.0,
+      "vr_estimado": 1927228586689.0,
+      "ar_estimado": 1843415771686.0
     },
     {
       "nome": "Santander Brasil",
@@ -1554,7 +1719,7 @@
       "capital_nivel1": 12.62,
       "razao_alavancagem": 7.41,
       "funding_capital": 8.2,
-      "cobertura_prudencial": 79.38,
+      "cobertura_prudencial": 88.99,
       "patrimonio_liquido": 108709021247.37,
       "ativo_total": 1281314886000.0,
       "rwa": 748967211312.318,
@@ -1571,7 +1736,10 @@
       "rating_sp": "",
       "rating_perspectiva": "",
       "rating_fonte": "",
-      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)"
+      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)",
+      "tvm": 285708213000.0,
+      "vr_estimado": 943495537548.0,
+      "ar_estimado": 839654565182.0
     },
     {
       "nome": "Citibank Brasil",
@@ -1582,7 +1750,7 @@
       "capital_nivel1": 13.44,
       "razao_alavancagem": 5.48,
       "funding_capital": 15.0,
-      "cobertura_prudencial": 49.61,
+      "cobertura_prudencial": 59.61,
       "patrimonio_liquido": 10103080007.8,
       "ativo_total": 197366363000.0,
       "rwa": 74112742628.49,
@@ -1599,7 +1767,10 @@
       "rating_sp": "",
       "rating_perspectiva": "",
       "rating_fonte": "",
-      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)"
+      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)",
+      "tvm": 55120332000.0,
+      "vr_estimado": 149388182471.0,
+      "ar_estimado": 89043050712.0
     },
     {
       "nome": "Banco Sicoob",
@@ -1610,7 +1781,7 @@
       "capital_nivel1": 19.2,
       "razao_alavancagem": 3.31,
       "funding_capital": 24.81,
-      "cobertura_prudencial": 20.99,
+      "cobertura_prudencial": 25.1,
       "patrimonio_liquido": 5979610470.07,
       "ativo_total": 191965841148.62,
       "rwa": 33837544737.89,
@@ -1627,7 +1798,10 @@
       "rating_sp": "",
       "rating_perspectiva": "",
       "rating_fonte": "",
-      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)"
+      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)",
+      "tvm": 0.0,
+      "vr_estimado": 161244528583.0,
+      "ar_estimado": 40472569372.0
     },
     {
       "nome": "Banrisul",
@@ -1638,7 +1812,7 @@
       "capital_nivel1": 13.98,
       "razao_alavancagem": 6.08,
       "funding_capital": 9.59,
-      "cobertura_prudencial": 53.34,
+      "cobertura_prudencial": 94.11,
       "patrimonio_liquido": 11178408778.65,
       "ativo_total": 163569253000.0,
       "rwa": 73706988625.11,
@@ -1655,7 +1829,10 @@
       "rating_sp": "",
       "rating_perspectiva": "",
       "rating_fonte": "",
-      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)"
+      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)",
+      "tvm": 68821326000.0,
+      "vr_estimado": 138180570470.0,
+      "ar_estimado": 130035949395.0
     },
     {
       "nome": "Mercado Pago",
@@ -1666,7 +1843,7 @@
       "capital_nivel1": 11.45,
       "razao_alavancagem": 0.0,
       "funding_capital": 12.22,
-      "cobertura_prudencial": 66.58,
+      "cobertura_prudencial": 46.59,
       "patrimonio_liquido": 5540934293.36,
       "ativo_total": 103521816204.87,
       "rwa": 42912707731.16,
@@ -1683,7 +1860,10 @@
       "rating_sp": "",
       "rating_perspectiva": "",
       "rating_fonte": "",
-      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)"
+      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)",
+      "tvm": 2801279000.0,
+      "vr_estimado": 64454746500.0,
+      "ar_estimado": 30031735871.0
     },
     {
       "nome": "Banco do Nordeste",
@@ -1694,7 +1874,7 @@
       "capital_nivel1": 13.26,
       "razao_alavancagem": 10.31,
       "funding_capital": 1.29,
-      "cobertura_prudencial": 555.17,
+      "cobertura_prudencial": 85.5,
       "patrimonio_liquido": 16169739966.29,
       "ativo_total": 73391468620.63,
       "rwa": 122922379843.43,
@@ -1711,7 +1891,10 @@
       "rating_sp": "",
       "rating_perspectiva": "",
       "rating_fonte": "",
-      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)"
+      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)",
+      "tvm": 0.0,
+      "vr_estimado": 22141401102.0,
+      "ar_estimado": 18930770929.0
     },
     {
       "nome": "Banco da Amazônia",
@@ -1722,7 +1905,7 @@
       "capital_nivel1": 13.28,
       "razao_alavancagem": 9.56,
       "funding_capital": 2.11,
-      "cobertura_prudencial": 356.86,
+      "cobertura_prudencial": 252.6,
       "patrimonio_liquido": 7161405195.49,
       "ativo_total": 63323902338.9,
       "rwa": 54521238570.31,
@@ -1739,7 +1922,10 @@
       "rating_sp": "",
       "rating_perspectiva": "",
       "rating_fonte": "",
-      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)"
+      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)",
+      "tvm": 0.0,
+      "vr_estimado": 15278155608.0,
+      "ar_estimado": 38591917337.0
     },
     {
       "nome": "Volkswagen",
@@ -1750,7 +1936,7 @@
       "capital_nivel1": 11.49,
       "razao_alavancagem": 8.88,
       "funding_capital": 8.05,
-      "cobertura_prudencial": 96.01,
+      "cobertura_prudencial": 104.07,
       "patrimonio_liquido": 6784091474.65,
       "ativo_total": 59029962749.96,
       "rwa": 45718199875.13,
@@ -1767,7 +1953,10 @@
       "rating_sp": "",
       "rating_perspectiva": "",
       "rating_fonte": "",
-      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)"
+      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)",
+      "tvm": 430665000.0,
+      "vr_estimado": 47616563460.0,
+      "ar_estimado": 49552640026.0
     },
     {
       "nome": "Rabobank Brasil",
@@ -1778,7 +1967,7 @@
       "capital_nivel1": 13.34,
       "razao_alavancagem": 8.97,
       "funding_capital": 6.76,
-      "cobertura_prudencial": 110.91,
+      "cobertura_prudencial": 81.42,
       "patrimonio_liquido": 5678175197.02,
       "ativo_total": 57083521766.62,
       "rwa": 52548328939.6,
@@ -1795,7 +1984,10 @@
       "rating_sp": "",
       "rating_perspectiva": "",
       "rating_fonte": "",
-      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)"
+      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)",
+      "tvm": 0.0,
+      "vr_estimado": 47378808429.0,
+      "ar_estimado": 38576115731.0
     },
     {
       "nome": "PicPay",
@@ -1806,7 +1998,7 @@
       "capital_nivel1": 9.25,
       "razao_alavancagem": 0.0,
       "funding_capital": 12.17,
-      "cobertura_prudencial": 69.98,
+      "cobertura_prudencial": 69.83,
       "patrimonio_liquido": 4328980937.82,
       "ativo_total": 41711931121.99,
       "rwa": 20460446500.62,
@@ -1823,7 +2015,10 @@
       "rating_sp": "",
       "rating_perspectiva": "",
       "rating_fonte": "",
-      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)"
+      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)",
+      "tvm": 0.0,
+      "vr_estimado": 29236037145.0,
+      "ar_estimado": 20415203633.0
     },
     {
       "nome": "Pine",
@@ -1834,7 +2029,7 @@
       "capital_nivel1": 10.98,
       "razao_alavancagem": 5.04,
       "funding_capital": 11.44,
-      "cobertura_prudencial": 59.52,
+      "cobertura_prudencial": 107.77,
       "patrimonio_liquido": 1435632163.27,
       "ativo_total": 32480923000.0,
       "rwa": 15007173702.85,
@@ -1851,7 +2046,10 @@
       "rating_sp": "",
       "rating_perspectiva": "",
       "rating_fonte": "",
-      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)"
+      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)",
+      "tvm": 14848094000.0,
+      "vr_estimado": 25214966713.0,
+      "ar_estimado": 27173609389.0
     },
     {
       "nome": "Original",
@@ -1862,7 +2060,7 @@
       "capital_nivel1": 10.4,
       "razao_alavancagem": 7.66,
       "funding_capital": 8.02,
-      "cobertura_prudencial": 86.31,
+      "cobertura_prudencial": 89.18,
       "patrimonio_liquido": 1803370013.56,
       "ativo_total": 32141684312.91,
       "rwa": 24188024835.83,
@@ -1879,7 +2077,10 @@
       "rating_sp": "",
       "rating_perspectiva": "",
       "rating_fonte": "",
-      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)"
+      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)",
+      "tvm": 6856755000.0,
+      "vr_estimado": 28025985199.0,
+      "ar_estimado": 24994689553.0
     },
     {
       "nome": "Sicoob Crediminas",
@@ -1890,7 +2091,7 @@
       "capital_nivel1": 18.01,
       "razao_alavancagem": 2.8,
       "funding_capital": 1.13,
-      "cobertura_prudencial": 492.96,
+      "cobertura_prudencial": 16.97,
       "patrimonio_liquido": 1677240950.76,
       "ativo_total": 30750159156.13,
       "rwa": 4668431774.22,
@@ -1907,7 +2108,10 @@
       "rating_sp": "",
       "rating_perspectiva": "",
       "rating_fonte": "",
-      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)"
+      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)",
+      "tvm": 0.0,
+      "vr_estimado": 947026677.0,
+      "ar_estimado": 160753678.0
     },
     {
       "nome": "Stellantis",
@@ -1918,7 +2122,7 @@
       "capital_nivel1": 14.85,
       "razao_alavancagem": 10.71,
       "funding_capital": 6.02,
-      "cobertura_prudencial": 111.87,
+      "cobertura_prudencial": 131.46,
       "patrimonio_liquido": 8055912384.7,
       "ativo_total": 25698669000.0,
       "rwa": 23404214169.06,
@@ -1935,7 +2139,10 @@
       "rating_sp": "",
       "rating_perspectiva": "",
       "rating_fonte": "",
-      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)"
+      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)",
+      "tvm": 890806000.0,
+      "vr_estimado": 20920413093.0,
+      "ar_estimado": 27501608236.0
     },
     {
       "nome": "Sicoob Cecremge",
@@ -1963,7 +2170,10 @@
       "rating_sp": "",
       "rating_perspectiva": "",
       "rating_fonte": "",
-      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)"
+      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)",
+      "tvm": 9667705000.0,
+      "vr_estimado": 0.0,
+      "ar_estimado": 10610152545.0
     },
     {
       "nome": "Porto Seguro",
@@ -1974,7 +2184,7 @@
       "capital_nivel1": 8.15,
       "razao_alavancagem": 0.0,
       "funding_capital": 2.07,
-      "cobertura_prudencial": 442.85,
+      "cobertura_prudencial": 413.91,
       "patrimonio_liquido": 1847324934.84,
       "ativo_total": 23199617000.0,
       "rwa": 22530190996.9,
@@ -1991,7 +2201,10 @@
       "rating_sp": "",
       "rating_perspectiva": "",
       "rating_fonte": "",
-      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)"
+      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)",
+      "tvm": 755640000.0,
+      "vr_estimado": 5087600664.0,
+      "ar_estimado": 21058333939.0
     },
     {
       "nome": "Mercedes-Benz",
@@ -2002,7 +2215,7 @@
       "capital_nivel1": 13.17,
       "razao_alavancagem": 11.71,
       "funding_capital": 7.19,
-      "cobertura_prudencial": 105.58,
+      "cobertura_prudencial": 108.56,
       "patrimonio_liquido": 2379070802.87,
       "ativo_total": 20167120617.44,
       "rwa": 18048763638.14,
@@ -2019,7 +2232,10 @@
       "rating_sp": "",
       "rating_perspectiva": "",
       "rating_fonte": "",
-      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)"
+      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)",
+      "tvm": 0.0,
+      "vr_estimado": 17094188978.0,
+      "ar_estimado": 18557179365.0
     },
     {
       "nome": "Volvo",
@@ -2030,7 +2246,7 @@
       "capital_nivel1": 24.51,
       "razao_alavancagem": 22.82,
       "funding_capital": 3.15,
-      "cobertura_prudencial": 129.4,
+      "cobertura_prudencial": 120.38,
       "patrimonio_liquido": 3988000045.92,
       "ativo_total": 16924126206.9,
       "rwa": 16222013640.2,
@@ -2047,7 +2263,10 @@
       "rating_sp": "",
       "rating_perspectiva": "",
       "rating_fonte": "",
-      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)"
+      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)",
+      "tvm": 0.0,
+      "vr_estimado": 12536047289.0,
+      "ar_estimado": 15091042482.0
     },
     {
       "nome": "Scania",
@@ -2058,7 +2277,7 @@
       "capital_nivel1": 12.31,
       "razao_alavancagem": 10.88,
       "funding_capital": 8.21,
-      "cobertura_prudencial": 98.94,
+      "cobertura_prudencial": 107.76,
       "patrimonio_liquido": 1710004550.5,
       "ativo_total": 16014785189.01,
       "rwa": 13782501693.53,
@@ -2075,7 +2294,10 @@
       "rating_sp": "",
       "rating_perspectiva": "",
       "rating_fonte": "",
-      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)"
+      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)",
+      "tvm": 0.0,
+      "vr_estimado": 13930257006.0,
+      "ar_estimado": 15011637961.0
     },
     {
       "nome": "Sicredi Dexis",
@@ -2086,7 +2308,7 @@
       "capital_nivel1": 15.16,
       "razao_alavancagem": 9.35,
       "funding_capital": 4.91,
-      "cobertura_prudencial": 124.99,
+      "cobertura_prudencial": 111.14,
       "patrimonio_liquido": 1359919968.15,
       "ativo_total": 14012846929.93,
       "rwa": 9631364263.29,
@@ -2103,7 +2325,10 @@
       "rating_sp": "",
       "rating_perspectiva": "",
       "rating_fonte": "",
-      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)"
+      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)",
+      "tvm": 0.0,
+      "vr_estimado": 7705894022.0,
+      "ar_estimado": 8564172318.0
     },
     {
       "nome": "Bco De Lage Landen Brasil S.A.",
@@ -2114,7 +2339,7 @@
       "capital_nivel1": 7.69,
       "razao_alavancagem": 6.53,
       "funding_capital": 8.47,
-      "cobertura_prudencial": 103.97,
+      "cobertura_prudencial": 103.02,
       "patrimonio_liquido": 1088225946.0,
       "ativo_total": 13551608769.61,
       "rwa": 11845367472.43,
@@ -2131,7 +2356,10 @@
       "rating_sp": "",
       "rating_perspectiva": "",
       "rating_fonte": "",
-      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)"
+      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)",
+      "tvm": 0.0,
+      "vr_estimado": 11393247935.0,
+      "ar_estimado": 11737782428.0
     },
     {
       "nome": "Sicredi Vale",
@@ -2142,7 +2370,7 @@
       "capital_nivel1": 15.01,
       "razao_alavancagem": 8.87,
       "funding_capital": 5.61,
-      "cobertura_prudencial": 107.91,
+      "cobertura_prudencial": 94.66,
       "patrimonio_liquido": 1220004120.37,
       "ativo_total": 13081270602.68,
       "rwa": 8783350082.05,
@@ -2159,7 +2387,10 @@
       "rating_sp": "",
       "rating_perspectiva": "",
       "rating_fonte": "",
-      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)"
+      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)",
+      "tvm": 0.0,
+      "vr_estimado": 8139153767.0,
+      "ar_estimado": 7704163676.0
     },
     {
       "nome": "Bco Inbursa S.A.",
@@ -2170,7 +2401,7 @@
       "capital_nivel1": 14.15,
       "razao_alavancagem": 11.14,
       "funding_capital": 7.91,
-      "cobertura_prudencial": 89.37,
+      "cobertura_prudencial": 110.72,
       "patrimonio_liquido": 1394649620.45,
       "ativo_total": 12592664650.15,
       "rwa": 9882258738.21,
@@ -2187,7 +2418,10 @@
       "rating_sp": "",
       "rating_perspectiva": "",
       "rating_fonte": "",
-      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)"
+      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)",
+      "tvm": 0.0,
+      "vr_estimado": 11057339903.0,
+      "ar_estimado": 12242787329.0
     },
     {
       "nome": "Sicredi Campos",
@@ -2198,7 +2432,7 @@
       "capital_nivel1": 16.99,
       "razao_alavancagem": 9.8,
       "funding_capital": 5.82,
-      "cobertura_prudencial": 98.37,
+      "cobertura_prudencial": 86.4,
       "patrimonio_liquido": 1317956497.53,
       "ativo_total": 12581408894.98,
       "rwa": 8050947534.47,
@@ -2215,7 +2449,10 @@
       "rating_sp": "",
       "rating_perspectiva": "",
       "rating_fonte": "",
-      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)"
+      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)",
+      "tvm": 0.0,
+      "vr_estimado": 8184182894.0,
+      "ar_estimado": 7071303388.0
     },
     {
       "nome": "Bco Toyota Do Brasil S.A.",
@@ -2226,7 +2463,7 @@
       "capital_nivel1": 12.99,
       "razao_alavancagem": 9.04,
       "funding_capital": 8.13,
-      "cobertura_prudencial": 94.66,
+      "cobertura_prudencial": 100.08,
       "patrimonio_liquido": 1282500497.49,
       "ativo_total": 12221951416.65,
       "rwa": 9868188856.9,
@@ -2243,7 +2480,10 @@
       "rating_sp": "",
       "rating_perspectiva": "",
       "rating_fonte": "",
-      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)"
+      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)",
+      "tvm": 0.0,
+      "vr_estimado": 10425039446.0,
+      "ar_estimado": 10433059750.0
     },
     {
       "nome": "Sicredi Vanguarda",
@@ -2254,7 +2494,7 @@
       "capital_nivel1": 18.29,
       "razao_alavancagem": 10.69,
       "funding_capital": 4.48,
-      "cobertura_prudencial": 110.31,
+      "cobertura_prudencial": 95.91,
       "patrimonio_liquido": 1449994638.13,
       "ativo_total": 12214079298.72,
       "rwa": 8065639566.34,
@@ -2271,7 +2511,10 @@
       "rating_sp": "",
       "rating_perspectiva": "",
       "rating_fonte": "",
-      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)"
+      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)",
+      "tvm": 0.0,
+      "vr_estimado": 7311687150.0,
+      "ar_estimado": 7012407896.0
     },
     {
       "nome": "Sicredi Serrana",
@@ -2282,7 +2525,7 @@
       "capital_nivel1": 16.56,
       "razao_alavancagem": 9.04,
       "funding_capital": 6.18,
-      "cobertura_prudencial": 92.65,
+      "cobertura_prudencial": 74.23,
       "patrimonio_liquido": 1280054936.97,
       "ativo_total": 12146389675.2,
       "rwa": 7671058982.04,
@@ -2299,7 +2542,10 @@
       "rating_sp": "",
       "rating_perspectiva": "",
       "rating_fonte": "",
-      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)"
+      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)",
+      "tvm": 0.0,
+      "vr_estimado": 8279551632.0,
+      "ar_estimado": 6145820923.0
     },
     {
       "nome": "Neon",
@@ -2310,7 +2556,7 @@
       "capital_nivel1": 13.76,
       "razao_alavancagem": 0.0,
       "funding_capital": 8.7,
-      "cobertura_prudencial": 83.52,
+      "cobertura_prudencial": 89.99,
       "patrimonio_liquido": 1317366610.6,
       "ativo_total": 11193745942.9,
       "rwa": 5511729124.61,
@@ -2327,7 +2573,10 @@
       "rating_sp": "",
       "rating_perspectiva": "",
       "rating_fonte": "",
-      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)"
+      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)",
+      "tvm": 0.0,
+      "vr_estimado": 6599238733.0,
+      "ar_estimado": 5938706225.0
     },
     {
       "nome": "Sicredi Uniao",
@@ -2338,7 +2587,7 @@
       "capital_nivel1": 16.09,
       "razao_alavancagem": 9.99,
       "funding_capital": 4.4,
-      "cobertura_prudencial": 141.32,
+      "cobertura_prudencial": 118.99,
       "patrimonio_liquido": 1210381066.73,
       "ativo_total": 9918767987.16,
       "rwa": 7389882046.1,
@@ -2355,7 +2604,10 @@
       "rating_sp": "",
       "rating_perspectiva": "",
       "rating_fonte": "",
-      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)"
+      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)",
+      "tvm": 0.0,
+      "vr_estimado": 5229096085.0,
+      "ar_estimado": 6221989822.0
     },
     {
       "nome": "Sicredi Sudoeste",
@@ -2366,7 +2618,7 @@
       "capital_nivel1": 18.9,
       "razao_alavancagem": 11.05,
       "funding_capital": 4.62,
-      "cobertura_prudencial": 111.99,
+      "cobertura_prudencial": 84.02,
       "patrimonio_liquido": 1237814807.32,
       "ativo_total": 9838584806.58,
       "rwa": 6827346199.2,
@@ -2383,7 +2635,10 @@
       "rating_sp": "",
       "rating_perspectiva": "",
       "rating_fonte": "",
-      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)"
+      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)",
+      "tvm": 0.0,
+      "vr_estimado": 6096184429.0,
+      "ar_estimado": 5122207505.0
     },
     {
       "nome": "Sicredi Centro-Sul",
@@ -2394,7 +2649,7 @@
       "capital_nivel1": 19.3,
       "razao_alavancagem": 12.67,
       "funding_capital": 3.79,
-      "cobertura_prudencial": 136.66,
+      "cobertura_prudencial": 120.63,
       "patrimonio_liquido": 1370126930.23,
       "ativo_total": 9785138210.57,
       "rwa": 7163321813.5,
@@ -2411,7 +2666,10 @@
       "rating_sp": "",
       "rating_perspectiva": "",
       "rating_fonte": "",
-      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)"
+      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)",
+      "tvm": 0.0,
+      "vr_estimado": 5241795538.0,
+      "ar_estimado": 6322921421.0
     },
     {
       "nome": "Bradesco",
@@ -2422,7 +2680,7 @@
       "capital_nivel1": 13.15,
       "razao_alavancagem": 6.81,
       "funding_capital": 8.61,
-      "cobertura_prudencial": 73.62,
+      "cobertura_prudencial": 83.28,
       "patrimonio_liquido": 176420049038.57,
       "ativo_total": 1939636826000.0,
       "rwa": 1108961847806.36,
@@ -2439,7 +2697,10 @@
       "rating_sp": "",
       "rating_perspectiva": "",
       "rating_fonte": "",
-      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)"
+      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)",
+      "tvm": 365961207000.0,
+      "vr_estimado": 1506252150514.0,
+      "ar_estimado": 1254445047736.0
     },
     {
       "nome": "BTG Pactual",
@@ -2450,7 +2711,7 @@
       "capital_nivel1": 12.44,
       "razao_alavancagem": 8.59,
       "funding_capital": 5.89,
-      "cobertura_prudencial": 109.52,
+      "cobertura_prudencial": 39.19,
       "patrimonio_liquido": 74917291631.8,
       "ativo_total": 746102634351.73,
       "rwa": 582741932473.31,
@@ -2467,7 +2728,10 @@
       "rating_sp": "",
       "rating_perspectiva": "",
       "rating_fonte": "",
-      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)"
+      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)",
+      "tvm": 0.0,
+      "vr_estimado": 532070833670.0,
+      "ar_estimado": 208516447180.0
     },
     {
       "nome": "Agibank",
@@ -2478,7 +2742,7 @@
       "capital_nivel1": 14.21,
       "razao_alavancagem": 7.25,
       "funding_capital": 8.44,
-      "cobertura_prudencial": 76.33,
+      "cobertura_prudencial": 131.7,
       "patrimonio_liquido": 5277256677.47,
       "ativo_total": 49019120000.0,
       "rwa": 24974034253.72,
@@ -2495,7 +2759,10 @@
       "rating_sp": "",
       "rating_perspectiva": "",
       "rating_fonte": "",
-      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)"
+      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)",
+      "tvm": 10843607000.0,
+      "vr_estimado": 32719767353.0,
+      "ar_estimado": 43093177237.0
     },
     {
       "nome": "C6 Bank",
@@ -2506,7 +2773,7 @@
       "capital_nivel1": 9.7,
       "razao_alavancagem": 4.25,
       "funding_capital": 11.67,
-      "cobertura_prudencial": 65.35,
+      "cobertura_prudencial": 88.69,
       "patrimonio_liquido": 6132158009.29,
       "ativo_total": 148151009602.17,
       "rwa": 66803524748.89,
@@ -2523,7 +2790,10 @@
       "rating_sp": "",
       "rating_perspectiva": "",
       "rating_fonte": "",
-      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)"
+      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)",
+      "tvm": 0.0,
+      "vr_estimado": 102231763650.0,
+      "ar_estimado": 90672675639.0
     },
     {
       "nome": "Daycoval",
@@ -2534,7 +2804,7 @@
       "capital_nivel1": 13.34,
       "razao_alavancagem": 9.09,
       "funding_capital": 8.37,
-      "cobertura_prudencial": 89.62,
+      "cobertura_prudencial": 73.69,
       "patrimonio_liquido": 7075348224.08,
       "ativo_total": 99741449965.28,
       "rwa": 73698093804.18,
@@ -2551,7 +2821,10 @@
       "rating_sp": "",
       "rating_perspectiva": "",
       "rating_fonte": "",
-      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)"
+      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)",
+      "tvm": 0.0,
+      "vr_estimado": 82237579803.0,
+      "ar_estimado": 60597399747.0
     },
     {
       "nome": "Inter",
@@ -2562,7 +2835,7 @@
       "capital_nivel1": 12.64,
       "razao_alavancagem": 5.04,
       "funding_capital": 11.3,
-      "cobertura_prudencial": 61.26,
+      "cobertura_prudencial": 60.04,
       "patrimonio_liquido": 7398255977.09,
       "ativo_total": 96452502598.19,
       "rwa": 44601124691.0,
@@ -2579,7 +2852,10 @@
       "rating_sp": "",
       "rating_perspectiva": "",
       "rating_fonte": "",
-      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)"
+      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)",
+      "tvm": 0.0,
+      "vr_estimado": 72810220024.0,
+      "ar_estimado": 43712725971.0
     },
     {
       "nome": "Mercantil do Brasil",
@@ -2590,7 +2866,7 @@
       "capital_nivel1": 11.21,
       "razao_alavancagem": 5.88,
       "funding_capital": 11.62,
-      "cobertura_prudencial": 63.59,
+      "cobertura_prudencial": 90.11,
       "patrimonio_liquido": 2328354224.0,
       "ativo_total": 37762023000.0,
       "rwa": 18966361830.75,
@@ -2607,7 +2883,10 @@
       "rating_sp": "",
       "rating_perspectiva": "",
       "rating_fonte": "",
-      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)"
+      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)",
+      "tvm": 4206553000.0,
+      "vr_estimado": 29825536903.0,
+      "ar_estimado": 26875188446.0
     },
     {
       "nome": "Bco Fibra S.A.",
@@ -2618,7 +2897,7 @@
       "capital_nivel1": 8.87,
       "razao_alavancagem": 3.93,
       "funding_capital": 18.24,
-      "cobertura_prudencial": 51.27,
+      "cobertura_prudencial": 34.91,
       "patrimonio_liquido": 1297764013.93,
       "ativo_total": 22413942814.26,
       "rwa": 10223099155.87,
@@ -2635,7 +2914,10 @@
       "rating_sp": "",
       "rating_perspectiva": "",
       "rating_fonte": "",
-      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)"
+      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)",
+      "tvm": 0.0,
+      "vr_estimado": 19937800063.0,
+      "ar_estimado": 6959770906.0
     },
     {
       "nome": "Cresol Baser",
@@ -2646,7 +2928,7 @@
       "capital_nivel1": 14.45,
       "razao_alavancagem": 4.27,
       "funding_capital": 14.42,
-      "cobertura_prudencial": 47.99,
+      "cobertura_prudencial": 0.94,
       "patrimonio_liquido": 713689497.63,
       "ativo_total": 16922960546.47,
       "rwa": 4939896653.08,
@@ -2663,7 +2945,10 @@
       "rating_sp": "",
       "rating_perspectiva": "",
       "rating_fonte": "",
-      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)"
+      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)",
+      "tvm": 0.0,
+      "vr_estimado": 10293919120.0,
+      "ar_estimado": 97269330.0
     },
     {
       "nome": "Bco Do Est. De Se S.A.",
@@ -2674,7 +2959,7 @@
       "capital_nivel1": 11.9,
       "razao_alavancagem": 5.87,
       "funding_capital": 12.06,
-      "cobertura_prudencial": 60.87,
+      "cobertura_prudencial": 48.05,
       "patrimonio_liquido": 937643780.77,
       "ativo_total": 13618318227.77,
       "rwa": 6865698837.12,
@@ -2691,7 +2976,10 @@
       "rating_sp": "",
       "rating_perspectiva": "",
       "rating_fonte": "",
-      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)"
+      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)",
+      "tvm": 0.0,
+      "vr_estimado": 11279893772.0,
+      "ar_estimado": 5419505091.0
     },
     {
       "nome": "XP Inc",
@@ -2702,7 +2990,7 @@
       "capital_nivel1": 10.55,
       "razao_alavancagem": 3.68,
       "funding_capital": 17.88,
-      "cobertura_prudencial": 44.39,
+      "cobertura_prudencial": 71.49,
       "patrimonio_liquido": 11562470070.63,
       "ativo_total": 305341044000.0,
       "rwa": 100054753149.6,
@@ -2719,7 +3007,10 @@
       "rating_sp": "",
       "rating_perspectiva": "",
       "rating_fonte": "",
-      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)"
+      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)",
+      "tvm": 122231318000.0,
+      "vr_estimado": 225415363732.0,
+      "ar_estimado": 161139535070.0
     },
     {
       "nome": "Bmg",
@@ -2730,7 +3021,7 @@
       "capital_nivel1": 10.12,
       "razao_alavancagem": 6.03,
       "funding_capital": 10.55,
-      "cobertura_prudencial": 71.63,
+      "cobertura_prudencial": 97.24,
       "patrimonio_liquido": 3916217971.02,
       "ativo_total": 48904529000.0,
       "rwa": 28171314024.71,
@@ -2747,7 +3038,10 @@
       "rating_sp": "",
       "rating_perspectiva": "",
       "rating_fonte": "",
-      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)"
+      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)",
+      "tvm": 16510370000.0,
+      "vr_estimado": 39330317476.0,
+      "ar_estimado": 38245976047.0
     },
     {
       "nome": "Banestes",
@@ -2758,7 +3052,7 @@
       "capital_nivel1": 14.28,
       "razao_alavancagem": 6.85,
       "funding_capital": 17.18,
-      "cobertura_prudencial": 40.76,
+      "cobertura_prudencial": 84.22,
       "patrimonio_liquido": 2411696673.11,
       "ativo_total": 39798563000.0,
       "rwa": 14573114295.06,
@@ -2775,7 +3069,10 @@
       "rating_sp": "",
       "rating_perspectiva": "",
       "rating_fonte": "",
-      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)"
+      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)",
+      "tvm": 17900800000.0,
+      "vr_estimado": 35757764334.0,
+      "ar_estimado": 30116177563.0
     },
     {
       "nome": "Banco Digimais",
@@ -2786,7 +3083,7 @@
       "capital_nivel1": 7.98,
       "razao_alavancagem": 7.05,
       "funding_capital": 8.01,
-      "cobertura_prudencial": 103.3,
+      "cobertura_prudencial": 70.9,
       "patrimonio_liquido": 787321396.66,
       "ativo_total": 10064153000.0,
       "rwa": 8878779119.01,
@@ -2803,7 +3100,10 @@
       "rating_sp": "",
       "rating_perspectiva": "",
       "rating_fonte": "",
-      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)"
+      "fonte_dados": "IF.data BCB 03/2026 (API Oficial)",
+      "tvm": 4417464000.0,
+      "vr_estimado": 8594963491.0,
+      "ar_estimado": 6093441150.0
     }
   ]
 }
