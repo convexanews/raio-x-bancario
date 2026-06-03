@@ -112,22 +112,92 @@ export default async function BancoPage({ params }: { params: Promise<{ slug: st
           </div>
         )}
 
-        {/* 3 Indicadores BCB */}
+        {/* Indicadores Prudenciais BCB */}
         <div className="mb-8 rounded-xl border border-border bg-card p-6">
-          <h2 className="mb-4 flex items-center gap-2 text-lg font-semibold text-foreground">
-            <Shield className="h-5 w-5 text-primary" /> Indicadores Prudenciais (Metodologia BCB)
-          </h2>
-          <div className="grid gap-4 sm:grid-cols-3">
-            <IndicatorCard icon={<Shield className="h-5 w-5 text-primary" />} label="Indice de Basileia" value={`${banco.basileia}%`} sublabel={`Minimo regulatorio: 10.5%`} description="PR / RWA — Capacidade de absorver perdas" />
-            <IndicatorCard icon={<Percent className="h-5 w-5 text-primary" />} label="Funding / Capital" value={banco.funding_capital > 0 ? `${banco.funding_capital}x` : 'N/D'} sublabel={banco.funding_capital > 0 ? (banco.funding_capital <= 10 ? 'Conservador' : banco.funding_capital <= 15 ? 'Moderado' : 'Agressivo') : ''} description="Captacoes / PR — Alavancagem do funding" />
-            <IndicatorCard icon={<Percent className="h-5 w-5 text-primary" />} label="Cobertura Prudencial" value={banco.cobertura_prudencial > 0 ? `${banco.cobertura_prudencial}%` : 'N/D'} sublabel={banco.cobertura_prudencial > 0 ? (banco.cobertura_prudencial >= 80 ? 'Boa cobertura' : banco.cobertura_prudencial >= 50 ? 'Moderada' : 'Baixa') : ''} description="RWA / Captacoes — Risco estimado sobre depositos" />
+          <div className="mb-1 flex items-center gap-2">
+            <Shield className="h-5 w-5 text-primary" />
+            <h2 className="text-lg font-semibold text-foreground">Indicadores Prudenciais</h2>
+          </div>
+          <p className="mb-6 text-xs text-muted-foreground">Metodologia conforme exigido pelo Banco Central do Brasil (Resolucao CMN 4.958/2021). Dados extraidos do sistema IF.data.</p>
+
+          <div className="grid gap-5 sm:grid-cols-3">
+            {/* 1. Basileia */}
+            <div className="rounded-xl border border-border bg-secondary/30 p-5">
+              <div className="mb-1 flex items-center gap-2">
+                <Shield className="h-4 w-4 text-primary" />
+                <span className="text-sm font-medium text-foreground">Indice de Basileia</span>
+              </div>
+              <div className="text-3xl font-bold text-foreground">{banco.basileia}%</div>
+              <div className={`mt-1 text-xs font-semibold ${banco.basileia >= 15 ? 'text-accent' : banco.basileia >= 10.5 ? 'text-yellow-500' : 'text-destructive'}`}>
+                {banco.basileia >= 15 ? 'Acima do recomendado' : banco.basileia >= 10.5 ? 'Dentro do minimo' : 'ABAIXO do minimo regulatorio'}
+              </div>
+              <div className="mt-3 space-y-1 border-t border-border pt-3">
+                <p className="text-[11px] text-muted-foreground"><strong>Formula:</strong> Patrimonio de Referencia (PR) / Ativos Ponderados pelo Risco (RWA)</p>
+                <p className="text-[11px] text-muted-foreground"><strong>O que mede:</strong> Quanto de capital proprio o banco tem para absorver perdas. Quanto maior, mais seguro.</p>
+                <p className="text-[11px] text-muted-foreground"><strong>Referencia BCB:</strong> Minimo exigido 10,5% (Basileia III). Bancos saudaveis operam acima de 13%.</p>
+              </div>
+            </div>
+
+            {/* 2. Funding/Capital */}
+            <div className="rounded-xl border border-border bg-secondary/30 p-5">
+              <div className="mb-1 flex items-center gap-2">
+                <Percent className="h-4 w-4 text-primary" />
+                <span className="text-sm font-medium text-foreground">Alavancagem de Captacao</span>
+              </div>
+              <div className="text-3xl font-bold text-foreground">{banco.funding_capital > 0 ? `${banco.funding_capital}x` : 'N/D'}</div>
+              {banco.funding_capital > 0 && (
+                <div className={`mt-1 text-xs font-semibold ${banco.funding_capital <= 10 ? 'text-accent' : banco.funding_capital <= 15 ? 'text-yellow-500' : 'text-destructive'}`}>
+                  {banco.funding_capital <= 10 ? 'Alavancagem conservadora' : banco.funding_capital <= 15 ? 'Alavancagem moderada' : 'Alta alavancagem'}
+                </div>
+              )}
+              <div className="mt-3 space-y-1 border-t border-border pt-3">
+                <p className="text-[11px] text-muted-foreground"><strong>Formula:</strong> Captacoes / Patrimonio de Referencia (PR)</p>
+                <p className="text-[11px] text-muted-foreground"><strong>O que mede:</strong> Quantas vezes o banco capta dinheiro de terceiros em relacao ao seu capital. Ex: 8x = para cada R$1 de capital, captou R$8.</p>
+                <p className="text-[11px] text-muted-foreground"><strong>Observacao:</strong> Valores altos indicam dependencia de captacoes. Bancos de desenvolvimento e publicos podem ter valores atipicos por receberem repasses governamentais.</p>
+              </div>
+            </div>
+
+            {/* 3. Cobertura Prudencial */}
+            <div className="rounded-xl border border-border bg-secondary/30 p-5">
+              <div className="mb-1 flex items-center gap-2">
+                <Percent className="h-4 w-4 text-primary" />
+                <span className="text-sm font-medium text-foreground">Exposicao ao Risco</span>
+              </div>
+              <div className="text-3xl font-bold text-foreground">{banco.cobertura_prudencial > 0 ? `${banco.cobertura_prudencial}%` : 'N/D'}</div>
+              {banco.cobertura_prudencial > 0 && (
+                <div className={`mt-1 text-xs font-semibold ${banco.cobertura_prudencial <= 70 ? 'text-accent' : banco.cobertura_prudencial <= 100 ? 'text-yellow-500' : 'text-destructive'}`}>
+                  {banco.cobertura_prudencial <= 70 ? 'Exposicao controlada' : banco.cobertura_prudencial <= 100 ? 'Exposicao moderada' : 'Exposicao elevada'}
+                </div>
+              )}
+              <div className="mt-3 space-y-1 border-t border-border pt-3">
+                <p className="text-[11px] text-muted-foreground"><strong>Formula:</strong> Ativos Ponderados pelo Risco (RWA) / Captacoes</p>
+                <p className="text-[11px] text-muted-foreground"><strong>O que mede:</strong> Quanto do dinheiro captado de clientes esta em operacoes de risco (credito, mercado, operacional).</p>
+                <p className="text-[11px] text-muted-foreground"><strong>Observacao:</strong> Acima de 100% significa que o banco opera com risco alem das captacoes, usando capital proprio. Bancos de desenvolvimento e fomento podem ter valores altos por natureza (ex: BNDES, BNB).</p>
+              </div>
+            </div>
+          </div>
+
+          <div className="mt-4 rounded-lg bg-secondary/50 p-3">
+            <p className="text-[11px] leading-relaxed text-muted-foreground">
+              <strong className="text-foreground">Nota metodologica:</strong> Os indicadores acima seguem as definicoes do Banco Central conforme Resolucao CMN 4.958/2021 e Circular 3.748/2015. Os dados sao extraidos diretamente do sistema IF.data (Conglomerado Prudencial). Bancos publicos, de desenvolvimento e cooperativas podem apresentar valores atipicos devido a sua natureza operacional diferenciada.
+            </p>
           </div>
         </div>
 
-        {/* Outros indicadores */}
+        {/* Taxa de Imobilizacao */}
         <div className="mb-8 grid gap-4 sm:grid-cols-2">
-          <IndicatorCard icon={<Percent className="h-5 w-5 text-primary" />} label="Taxa de Imobilizacao" value={`${banco.imobilizacao}%`} sublabel={`Maximo tolerado: 50%`} description="Quanto do patrimonio esta em ativos fixos" />
-          <IndicatorCard icon={<Shield className="h-5 w-5 text-primary" />} label="Situacao" value={banco.situacao === 'verde' ? 'Saudavel' : banco.situacao === 'amarelo' ? 'Atencao' : 'Critico'} sublabel={`Score: ${banco.score}/100`} description="Classificacao geral de saude financeira" />
+          <div className="rounded-xl border border-border bg-card p-5">
+            <div className="mb-1 flex items-center gap-2"><Percent className="h-4 w-4 text-primary" /><span className="text-sm font-medium text-foreground">Taxa de Imobilizacao</span></div>
+            <div className="text-3xl font-bold text-foreground">{banco.imobilizacao}%</div>
+            <p className="mt-1 text-xs text-muted-foreground">Maximo tolerado pelo BCB: 50%. Quanto menor, mais liquidez o banco tem para honrar compromissos.</p>
+          </div>
+          <div className="rounded-xl border border-border bg-card p-5">
+            <div className="mb-1 flex items-center gap-2"><Star className="h-4 w-4 text-primary" /><span className="text-sm font-medium text-foreground">Classificacao Geral</span></div>
+            <div className={`text-3xl font-bold ${banco.situacao === 'verde' ? 'text-accent' : banco.situacao === 'amarelo' ? 'text-yellow-500' : 'text-destructive'}`}>
+              {banco.situacao === 'verde' ? 'Saudavel' : banco.situacao === 'amarelo' ? 'Atencao' : 'Critico'}
+            </div>
+            <p className="mt-1 text-xs text-muted-foreground">Score: {banco.score}/100 — Baseado em Basileia + Imobilizacao</p>
+          </div>
         </div>
 
         {/* Ratings */}
