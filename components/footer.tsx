@@ -1,4 +1,4 @@
-import { Activity, ExternalLink, Database, Shield } from 'lucide-react';
+import { Radar, ExternalLink, Database, Shield } from 'lucide-react';
 import Link from 'next/link';
 
 export function Footer() {
@@ -10,10 +10,10 @@ export function Footer() {
           <div className="lg:col-span-2">
             <Link href="/" className="flex items-center gap-2">
               <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-primary">
-                <Activity className="h-5 w-5 text-primary-foreground" />
+                <Radar className="h-5 w-5 text-primary-foreground" />
               </div>
               <span className="text-xl font-bold text-foreground">
-                Raio X <span className="text-primary">Bancário</span>
+                Radar <span className="text-primary">Bancario</span>
               </span>
             </Link>
             <p className="mt-4 max-w-md text-pretty text-sm leading-relaxed text-muted-foreground">
@@ -106,7 +106,7 @@ export function Footer() {
         {/* Copyright */}
         <div className="mt-8 flex flex-col items-center justify-between gap-4 border-t border-border pt-8 sm:flex-row">
           <p className="text-sm text-muted-foreground">
-            © {new Date().getFullYear()} Raio X Bancário. Todos os direitos reservados.
+            © {new Date().getFullYear()} Radar Bancario. Todos os direitos reservados.
           </p>
           <p className="text-xs text-muted-foreground">
             Dados atualizados trimestralmente pelo Banco Central

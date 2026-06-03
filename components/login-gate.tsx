@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect, createContext, useContext } from 'react';
-import { Activity } from 'lucide-react';
+import { Radar } from 'lucide-react';
 
 interface UserData {
   nome: string;
@@ -88,10 +88,10 @@ function LoginScreen({ onLogin }: { onLogin: (data: UserData) => void }) {
       <div className="mx-4 w-full max-w-md">
         <div className="mb-8 text-center">
           <div className="mb-4 inline-flex h-16 w-16 items-center justify-center rounded-2xl bg-primary">
-            <Activity className="h-8 w-8 text-primary-foreground" />
+            <Radar className="h-8 w-8 text-primary-foreground" />
           </div>
           <h1 className="text-3xl font-bold text-white">
-            Raio X <span className="text-primary">Bancario</span>
+            Radar <span className="text-primary">Bancario</span>
           </h1>
           <p className="mt-2 text-sm text-white/50">Descubra a saude financeira dos bancos brasileiros</p>
         </div>
