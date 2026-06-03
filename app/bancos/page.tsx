@@ -5,7 +5,7 @@ import { AdBanner } from '@/components/ad-banner';
 import { getBancos } from '@/lib/bcb-api';
 
 export const metadata = {
-  title: 'Ranking dos Bancos | Raio X Bancario',
+  title: 'Ranking dos Bancos | Radar Bancario',
   description: 'Ranking completo dos bancos brasileiros por score de saude financeira, indice de Basileia e taxa de imobilizacao.',
 };
 
