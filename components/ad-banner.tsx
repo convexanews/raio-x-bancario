@@ -36,7 +36,7 @@ export function AdBanner({ slot, format = 'auto', className = '' }: AdBannerProp
       <ins
         className="adsbygoogle"
         style={{ display: 'block' }}
-        data-ad-client="ca-pub-XXXXXXXXXXXXXXXX" // Substituir pelo seu ID do AdSense
+        data-ad-client="ca-pub-3247427934205365"
         data-ad-slot={slot}
         data-ad-format={format}
         data-full-width-responsive="true"
