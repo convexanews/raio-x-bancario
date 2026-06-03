@@ -1,33 +1,30 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useTheme } from 'next-themes';
 import { Sun, Moon } from 'lucide-react';
+import { useEffect, useState } from 'react';
 
 export function ThemeToggle() {
-  const [theme, setTheme] = useState<'dark' | 'light'>('dark');
+  const { theme, setTheme } = useTheme();
+  const [mounted, setMounted] = useState(false);
 
-  useEffect(() => {
-    const stored = localStorage.getItem('raiox_theme') as 'dark' | 'light' | null;
-    if (stored) {
-      setTheme(stored);
-      document.documentElement.classList.toggle('light', stored === 'light');
-    }
-  }, []);
+  useEffect(() => setMounted(true), []);
 
-  const toggle = () => {
-    const next = theme === 'dark' ? 'light' : 'dark';
-    setTheme(next);
-    localStorage.setItem('raiox_theme', next);
-    document.documentElement.classList.toggle('light', next === 'light');
-  };
+  if (!mounted) {
+    return (
+      <div className="h-9 w-9 rounded-full border border-border bg-secondary" />
+    );
+  }
+
+  const isDark = theme === 'dark';
 
   return (
     <button
-      onClick={toggle}
+      onClick={() => setTheme(isDark ? 'light' : 'dark')}
       className="flex h-9 w-9 items-center justify-center rounded-full border border-border bg-secondary text-muted-foreground transition hover:bg-secondary/80 hover:text-foreground"
-      title={theme === 'dark' ? 'Modo claro' : 'Modo escuro'}
+      title={isDark ? 'Modo claro' : 'Modo escuro'}
     >
-      {theme === 'dark' ? <Sun className="h-4 w-4" /> : <Moon className="h-4 w-4" />}
+      {isDark ? <Sun className="h-4 w-4" /> : <Moon className="h-4 w-4" />}
     </button>
   );
 }

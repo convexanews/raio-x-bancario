@@ -3,6 +3,7 @@ import { Inter, JetBrains_Mono } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
 import Script from 'next/script'
 import './globals.css'
+import { ThemeProvider } from '@/components/theme-provider'
 
 const inter = Inter({ 
   subsets: ["latin"],
@@ -44,18 +45,25 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="pt-BR" className={`${inter.variable} ${jetbrainsMono.variable} bg-background`}>
+    <html lang="pt-BR" className={`${inter.variable} ${jetbrainsMono.variable} bg-background`} suppressHydrationWarning>
       <head>
         <meta name="google-adsense-account" content="ca-pub-3247427934205365" />
+      </head>
+      <body className="font-sans antialiased">
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="light"
+          enableSystem={false}
+          disableTransitionOnChange
+        >
+          {children}
+        </ThemeProvider>
         <Script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3247427934205365"
           strategy="afterInteractive"
           crossOrigin="anonymous"
         />
-      </head>
-      <body className="font-sans antialiased">
-        {children}
         {process.env.NODE_ENV === 'production' && <Analytics />}
       </body>
     </html>

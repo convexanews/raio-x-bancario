@@ -4,6 +4,8 @@ import { ArrowLeft, Shield, Percent, Star, Award, Building2, AlertTriangle, Exte
 import { Header } from '@/components/header';
 import { Footer } from '@/components/footer';
 import { getBancos, type BancoRaioX } from '@/lib/bcb-api';
+import { GaugeChart } from '@/components/gauge-chart';
+import { basileiaStatus, imobilizacaoStatus, BASILEIA_ZONES, IMOBILIZACAO_ZONES } from '@/lib/gauge-utils';
 
 function slugify(nome: string) {
   return nome.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
@@ -67,6 +69,33 @@ export default async function BancoPage({ params }: { params: Promise<{ slug: st
                   O Banco Central decretou a liquidacao extrajudicial desta instituicao. Os dados abaixo sao historicos e referem-se ao ultimo periodo antes da intervencao. Investidores com valores aplicados devem procurar o FGC (Fundo Garantidor de Creditos).
                 </p>
               </div>
+            </div>
+          </div>
+        )}
+
+        {/* Gauges — Índices de Basileia e Imobilização */}
+        {!isLiquidado && (
+          <div className="mb-8 rounded-xl border border-border bg-card p-6">
+            <h2 className="mb-6 flex items-center gap-2 text-lg font-semibold text-foreground">
+              <Shield className="h-5 w-5 text-primary" /> Índices de Basileia e Imobilização
+            </h2>
+            <div className="grid grid-cols-2 gap-6 sm:gap-10">
+              <GaugeChart
+                value={banco.basileia}
+                title="Basileia"
+                zones={BASILEIA_ZONES}
+                scaleMax={100}
+                classificacao={basileiaStatus(banco.basileia).classificacao}
+                classificacaoCor={basileiaStatus(banco.basileia).cor}
+              />
+              <GaugeChart
+                value={banco.imobilizacao}
+                title="Imobilização"
+                zones={IMOBILIZACAO_ZONES}
+                scaleMax={100}
+                classificacao={imobilizacaoStatus(banco.imobilizacao).classificacao}
+                classificacaoCor={imobilizacaoStatus(banco.imobilizacao).cor}
+              />
             </div>
           </div>
         )}
