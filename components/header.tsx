@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { Activity, Menu, X, User, LogOut } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { useUser } from '@/components/login-gate';
+import { ThemeToggle } from '@/components/theme-toggle';
 
 export function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -30,6 +31,7 @@ export function Header() {
         </nav>
 
         <div className="hidden items-center gap-2 md:flex">
+          <ThemeToggle />
           {user && (
             <>
               <div className="flex items-center gap-2 rounded-full border border-primary/30 bg-primary/10 px-3 py-1.5">
@@ -54,12 +56,15 @@ export function Header() {
             <Link href="/" className="rounded-lg px-3 py-2 text-sm font-medium text-foreground hover:bg-secondary" onClick={() => setIsMenuOpen(false)}>Inicio</Link>
             <Link href="/bancos" className="rounded-lg px-3 py-2 text-sm font-medium text-muted-foreground hover:bg-secondary hover:text-foreground" onClick={() => setIsMenuOpen(false)}>Bancos</Link>
             <Link href="/#indicadores" className="rounded-lg px-3 py-2 text-sm font-medium text-muted-foreground hover:bg-secondary hover:text-foreground" onClick={() => setIsMenuOpen(false)}>Indicadores</Link>
-            {user && (
-              <div className="mt-2 flex items-center justify-between rounded-lg bg-primary/10 px-3 py-2">
-                <span className="text-sm font-medium text-primary">Ola, {user.nome.split(' ')[0]}</span>
-                <button onClick={logout} className="text-xs text-muted-foreground">Sair</button>
-              </div>
-            )}
+            <div className="mt-2 flex items-center gap-2">
+              <ThemeToggle />
+              {user && (
+                <div className="flex flex-1 items-center justify-between rounded-lg bg-primary/10 px-3 py-2">
+                  <span className="text-sm font-medium text-primary">Ola, {user.nome.split(' ')[0]}</span>
+                  <button onClick={logout} className="text-xs text-muted-foreground">Sair</button>
+                </div>
+              )}
+            </div>
           </nav>
         </div>
       )}
