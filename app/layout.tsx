@@ -46,6 +46,7 @@ export default function RootLayout({
   return (
     <html lang="pt-BR" className={`${inter.variable} ${jetbrainsMono.variable} bg-background`}>
       <head>
+        <meta name="google-adsense-account" content="ca-pub-3247427934205365" />
         <Script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3247427934205365"
