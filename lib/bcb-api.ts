@@ -9,6 +9,12 @@ export interface BancoRaioX {
   funding_capital: number;
   cobertura_prudencial: number;
   patrimonio_liquido: number;
+  ativo_total?: number;
+  rwa?: number;
+  pr?: number;
+  capital_principal?: number;
+  carteira_credito?: number;
+  depositos_total?: number;
   score: number;
   situacao: 'verde' | 'amarelo' | 'vermelho';
   rating_moodys: string;
