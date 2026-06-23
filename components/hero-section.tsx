@@ -48,7 +48,7 @@ export function HeroSection({ atualizadoEm, totalBancos, bancos }: HeroSectionPr
           </h1>
 
           <p className="mt-6 text-pretty text-lg leading-relaxed text-muted-foreground sm:text-xl">
-            Descubra a saúde financeira dos bancos brasileiros com dados oficiais do Banco Central, ratings internacionais e score de saúde.
+            Descubra a saúde financeira dos bancos brasileiros com dados oficiais do Banco Central e indicadores regulatórios.
           </p>
 
           {/* Search */}
@@ -77,12 +77,7 @@ export function HeroSection({ atualizadoEm, totalBancos, bancos }: HeroSectionPr
                       <span className="font-medium text-foreground">{b.nome}</span>
                       <span className="ml-2 text-xs text-muted-foreground">{b.tipo}</span>
                     </div>
-                    <div className="flex items-center gap-2">
-                      <span className={`rounded-full px-2 py-0.5 text-xs font-medium ${b.score >= 70 ? 'bg-accent/20 text-accent' : b.score >= 50 ? 'bg-yellow-500/20 text-yellow-500' : 'bg-destructive/20 text-destructive'}`}>
-                        {b.score}/100
-                      </span>
-                      <ArrowRight className="h-4 w-4 text-muted-foreground" />
-                    </div>
+                    <ArrowRight className="h-4 w-4 text-muted-foreground" />
                   </button>
                 ))}
               </div>
