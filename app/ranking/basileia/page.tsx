@@ -6,7 +6,7 @@ import { getBancos } from '@/lib/bcb-api';
 
 export const metadata = {
   title: 'Ranking de Basileia dos Bancos Brasileiros 2025 | Radar Bancário',
-  description: 'Quais bancos têm maior Índice de Basileia no Brasil? Ranking completo por capitalização regulatória, com dados oficiais do Banco Central (dez/2025). Mínimo exigido: 10,5%.',
+  description: 'Quais bancos têm maior Índice de Basileia no Brasil? Ranking completo por capitalização regulatória, com dados oficiais do Banco Central (mar/2026). Mínimo exigido: 10,5%.',
 };
 
 function slugify(nome: string) {
@@ -27,7 +27,7 @@ export default function RankingBasileiaPage() {
 
         <div className="mb-10 text-center">
           <div className="mb-3 inline-flex items-center gap-2 rounded-full border border-primary/30 bg-primary/5 px-4 py-1.5 text-xs font-semibold text-primary">
-            <TrendingUp className="h-3.5 w-3.5" /> Dados BCB dez/2025
+            <TrendingUp className="h-3.5 w-3.5" /> Dados BCB mar/2026
           </div>
           <h1 className="text-3xl font-bold text-foreground sm:text-4xl">
             Ranking de Basileia dos Bancos Brasileiros
@@ -131,7 +131,7 @@ export default function RankingBasileiaPage() {
 
         <div className="mt-4 rounded-lg border border-border bg-secondary/30 p-4">
           <p className="text-xs text-muted-foreground">
-            <strong className="text-foreground">Fonte:</strong> IF.data — Banco Central do Brasil. Conglomerado Prudencial, data-base dez/2025.
+            <strong className="text-foreground">Fonte:</strong> IF.data — Banco Central do Brasil. Conglomerado Prudencial, data-base mar/2026.
           </p>
         </div>
       </main>

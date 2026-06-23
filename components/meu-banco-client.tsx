@@ -129,7 +129,7 @@ export function MeuBancoClient({ bancos }: { bancos: BancoRaioX[] }) {
             </Link>
 
             <p className="mt-4 text-center text-xs text-muted-foreground">
-              Dados: IF.data BCB dez/2025 · Não é recomendação de investimento
+              Dados: IF.data BCB mar/2026 · Não é recomendação de investimento
             </p>
           </div>
         );
@@ -158,7 +158,7 @@ export function MeuBancoClient({ bancos }: { bancos: BancoRaioX[] }) {
       {/* Disclaimer */}
       <div className="mt-8 rounded-lg border border-border bg-secondary/30 p-4">
         <p className="text-xs text-muted-foreground leading-relaxed">
-          <strong className="text-foreground">Aviso:</strong> Esta análise é baseada em dados públicos do Banco Central (IF.data, dez/2025) e tem caráter exclusivamente informativo. Não constitui recomendação de investimento. O FGC garante até R$250 mil por CPF por instituição.
+          <strong className="text-foreground">Aviso:</strong> Esta análise é baseada em dados públicos do Banco Central (IF.data, mar/2026) e tem caráter exclusivamente informativo. Não constitui recomendação de investimento. O FGC garante até R$250 mil por CPF por instituição.
         </p>
       </div>
     </main>

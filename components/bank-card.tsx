@@ -1,7 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import { Building2, TrendingUp, TrendingDown, Minus, Shield, Percent, Star, Award, XCircle, ArrowRight } from 'lucide-react';
+import { Building2, TrendingUp, TrendingDown, Minus, Shield, Percent, Award, XCircle, ArrowRight } from 'lucide-react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { cn } from '@/lib/utils';
@@ -54,18 +54,9 @@ export function BankCard({ banco }: BankCardProps) {
               <p className="text-xs text-muted-foreground">{banco.tipo}</p>
             </div>
           </div>
-          {!isLiquidado && (
-            <Badge className={cn('text-xs', config.color)}>{config.label}</Badge>
-          )}
         </CardHeader>
         <CardContent>
           <div className="grid grid-cols-2 gap-4">
-            <div className="space-y-1">
-              <div className="flex items-center gap-1.5 text-xs text-muted-foreground"><Star className="h-3.5 w-3.5" /><span>Score</span></div>
-              <div className="flex items-center gap-1.5">
-                <span className="text-lg font-semibold text-foreground">{banco.score}/100</span>
-              </div>
-            </div>
             <div className="space-y-1">
               <div className="flex items-center gap-1.5 text-xs text-muted-foreground"><Shield className="h-3.5 w-3.5" /><span>Basileia</span></div>
               <div className="flex items-center gap-1.5">

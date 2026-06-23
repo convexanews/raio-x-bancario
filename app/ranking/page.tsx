@@ -6,7 +6,7 @@ import { getBancos, formatCurrency } from '@/lib/bcb-api';
 
 export const metadata = {
   title: 'Ranking dos Bancos Mais Seguros do Brasil 2025 | Radar Bancário',
-  description: 'Top 20 bancos brasileiros mais seguros por score de saúde financeira. Critérios baseados em Índice de Basileia e Taxa de Imobilização — dados oficiais do Banco Central (dez/2025).',
+  description: 'Top 20 bancos brasileiros mais seguros por score de saúde financeira. Critérios baseados em Índice de Basileia e Taxa de Imobilização — dados oficiais do Banco Central (mar/2026).',
 };
 
 function slugify(nome: string) {
@@ -28,7 +28,7 @@ export default function RankingPage() {
         {/* Hero */}
         <div className="mb-10 text-center">
           <div className="mb-3 inline-flex items-center gap-2 rounded-full border border-primary/30 bg-primary/5 px-4 py-1.5 text-xs font-semibold text-primary">
-            <Shield className="h-3.5 w-3.5" /> Atualizado dez/2025 — IF.data BCB
+            <Shield className="h-3.5 w-3.5" /> Atualizado mar/2026 — IF.data BCB
           </div>
           <h1 className="text-3xl font-bold text-foreground sm:text-4xl">
             Ranking dos Bancos Mais Seguros do Brasil
@@ -55,7 +55,7 @@ export default function RankingPage() {
             </div>
           </div>
           <p className="mt-3 text-xs text-muted-foreground/60">
-            Média de Basileia do setor: {mediaBasileia}% · Fonte: IF.data BCB (Conglomerado Prudencial, dez/2025) · {todos.length} instituições analisadas
+            Média de Basileia do setor: {mediaBasileia}% · Fonte: IF.data BCB (Conglomerado Prudencial, mar/2026) · {todos.length} instituições analisadas
           </p>
         </div>
 
@@ -159,7 +159,7 @@ export default function RankingPage() {
 
         <div className="mt-6 rounded-lg border border-border bg-secondary/30 p-4">
           <p className="text-xs text-muted-foreground leading-relaxed">
-            <strong className="text-foreground">Metodologia:</strong> Dados extraídos do sistema IF.data do Banco Central do Brasil (Conglomerado Prudencial, data-base dez/2025).
+            <strong className="text-foreground">Metodologia:</strong> Dados extraídos do sistema IF.data do Banco Central do Brasil (Conglomerado Prudencial, data-base mar/2026).
             O score é uma métrica simplificada baseada em dois indicadores regulatórios e não substitui análise profissional completa.
           </p>
         </div>

@@ -1,12 +1,12 @@
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
-import { ArrowLeft, Shield, Percent, Star, Award, Building2, AlertTriangle, ExternalLink, CheckCircle2, XCircle, Info } from 'lucide-react';
+import { ArrowLeft, Shield, Percent, Award, Building2, AlertTriangle, ExternalLink, CheckCircle2, XCircle } from 'lucide-react';
 import { Header } from '@/components/header';
 import { Footer } from '@/components/footer';
 import { getBancos, type BancoRaioX } from '@/lib/bcb-api';
 import { GaugeChart } from '@/components/gauge-chart';
 import { basileiaStatus, imobilizacaoStatus, BASILEIA_ZONES, IMOBILIZACAO_ZONES } from '@/lib/gauge-utils';
-import { gerarInterpretacao, gerarResumoSEO } from '@/lib/interpretacao';
+import { gerarResumoSEO } from '@/lib/interpretacao';
 import { ShareButton } from '@/components/share-button';
 
 function slugify(nome: string) {
@@ -40,11 +40,6 @@ export default async function BancoPage({ params }: { params: Promise<{ slug: st
   if (!banco) notFound();
 
   const isLiquidado = banco.fonte_dados?.includes('LIQUIDADO') || banco.score === 0;
-  const interpretacao = !isLiquidado ? gerarInterpretacao(banco, bancos) : [];
-  const media = {
-    basileia: bancos.filter(b => b.score > 0).reduce((s, b) => s + b.basileia, 0) / bancos.filter(b => b.score > 0).length,
-    imobilizacao: bancos.filter(b => b.score > 0).reduce((s, b) => s + b.imobilizacao, 0) / bancos.filter(b => b.score > 0).length,
-  };
 
   return (
     <div className="min-h-screen bg-background">
@@ -57,7 +52,7 @@ export default async function BancoPage({ params }: { params: Promise<{ slug: st
           </Link>
           <div className="flex items-center gap-2">
             <div className="inline-flex items-center gap-1.5 rounded-full border border-green-200 bg-green-50 px-3 py-1 text-xs font-medium text-green-700 dark:border-green-800 dark:bg-green-950/20 dark:text-green-400">
-              <CheckCircle2 className="h-3.5 w-3.5" /> Dados verificados · IF.data BCB dez/2025
+              <CheckCircle2 className="h-3.5 w-3.5" /> Dados verificados · IF.data BCB mar/2026
             </div>
             {!isLiquidado && (
               <ShareButton banco={banco.nome} score={banco.score} basileia={banco.basileia} situacao={banco.situacao} />
@@ -76,34 +71,12 @@ export default async function BancoPage({ params }: { params: Promise<{ slug: st
               <p className="text-sm text-muted-foreground">{banco.tipo} &bull; {banco.nome_bcb}</p>
             </div>
           </div>
-          {isLiquidado ? (
+          {isLiquidado && (
             <div className="flex items-center gap-2 rounded-full bg-destructive px-4 py-2 text-sm font-bold text-white">
               <XCircle className="h-4 w-4" /> LIQUIDADO
             </div>
-          ) : (
-            <div className={`flex items-center gap-2 rounded-full px-4 py-2 text-sm font-bold ${banco.score >= 90 ? 'bg-accent text-accent-foreground' : banco.score >= 70 ? 'bg-primary text-primary-foreground' : banco.score >= 50 ? 'bg-yellow-500 text-black' : 'bg-destructive text-white'}`}>
-              <Star className="h-4 w-4" /> Score: {banco.score}/100
-            </div>
           )}
         </div>
-
-        {/* Interpretação automática */}
-        {!isLiquidado && interpretacao.length > 0 && (
-          <div className="mb-8 rounded-xl border border-primary/20 bg-primary/5 p-6">
-            <h2 className="mb-3 flex items-center gap-2 text-base font-semibold text-foreground">
-              <Info className="h-4 w-4 text-primary" />
-              O que os dados dizem sobre o {banco.nome}
-            </h2>
-            <ul className="space-y-2">
-              {interpretacao.map((frase, i) => (
-                <li key={i} className="flex items-start gap-2 text-sm text-muted-foreground">
-                  <CheckCircle2 className="mt-0.5 h-4 w-4 shrink-0 text-primary" />
-                  <span>{frase}</span>
-                </li>
-              ))}
-            </ul>
-          </div>
-        )}
 
         {/* Alerta liquidado */}
         {isLiquidado && (
@@ -143,47 +116,6 @@ export default async function BancoPage({ params }: { params: Promise<{ slug: st
                 classificacao={imobilizacaoStatus(banco.imobilizacao).classificacao}
                 classificacaoCor={imobilizacaoStatus(banco.imobilizacao).cor}
               />
-            </div>
-          </div>
-        )}
-
-        {/* Score Breakdown */}
-        {!isLiquidado && (
-          <div className="mb-8 rounded-xl border border-border bg-card p-6">
-            <h2 className="mb-4 flex items-center gap-2 text-lg font-semibold text-foreground">
-              <Info className="h-5 w-5 text-primary" /> Como o score e calculado
-            </h2>
-            <div className="grid gap-4 sm:grid-cols-2">
-              <ScoreItem
-                label="Índice de Basileia"
-                value={banco.basileia}
-                unit="%"
-                points={banco.basileia >= 15 ? 50 : banco.basileia >= 10.5 ? 30 : 10}
-                maxPoints={50}
-                description={banco.basileia >= 15 ? 'Acima de 15% — Excelente capitalização' : banco.basileia >= 10.5 ? 'Entre 10,5% e 15% — Adequado' : 'Abaixo do mínimo regulatório (10,5%)'}
-                good={banco.basileia >= 15}
-                warning={banco.basileia >= 10.5 && banco.basileia < 15}
-                icon={<Shield className="h-4 w-4" />}
-                media={media.basileia}
-              />
-              <ScoreItem
-                label="Taxa de Imobilização"
-                value={banco.imobilizacao}
-                unit="%"
-                points={banco.imobilizacao <= 10 ? 50 : banco.imobilizacao <= 25 ? 30 : banco.imobilizacao <= 50 ? 15 : 5}
-                maxPoints={50}
-                description={banco.imobilizacao <= 10 ? 'Até 10% — Excelente liquidez patrimonial' : banco.imobilizacao <= 25 ? 'Entre 10% e 25% — Moderado' : 'Acima de 25% — Alta imobilização'}
-                good={banco.imobilizacao <= 10}
-                warning={banco.imobilizacao > 10 && banco.imobilizacao <= 25}
-                icon={<Percent className="h-4 w-4" />}
-                media={media.imobilizacao}
-                inverted
-              />
-            </div>
-            <div className="mt-4 rounded-lg bg-secondary/50 p-3">
-              <p className="text-center text-sm text-muted-foreground">
-                Score total: <span className="font-bold text-foreground">{banco.basileia >= 15 ? 50 : banco.basileia >= 10.5 ? 30 : 10}</span> (Basileia) + <span className="font-bold text-foreground">{banco.imobilizacao <= 10 ? 50 : banco.imobilizacao <= 25 ? 30 : banco.imobilizacao <= 50 ? 15 : 5}</span> (Imobilização) = <span className="text-lg font-bold text-primary">{banco.score}/100</span>
-              </p>
             </div>
           </div>
         )}
@@ -253,7 +185,7 @@ export default async function BancoPage({ params }: { params: Promise<{ slug: st
 
           <div className="mt-4 rounded-lg bg-secondary/50 p-3">
             <p className="text-[11px] leading-relaxed text-muted-foreground">
-              <strong className="text-foreground">Nota metodológica:</strong> Indicadores extraídos do IF.data (Conglomerado Prudencial, dez/2025). Bancos públicos, de desenvolvimento e cooperativas podem apresentar valores atípicos por sua natureza operacional diferenciada.
+              <strong className="text-foreground">Nota metodológica:</strong> Indicadores extraídos do IF.data (Conglomerado Prudencial, mar/2026). Bancos públicos, de desenvolvimento e cooperativas podem apresentar valores atípicos por sua natureza operacional diferenciada.
             </p>
           </div>
         </div>
@@ -333,15 +265,8 @@ export default async function BancoPage({ params }: { params: Promise<{ slug: st
         </div>
         )}
 
-        {/* Classificação Geral */}
-        <div className="mb-8 grid gap-4 sm:grid-cols-2">
-          <div className="rounded-xl border border-border bg-card p-5">
-            <div className="mb-1 flex items-center gap-2"><Star className="h-4 w-4 text-primary" /><span className="text-sm font-medium text-foreground">Classificação Geral</span></div>
-            <div className={`text-3xl font-bold ${banco.situacao === 'verde' ? 'text-accent' : banco.situacao === 'amarelo' ? 'text-yellow-500' : 'text-destructive'}`}>
-              {banco.situacao === 'verde' ? 'Saudável' : banco.situacao === 'amarelo' ? 'Atenção' : 'Crítico'}
-            </div>
-            <p className="mt-1 text-xs text-muted-foreground">Score: {banco.score}/100 — Baseado em Basileia + Imobilização</p>
-          </div>
+        {/* Capital Nível I */}
+        <div className="mb-8">
           <div className="rounded-xl border border-border bg-card p-5">
             <div className="mb-1 flex items-center gap-2"><Percent className="h-4 w-4 text-primary" /><span className="text-sm font-medium text-foreground">Capital Nível I</span></div>
             <div className="text-3xl font-bold text-foreground">{(banco.capital_nivel1 ?? 0) > 0 ? `${banco.capital_nivel1}%` : 'N/D'}</div>
@@ -352,7 +277,7 @@ export default async function BancoPage({ params }: { params: Promise<{ slug: st
         {/* Ratings */}
         <div className="mb-8 rounded-xl border border-border bg-card p-6">
           <h2 className="mb-4 flex items-center gap-2 text-lg font-semibold text-foreground">
-            <Award className="h-5 w-5 text-primary" /> Ratings Internacionais
+            <Award className="h-5 w-5 text-primary" /> Ratings — Escala Nacional
           </h2>
           {(banco.rating_moodys || banco.rating_fitch || banco.rating_sp) ? (
             <div className="grid gap-4 sm:grid-cols-3">
@@ -361,7 +286,7 @@ export default async function BancoPage({ params }: { params: Promise<{ slug: st
               <RatingCard agency="S&P" rating={banco.rating_sp} description={getSPDescription(banco.rating_sp)} />
             </div>
           ) : (
-            <p className="text-sm text-muted-foreground">Esta instituição não possui ratings publicados pelas agências internacionais (Moody's, Fitch, S&P).</p>
+            <p className="text-sm text-muted-foreground">Esta instituição não possui ratings publicados pelas agências (Moody's, Fitch, S&P).</p>
           )}
           {banco.rating_perspectiva && (
             <div className="mt-4 flex items-center gap-2 rounded-lg bg-secondary/50 px-3 py-2 text-sm">
@@ -390,37 +315,14 @@ export default async function BancoPage({ params }: { params: Promise<{ slug: st
           <p className="text-xs leading-relaxed text-muted-foreground">
             <strong className="text-foreground">⚠️ Aviso Legal:</strong> Esta página reproduz exclusivamente dados públicos
             disponibilizados pelo <strong className="text-foreground">Banco Central do Brasil</strong> via sistema IF.data
-            (Lei nº 12.527/2011). Os indicadores e o score são ferramentas informativas baseadas em metodologia regulatória
+            (Lei nº 12.527/2011). Os indicadores apresentados são ferramentas informativas baseadas em metodologia regulatória
             — <strong className="text-foreground">não constituem recomendação de investimento</strong>, consultoria financeira
-            ou qualquer forma de aconselhamento regulado. Um score mais baixo reflete posição em indicadores regulatórios
-            públicos e não implica insolvência ou irregularidade da instituição. Dados com defasagem de 60 a 90 dias.
+            ou qualquer forma de aconselhamento regulado. Dados com defasagem de 60 a 90 dias.
             Consulte sempre um profissional certificado antes de tomar decisões financeiras.
           </p>
         </div>
       </main>
       <Footer />
-    </div>
-  );
-}
-
-function ScoreItem({ label, value, unit, points, maxPoints, description, good, warning, icon, media, inverted }: {
-  label: string; value: number; unit: string; points: number; maxPoints: number;
-  description: string; good: boolean; warning: boolean; icon: React.ReactNode; media: number; inverted?: boolean;
-}) {
-  const pct = (points / maxPoints) * 100;
-  const barColor = good ? 'bg-accent' : warning ? 'bg-yellow-500' : 'bg-destructive';
-  return (
-    <div className="rounded-lg border border-border bg-secondary/30 p-4">
-      <div className="mb-2 flex items-center justify-between">
-        <div className="flex items-center gap-2 text-sm font-medium text-foreground">{icon} {label}</div>
-        <span className="text-xs text-muted-foreground">{points}/{maxPoints} pts</span>
-      </div>
-      <div className="mb-2 text-2xl font-bold text-foreground">{value}{unit}</div>
-      <div className="mb-2 h-2 overflow-hidden rounded-full bg-secondary">
-        <div className={`h-full rounded-full ${barColor}`} style={{ width: `${pct}%` }} />
-      </div>
-      <p className="mb-1 text-xs text-muted-foreground">{description}</p>
-      <p className="text-xs text-muted-foreground/60">Média do setor: {media.toFixed(1)}%{inverted ? ' (quanto menor, melhor)' : ' (quanto maior, melhor)'}</p>
     </div>
   );
 }

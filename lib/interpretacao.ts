@@ -69,5 +69,5 @@ export function gerarResumoSEO(banco: BancoRaioX, bancos: BancoRaioX[]): string 
   const mediaBasileia = ativos.reduce((s, b) => s + b.basileia, 0) / ativos.length;
   const status = banco.score >= 80 ? 'saudável financeiramente' : banco.score >= 60 ? 'em situação de atenção' : 'em situação crítica';
 
-  return `O ${banco.nome} está ${status} segundo dados do Banco Central (dez/2025). Basileia de ${banco.basileia}% (média do setor: ${mediaBasileia.toFixed(1)}%), imobilização de ${banco.imobilizacao}%, score de saúde ${banco.score}/100. Análise completa com indicadores da nova regulamentação FGC.`;
+  return `O ${banco.nome} está ${status} segundo dados do Banco Central (mar/2026). Basileia de ${banco.basileia}% (média do setor: ${mediaBasileia.toFixed(1)}%), imobilização de ${banco.imobilizacao}%, score de saúde ${banco.score}/100. Análise completa com indicadores da nova regulamentação FGC.`;
 }

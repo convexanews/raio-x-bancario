@@ -122,7 +122,7 @@ export function Footer() {
             © {new Date().getFullYear()} Radar Bancário. Todos os direitos reservados.
           </p>
           <p className="text-xs text-muted-foreground">
-            Dados: IF.data BCB — dez/2025 · Atualização trimestral
+            Dados: IF.data BCB — mar/2026 · Atualização trimestral
           </p>
         </div>
       </div>
