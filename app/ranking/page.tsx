@@ -6,7 +6,7 @@ import { getBancos, formatCurrency } from '@/lib/bcb-api';
 
 export const metadata = {
   title: 'Ranking dos Bancos Mais Seguros do Brasil 2025 | Radar Bancário',
-  description: 'Top 20 bancos brasileiros mais seguros por score de saúde financeira. Critérios baseados em Índice de Basileia e Taxa de Imobilização — dados oficiais do Banco Central (mar/2026).',
+  description: 'Top 20 bancos brasileiros mais seguros por saúde financeira. Critérios baseados em Índice de Basileia e Taxa de Imobilização — dados oficiais do Banco Central (mar/2026).',
 };
 
 function slugify(nome: string) {
@@ -35,7 +35,7 @@ export default function RankingPage() {
           </h1>
           <p className="mx-auto mt-3 max-w-2xl text-muted-foreground">
             Os 20 bancos brasileiros com melhor saúde financeira segundo dados oficiais do Banco Central.
-            Score calculado com base no Índice de Basileia e Taxa de Imobilização.
+            Classificação baseada no Índice de Basileia e Taxa de Imobilização.
           </p>
         </div>
 
@@ -69,7 +69,7 @@ export default function RankingPage() {
               <p className="text-xs text-muted-foreground mt-0.5">{banco.tipo}</p>
               <div className="mt-3 flex justify-center gap-4 text-xs">
                 <span><span className="font-semibold text-primary">{banco.basileia}%</span> Basileia</span>
-                <span><span className="font-semibold text-primary">{banco.score}/100</span> Score</span>
+                <span><span className="font-semibold text-primary">{banco.imobilizacao}%</span> Imobilização</span>
               </div>
             </Link>
           ))}
@@ -83,7 +83,6 @@ export default function RankingPage() {
                 <tr className="border-b border-border bg-secondary/30">
                   <th className="px-4 py-3 text-left text-xs font-semibold text-muted-foreground">#</th>
                   <th className="px-4 py-3 text-left text-xs font-semibold text-muted-foreground">Banco</th>
-                  <th className="px-4 py-3 text-center text-xs font-semibold text-muted-foreground">Score</th>
                   <th className="px-4 py-3 text-center text-xs font-semibold text-muted-foreground">Basileia</th>
                   <th className="px-4 py-3 text-center text-xs font-semibold text-muted-foreground">Imobilização</th>
                   <th className="px-4 py-3 text-center text-xs font-semibold text-muted-foreground">Classificação</th>
@@ -99,14 +98,6 @@ export default function RankingPage() {
                     <td className="px-4 py-3">
                       <p className="font-semibold text-foreground">{banco.nome}</p>
                       <p className="text-xs text-muted-foreground">{banco.tipo}</p>
-                    </td>
-                    <td className="px-4 py-3 text-center">
-                      <span className={`inline-flex items-center justify-center rounded-full px-2.5 py-0.5 text-xs font-bold
-                        ${banco.score >= 80 ? 'bg-green-100 text-green-700 dark:bg-green-900/30 dark:text-green-400' :
-                          banco.score >= 60 ? 'bg-yellow-100 text-yellow-700 dark:bg-yellow-900/30 dark:text-yellow-400' :
-                          'bg-red-100 text-red-700 dark:bg-red-900/30 dark:text-red-400'}`}>
-                        {banco.score}/100
-                      </span>
                     </td>
                     <td className="px-4 py-3 text-center font-semibold text-foreground">{banco.basileia}%</td>
                     <td className="px-4 py-3 text-center text-foreground">{banco.imobilizacao}%</td>
@@ -160,7 +151,7 @@ export default function RankingPage() {
         <div className="mt-6 rounded-lg border border-border bg-secondary/30 p-4">
           <p className="text-xs text-muted-foreground leading-relaxed">
             <strong className="text-foreground">Metodologia:</strong> Dados extraídos do sistema IF.data do Banco Central do Brasil (Conglomerado Prudencial, data-base mar/2026).
-            O score é uma métrica simplificada baseada em dois indicadores regulatórios e não substitui análise profissional completa.
+            A classificação é baseada em dois indicadores regulatórios e não substitui análise profissional completa.
           </p>
         </div>
       </main>
